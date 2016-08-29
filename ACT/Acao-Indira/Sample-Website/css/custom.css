@@ -1,0 +1,44 @@
+body {
+	line-height: 0.5em;
+	background-color: rgb(100, 250, 100);
+}
+
+header {
+	background-color: rgb(250, 250, 90);
+	padding-bottom: 15px;
+	border-radius: 10px
+}
+
+.active {
+	font-weight: bold;
+	color: black;
+}
+
+#veggie {
+	width: 60%;
+	height: 60%;
+}
+
+a {
+	border: 1px solid;
+	padding: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 150px;
+	text-align: center;
+}
+
+nav {
+	font-size: 20px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+footer {
+	
+}
