@@ -35,7 +35,7 @@
 | 29. Villafuerte, Adrian Rudolf | [@UpeTheGreat2024](https://github.com/UpeTheGreat2024) | [@UpeTheGreat](http://facebook.com/UpeTheGreat) |
 | 30. Wabinga, Jessa Mae | [@Jessamae24](https://github.com/Jessamae24) | [@jessamae.wabinga](https://facebook.com/jessamae.wabinga )|
 
-## IS Students
+## BSIS Students
 
 | Names | Github URL | Facebook URL |
 |:----------|:-------------|:------|
