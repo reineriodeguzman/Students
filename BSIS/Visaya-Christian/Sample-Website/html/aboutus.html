@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" style="zoom: reset;">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Ringtunes | About Us</title>
+
+	<script src="../js/script.js" type="text/javascript"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logogray.ico" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<!-- Kaya ko to inuna kaysa sa sidebar kasi pa iniscroll pati gilid, nawawala ung side ba -->
+
+<body>
+
+<script type="text/javascript">
+			var ypos,image;
+			function parallex () {
+				title = document.getElementById('artisttitle');
+				ypos = window.pageYOffset;
+				image = document.getElementById('image');
+				image.style.top = ypos * .5 + 'px';
+			}
+			window.addEventListener('scroll',parallex);
+			
+</script>
+
+<div id="content" align="center"><!-- Content -->
+
+	<div id="artistcontainer">
+
+		<img id="image" src="../img/aboutuscover.png" width="1066px">
+
+		<div id="aboutuscontent1">
+			<img id="musiclogo" src="../img/musiclogo.jpg" width="200px" height="200px">
+			<h1 id="whymusic">Why music?</h1>
+			<p id="answermusic">Kase ang musika ang nag bibigay ng mental satisfaction sa isang tao upang ma ease neto ang stressed na utak at upang mag bigay ng relaxation feeling sa mga nakikinig neto. Ito ang nagbigay sakin ng ideya na music website nalang ang aking gawin.</p>
+		</div>
+	
+	</div>
+	
+</div><!-- End nato ng content -->
+
+<div id="sidebar"><!-- Umpisa ng Main sidebar -->
+
+	<span>
+		<h1 class="h1"><img id="logo" src="../img/logowhite.png" width="50px" height="50px" />Khuletunes<li id="toggle" class="fa fa-tasks">&nbsp;</li></h1>
+	</span>
+
+	<div><!-- EUmpisa ng side bar 2 -->
+
+		<h1>	
+			<span>
+				<a href="home.html" id="btn" title="Collection"><li class="fa fa-music fa-fw">&nbsp;</li>Collection</a>
+			</spam>
+
+			<span>
+				<a href="song.html" id="btn" title="Songs"><li class="fa fa-headphones fa-fw">&nbsp;</li>Songs</a>
+			</span>
+
+			<span>
+				<a href="new.html" id="btn" title="New"><li class="fa fa-tint fa-fw">&nbsp;</li>New</a>
+			</span>
+
+			<span>
+				<a href="album.html" id="btn" title="Album"><li class="fa fa-simplybuilt fa-fw">&nbsp;</li>Album</a>
+			</span>
+
+			<span>
+				<a href="import.html" id="btn" title="Import"><li class="fa fa-usb fa-fw">&nbsp;</li>Import</a>
+			</span>
+
+			<span>
+				<a href="artist.html" id="btn" title="Artist"><li class="fa fa-ticket fa-fw">&nbsp;</li>Artist</a>
+			</span>
+
+			<span>
+				<a href="nowplaying.html" id="btn" title="Now playing"><li class="fa fa-bar-chart fa-fw">&nbsp;</li>Now playing</a>
+			</span>
+
+
+		</h1>
+
+	</div><!-- End nato ng side bar 1 -->
+
+	<hr id="hr1">
+
+	<div><!-- Umpisa ng side bar 2 -->
+
+		<h2>	
+			<span>
+				<a href="spotify.html" id="btn" title="Connect to Spotify"><li class="fa fa-spotify fa-fw">&nbsp;</li>Connect to Spotify</a>
+			</spam>
+			
+			<span>
+				<a href="aboutus.html" class="activebtn" title="About Us"><li class="fa fa-code fa-fw">&nbsp;</li>About Us</a>
+			</span>
+
+		</h2>
+
+	</div><!-- End nato ng side bar 2 -->
+
+</div><!-- End nato ng Main sidebar -->
+
+<div id="controlbar"><!-- Umpisa ng Control bar sa baba -->
+
+	<div id="albumholder">
+		<img id="holder" src="../img/Taylor_Swift_1.jpg" width="75px" height="75px">
+	</div>
+
+	<div id="controlsongname">
+		<h3>Wildest Dream</h3>
+	</div>
+
+	<div id="controlartist">
+		<p>Taylor Swift</p>
+	</div>
+
+	<div id="controlprevious">
+		<li class="fa fa-step-backward"></li>
+	</div>
+
+	<div id="controlplay">
+		<img id="playpause" src="../img/play.png" width="50px" height="50px" onclick="togglePlayPause()">
+	</div>
+
+	<div id="controlnext">
+		<li class="fa fa-step-forward"></li>
+	</div>
+
+	<div id="theprogressbar">
+		<div id="progressbar">
+			<div id="progress"></div>
+		</div>
+	</div>
+
+</div><!-- End nato ng control bar sa baba -->
+
+</body>
+</html>

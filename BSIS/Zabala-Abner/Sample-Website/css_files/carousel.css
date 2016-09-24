@@ -1,0 +1,46 @@
+/* ensures that both columns are always equal height */
+.div-equalheightfix {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* carousel css */
+.carousel.fade {
+  opacity: 1;
+  margin: auto -15px auto -15px;
+}
+.carousel.fade .item {
+  opacity: 0;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  position: absolute;
+  display: block !important;
+  left: 0 !important;
+  top: 0
+  z-index: 1;
+}
+.carousel.fade .item:first-child {
+  top: auto;
+  position: relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index: 2;
+}
+
+/* text-column CSS */
+.div-aboutus {
+  padding: 2% 8% 6% 4%;
+  color: #F1F1F2;
+  line-height: 175%;
+}
+.carousel-img {
+	height: 500px;
+}

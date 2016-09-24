@@ -1,0 +1,221 @@
+.artistnav{
+	background: #FE683a;
+}
+.a6{
+	position: absolute;
+	position: fixed;
+	margin: 0 0 0 -2px;
+}
+.overall{
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.picture{
+	margin-left: 45px;
+	border: 10px solid #ffffff;
+	border-radius: 3px;
+}
+.personal{
+	position: absolute;
+	padding: 3%;
+	border-radius: 10px;
+	background: #000000;
+	color: #ffffff;
+	margin-left: 550px;
+	width: 400px;
+}
+.personal h2{
+	text-align: center;
+}
+
+.story{
+	position: absolute;
+	border-radius: 10px;
+	background: #000000;
+	color: #ffffff;
+	margin-left: 0px;
+	width: 500px;
+}
+.story h2{
+	margin-top: 40px;
+	text-align: center;
+}
+.story p{
+	margin-left: 50px;
+	max-width: 400px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.famouswork{
+	position: absolute;
+	padding: 3%;
+	border-radius: 10px;
+	background: #000000;
+	color: #ffffff;
+	margin-top: 1225px;
+	width: 950px;
+}
+.famouswork h2{
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+
+
+
+
+/*<footer>*/
+.media{
+	position: absolute;
+	margin-top: 1724px;
+	margin-left: 327px;
+}
+.no1{
+	position: absolute;
+}
+.no1:hover{
+	opacity: 0;
+}
+.hover1{
+	position: absolute;
+}
+.no2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no2:hover{
+	opacity: 0;
+}
+.hover2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no3:hover{
+	opacity: 0;
+}
+.hover3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no4:hover{
+	opacity: 0;
+}
+.hover4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no5{
+	position: absolute;
+	margin-left: 280px;
+}
+.no5:hover{
+	opacity: 0;
+}
+.hover5{
+	position: absolute;
+	margin-left: 280px;
+}
+.media2{
+	position: absolute;
+	margin-top:  1724px;
+	margin-left: 673px;
+}
+.no6{
+	position: absolute;
+}
+.no6:hover{
+	opacity: 0;
+}
+.hover6{
+	position: absolute;
+}
+.no7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no7:hover{
+	opacity: 0;
+}
+.hover7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no8:hover{
+	opacity: 0;
+}
+.hover8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no9:hover{
+	opacity: 0;
+}
+.hover9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no10{
+	position: absolute;
+	margin-left: 280px;
+}
+.no10:hover{
+	opacity: 0;
+}
+.hover10{
+	position: absolute;
+	margin-left: 280px;
+}
+.contact1{
+	position: absolute;
+	margin: 1324px 0 0 150px;
+	max-width: 40%;
+	text-align: right;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.contact2{
+	position: absolute;
+	margin: 1339px 0 0 670px;
+	max-width: 37%;
+	text-align: left;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.image7{
+	position: absolute;
+	margin: 1250px 0 0 0;
+}
+footer{
+	background: #000000;
+	color: #ffffff;
+	position: absolute;
+	margin: 1779px 0 0 0;
+	font-size: 75%;
+	text-align: center;
+	width: 100%;
+	font-family: calibri;
+	z-index: 	1000;
+}
+/*</footer>*/

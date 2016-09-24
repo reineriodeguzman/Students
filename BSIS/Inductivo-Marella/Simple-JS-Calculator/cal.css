@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: digital7;
+    src: url(digital.ttf) format("truetype");
+}
+
+body{	
+	font-family: digital7, B Nazanin, Tahoma !important;
+	font-size: 43px;
+}
+
+#calculator{
+    width: 377px;
+	height: 520px;
+	padding: 20px;
+	border-radius: 10px;
+	background: #ACACAC;
+	border-left: 1px solid #38678B;
+	border-top: 1px solid #38678B;
+	border-right: 1px solid #24435B;
+	border-bottom:  1px solid #24435B;
+	-webkit-box-shadow: 5px 5px 7px 3px rgba(119,119,119,1);
+	-moz-box-shadow: 5px 5px 7px 3px rgba(119,119,119,1);
+	box-shadow: 5px 5px 7px 3px rgba(119,119,119,1);
+	margin: 30px auto;
+}
+
+.KEYS{ background-color: yellow; }
+
+.SYMBOL{ background-color: #ffad30; }
+
+.CLEAR{ background-color: #0CF; }
+
+.CLEAR-ALL{ background-color: #0066FF; }
+
+.ZERO{ background-color: gray; }
+
+.KEYS, .SYMBOL, .CLEAR, .CLEAR-ALL, .ZERO {
+    border-radius: 10px;
+    padding: 20px; 
+    width: 40px;
+    height: 35px; 
+	border: 2px solid black;
+	text allign: center;
+	display: inline-block;
+	float: right;
+    margin: 0 0 10px 10px;
+	-webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 2px 4px 1px rgba(0,0,0,1);
+	box-shadow: 2px 2px 4px 1px rgba(0,0,0,1);
+	cursor: pointer;
+}
+
+.KEYS:active, .SYMBOL:active, .CLEAR:active, .CLEAR-ALL:active, .ZERO:active {
+    border-radius: 10px;
+    padding: 20px;
+    width: 39px;
+    height: 34px; 
+	border: 2px solid black;
+	text allign: center;
+	display: inline-block;
+	float: right;
+    margin: 0 0 11px 11px;
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+	cursor: pointer;
+}
+
+.RESULT{
+	background-color: white;
+	border-radius: 10px;
+    padding: 20px; 
+    width: 367px;
+    height: 77px; 
+	border: 2px solid black;
+	text allign: center;
+	display: inline-block;
+    margin: 0 0 10px 10px;
+	boarder:20px;
+	font-size: 70px;
+	font-family: digital7, B Nazanin, Tahoma !important;
+}

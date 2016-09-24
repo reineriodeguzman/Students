@@ -1,0 +1,33 @@
+.opm{
+	font-family: Franklin Gothic Heavy;
+	font-size: 120px;
+	text-align: center;
+	margin-top: -15px;
+	font-style: bold;
+	color: red;
+}
+.contain{
+ font-size: 70px;
+
+	color: white;
+	margin-left: 230px;
+	margin-top: -150px;
+}
+div.container{
+	background-color: white;
+	width: 100%;
+	height: 333px;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+}
+.back{
+	
+	
+	height:40px;
+	width: 200px;
+	color: black;
+	background-color: lightblue;
+	margin-top: 100px;
+	font-size: 20px;
+}

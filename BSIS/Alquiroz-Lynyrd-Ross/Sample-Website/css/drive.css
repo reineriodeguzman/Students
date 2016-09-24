@@ -1,0 +1,71 @@
+.drive-footer {
+  font-family: 'Lato', sans-serif;
+  background-color: #000;
+  color: #fffff0;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 4em;
+  margin-top: -0.3%;
+  padding-bottom: 0.1%;
+  margin-top: 3%;
+}
+
+.col-drive {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 65%;
+  padding-bottom: 20%;
+  height: 4em;
+  vertical-align: middle;
+  line-height: 4em;
+  background-image: url("bg/darklight.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.col-drive2 {
+  padding-top: 1%;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-bottom: 20%;
+  height: 4em;
+  vertical-align: middle;
+  line-height: 4em;
+  background-image: url("bg/darklight.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.col-drive3 {
+  text-align: left;
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-bottom: 18%;
+  height: 4em;
+  vertical-align: middle;
+  line-height: 3em;
+  background-image: url("bg/darklight.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#contact-text-format {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffa400;
+  font-size: 110%;
+}
+
+#drive-text-format {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  font-family: 'Calibri', serif;  
+}
+
+@media (min-width: 30em) {
+  .drive-footer { display: table-cell; }
+}

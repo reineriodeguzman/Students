@@ -1,0 +1,42 @@
+	
+.logo{		position: fixed;
+			padding: 0;
+			margin-left: 2;
+			margin-bottom: 0;
+}
+
+.Navigation{margin-top: 0;
+			margin-right: 170px;
+			margin-left: 170px;
+			
+}
+.A{
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+.B{
+	display: inline;
+	float: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+.head{
+		top: 5px;
+		right: 1px;
+		width: 300pt;
+		height: 200pt;
+		border: 2px solid black;
+		padding: 0%;
+		margin-left:50;
+}
+header{	z-index: -1;
+		overflow: inherit;
+		padding: 0;
+		margin-left: 100px;
+}	
+
+.4 {margin-left: 100px;
+	margin-right: 20px;}

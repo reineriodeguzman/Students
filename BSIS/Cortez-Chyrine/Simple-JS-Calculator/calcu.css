@@ -1,0 +1,97 @@
+html{
+	background-color: black;
+}
+
+h1{
+	color: yellow;
+	text-align: center;
+}
+
+#box{
+	background-color: black;
+	padding: 15px;
+	height: 300px;
+	width: 290px;
+	border-radius: 8px;
+	position: relative;
+	top: 80px;
+	margin: 0 auto;
+	box-shadow: 10px 10px gray;
+}
+
+#display{
+	text-align: right;
+	color: black;
+	background: #dbdbdb;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 20px;
+	box-shadow: 2px 2px gray;
+
+}
+.keys{
+	position: relative;
+	top: 15px;
+
+}
+
+#clr{
+	margin-bottom: 3px;
+	margin-left: 78%;
+	color: white;
+	background-color: #303030;
+	border-bottom: black 2px solid;
+	border-top: 2px #303030 solid;
+	box-shadow: 3px 3px gray;
+}
+
+.button{
+
+	margin-top: 6px;
+	padding: 2px;
+	text-align: center;
+	width: 45px;
+	height: 35px;
+	border:  1px solid gray;
+	border-radius: 10px;
+	cursor: pointer;
+	border-top: 2px solid transparent;
+	margin-left: 19px;
+	float: left;
+	color: white;
+	background-color: #303030;
+	border-bottom: black 2px solid;
+	border-top: 2px #303030 solid;
+	box-shadow: 3px 3px gray;
+
+}
+
+.button:hover{
+	background-color: yellow;
+	color: black;
+}
+
+#clr:hover{
+	background-color: orange;
+	color: black;
+}
+
+#btn:hover{
+	background-color: pink;
+	color: black;
+}
+
+h1:hover{
+	color: green;
+}
+
+#box:hover{
+	background-color: white;
+}
+
+#display:hover{
+	background-color: black;
+	color: white;
+	box-shadow: 2px 2px gray;
+}

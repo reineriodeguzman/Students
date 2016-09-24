@@ -1,0 +1,157 @@
+body{
+	background-image: url("pictures/hatsune miku 724x453.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.upper{
+	margin-left: 1em;
+	margin-right: 20em;
+	margin-top: 20px;
+	font-family: verdana;
+	border: groove;
+	background-image: url("pictures/sample3.png");
+	background-position: center;
+	background-repeat: no-repeat; 
+	width: 80em;
+	height: 11em;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
+
+}
+.nav{
+	background-image: url("pictures/images-4.jpeg");
+	color: white;
+}
+nav{
+	font-size: 24px;
+	font-family: georgia;
+	text-align: center;
+	margin-left: 16em;
+}
+div{
+	width: 119px;
+	border:solid 1px;
+	float: left;
+	padding: 10px;
+	background-color: white;
+}
+a:first-child div{
+	border-bottom-left-radius: 40px;
+}
+a:last-child div{
+	border-bottom-right-radius: 40px;
+}
+.nav:hover{
+	opacity: 0.5;
+}
+.title:hover{
+	opacity: 0.9;
+	color: #00FFFF;
+	text-decoration: underline;
+	text-transform: none;
+}
+a:visited{
+	color: white;
+}
+#title2{
+	text-decoration: underline;
+}
+#mp41{
+	margin-top: 5em;
+	margin-left: 5em;
+	width: 40em;
+	height: 22em;
+	float: left;
+}
+.mp42{
+	margin-right: 10em;
+	margin-top: 5em;
+	width: 20em;
+	height: 80em;
+	float: right;
+	border-top-left-radius: 2em;
+	background-image: url("pictures/1.jpg");
+	float: right;
+}
+#mp43{
+	margin-left: 5em;
+	margin-top: 2em;
+	width: 40em;
+	height: 13em;
+	float: left;
+}
+#mp44{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp1.png");
+}
+#mp45{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp1.png");
+}
+#mp46{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp2.png");
+}
+#mp47{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp6.png");
+}
+#mp48{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp7.png");
+}
+#mp49{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp8.png");
+}
+#mp40{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp2.png");
+}
+#mp39{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp6.png");
+}
+#mp38{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp7.png");
+}
+#mp37{
+	margin-top: 1em;
+	width: 18.5em;
+	height: 10em;
+	background-image: url("pictures/mp8.png");
+}			
+#button{
+	margin-left: 4em;
+	height: 3em;
+	width: 15em;
+	font-size: 11pt;
+	border-top-left-radius: 33px;
+	border-bottom-right-radius: 30px;
+	background-color: #7FFF00;
+}
+#holder{
+	width: 82em;
+	height: 103em;
+	background-color: transparent;
+}

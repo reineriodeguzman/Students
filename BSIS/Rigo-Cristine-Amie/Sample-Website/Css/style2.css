@@ -1,0 +1,186 @@
+.body {
+	margin: 0 auto;
+	padding-top: 100px;
+	margin- bottom: 300%;
+
+}
+
+
+.header h1 {
+	font-family: high tower text;
+	font-size: 2em;
+	color: #2f4f4f;
+	margin-left: 2%;
+	padding-bottom: 0%;
+	text-indent: 50px;
+
+}
+
+.header p {
+	margin-right: 2%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f4f4f;
+    margin-left: 2%;
+    margin-right: 2%;
+    word-spacing: 5px;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: #abcdef	;
+    font-weight: bolder;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+    right: 100px;
+	float:right; 
+	font-family: cooper black;
+	letter-spacing: 1px;
+
+}
+
+li a:hover {
+    background-color: #cd5c5c;
+}
+
+
+.mainContent {
+	overflow: auto;
+	
+}
+
+.about {
+	width :10%;
+	background-color:#2f4f4f;
+	border-radius: 5px;
+	overflow: auto;
+	padding:3% 2%;
+	margin-left: 2%;
+	margin-right: 3%;
+	color:#ffe4e1;
+
+}
+
+.about h3 {
+	color: #cd5c5c;
+	font-family: Edwardian Script ITC;
+	font-size: 40px;	
+}
+
+.about p {
+	color: white;
+	font-family: High Tower Text;
+	line-height: 1.5em;
+	font-size: 20px;
+	text-indent: 12px;
+}
+
+.about q {
+	color: white;
+	font-family: High Tower Text;
+	line-height: 1.5em;
+	font-size: 20px;
+	text-indent: 15px;
+}
+
+.center-content {
+	float: center;
+	max-width: 100%;
+	font-family: candara;
+
+}
+
+
+.one {
+	padding:1% 5%;
+	
+}
+	
+.two {
+	padding:1% 5%;
+	
+}
+
+.three {
+	padding:1% 5%;
+}
+
+.four {
+	padding:1% 5%;
+	
+}
+
+.five {
+	padding:1% 5%;
+	
+}
+
+.six {
+	padding:1% 5%;
+	
+}
+
+.seven {
+	padding:1% 5%;
+
+}
+
+.eight {
+	padding:1% 5%;
+	
+}
+
+.nine {
+	padding:1% 5%;
+	
+}
+
+.right {
+	position: absolute;
+	top: 200px;
+	left:1000px;
+	width :20%;
+	background-color:#2f4f4f;
+	border-radius: 5px;
+	padding: 2% 2%;
+	color: #ffe4e1;
+
+}
+.right h4 {
+	font-family: garamond;
+}
+.right q {
+	font-family: Monotype Corsiva;
+	font-size: 20px;
+}
+
+
+.mainFooter {
+	width: 98%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	background-color: yellowgreen;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	
+}
+
+.footer {
+	margin-left: 2%;
+	text-align: center;
+	letter-spacing: 3px;
+}

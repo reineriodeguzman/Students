@@ -1,0 +1,68 @@
+.menu-holder {
+	width: 774px;
+	margin: 0 auto;
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 774px;
+	height: 210px;
+	background: url(../images/menu-bg.jpg) no-repeat;
+	position: relative;
+}
+
+#menu span {
+	display: none;
+	position: absolute;
+}
+
+#menu a {
+	display: block;
+	text-indent: -900%;
+	position: absolute;
+	outline: none;
+}
+#menu a:hover {
+	background-position: left bottom;
+}
+#menu a:hover span{
+	display: block;
+}
+#menu .home {
+	width: 144px;
+	height: 58px;
+	background: url(../images/home.png) no-repeat;
+	left: 96px;
+	top: 99px;
+}
+#menu .home span {
+	width: 86px;
+	height: 14px;
+	background: url(../images/home-over.png) no-repeat;
+	left: 28px;
+	top: -20px;
+}
+#menu .about {
+	width: 131px;
+	height: 51px;
+	background: url(../images/about.png) no-repeat;
+	left: 338px;
+	top: 97px;
+}
+#menu .about span {
+	width: 104px;
+	height: 12px;
+	background: url(../images/mariel.png) no-repeat;
+	left: 44px;
+	top: 54px;
+}
+
+.top-title-position {
+	position: absolute;
+	top: 0;
+	left: 330px;
+	z-index: 99999;
+	color: #6c320c;
+}

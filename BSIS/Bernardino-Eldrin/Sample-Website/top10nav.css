@@ -1,0 +1,350 @@
+.top10nav{
+	background: #FE683a;
+}
+.top10content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 105px 0 0 75px;
+}
+.photo10{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 140px 0 0 635px;
+}
+.top10{
+}
+
+
+.top9{
+	margin-top: -20px;	
+}
+.top9content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 205px 0 0 75px;
+}
+.photo9{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 135px 0 0 635px;
+}
+
+
+
+.top8{
+	margin-top: -20px;	
+}
+.top8content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 200px 0 0 75px;
+}
+.photo8{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 120px 0 0 635px;
+}
+
+
+
+.top7{
+	margin-top: -20px;	
+}
+.top7content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 190px 0 0 75px;
+}
+.photo7{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 115px 0 0 635px;
+}
+
+
+
+.top6{
+	margin-top: -20px;	
+}
+.top6content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 170px 0 0 75px;
+}
+.photo6{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 110px 0 0 635px;
+}
+
+
+
+.top5{
+	margin-top: -20px;	
+}
+.top5content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 190px 0 0 75px;
+}
+.photo5{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 105px 0 0 635px;
+}
+
+
+
+.top4{
+	margin-top: -20px;	
+}
+.top4content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 165px 0 0 75px;
+}
+.photo4{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 115px 0 0 635px;
+}
+
+
+
+.top3{
+	margin-top: -20px;	
+}
+.top3content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 185px 0 0 75px;
+}
+.photo3{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 220px 0 0 635px;
+}
+
+
+
+.top2{
+	margin-top: -20px;	
+}
+.top2content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 145px 0 0 75px;
+}
+.photo2{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 185px 0 0 635px;
+}
+
+
+
+.top1{
+	margin-top: -20px;	
+}
+.top1content{
+
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	max-width: 38%;
+	margin: 200px 0 0 75px;
+}
+.photo1{
+	position: absolute;
+	border: 7px solid #ffffff;
+	margin: 125px 0 0 635px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*<footer>*/
+.media{
+	position: absolute;
+	margin-top: 468px;
+	margin-left: 327px;
+}
+.no1{
+	position: absolute;
+}
+.no1:hover{
+	opacity: 0;
+}
+.hover1{
+	position: absolute;
+}
+.no2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no2:hover{
+	opacity: 0;
+}
+.hover2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no3:hover{
+	opacity: 0;
+}
+.hover3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no4:hover{
+	opacity: 0;
+}
+.hover4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no5{
+	position: absolute;
+	margin-left: 280px;
+}
+.no5:hover{
+	opacity: 0;
+}
+.hover5{
+	position: absolute;
+	margin-left: 280px;
+}
+.media2{
+	position: absolute;
+	margin-top: 468px;
+	margin-left: 673px;
+}
+.no6{
+	position: absolute;
+}
+.no6:hover{
+	opacity: 0;
+}
+.hover6{
+	position: absolute;
+}
+.no7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no7:hover{
+	opacity: 0;
+}
+.hover7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no8:hover{
+	opacity: 0;
+}
+.hover8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no9:hover{
+	opacity: 0;
+}
+.hover9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no10{
+	position: absolute;
+	margin-left: 280px;
+}
+.no10:hover{
+	opacity: 0;
+}
+.hover10{
+	position: absolute;
+	margin-left: 280px;
+}
+.contact1{
+	position: absolute;
+	margin: 68px 0 0 150px;
+	max-width: 40%;
+	text-align: right;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.contact2{
+	position: absolute;
+	margin: 83px 0 0 670px;
+	max-width: 37%;
+	text-align: left;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.image7{
+	position: absolute;
+	margin: -5px 0 0 0;
+}
+footer{
+	background: #000000;
+	color: #ffffff;
+	position: absolute;
+	margin: 523px 0 0 0;
+	font-size: 75%;
+	text-align: center;
+	width: 100%;
+	font-family: calibri;
+	z-index: 	1000;
+}
+/*</footer>*/

@@ -1,0 +1,49 @@
+body{
+	background: #FE683a;
+	margin: 74px 0 0 0;
+	padding: 0;
+	font-family: 'Futura bk bt';
+}
+/*<navigation>*/
+.logo-image{
+	margin-top: 22px;
+}
+.menu {
+	position: fixed;
+	width: 97%;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	background: black;
+	margin-top: -74px;
+	margin-bottom: 0px;
+	z-index: 1000;
+}
+.menu li {
+	color: white;
+	display: inline-block;
+	padding:  25px 25px 25px 25px;
+	font-size: 20px;
+}
+.menu li a {
+	text-decoration: none;
+	color: white;
+}
+.menu li:hover {
+padding: 25px 25px 25px 25px;
+background: #FE683a;
+}
+.menu .logo {
+	color: #000000;
+	float: left;
+	padding-left: 0;
+	font-size: 20px;
+}
+.line{
+	position: absolute;
+	position: fixed;
+	margin-top: 0px;
+	z-index: 100000;
+}
+/*</navigation>*/
+

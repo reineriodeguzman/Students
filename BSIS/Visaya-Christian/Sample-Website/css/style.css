@@ -1,0 +1,1124 @@
+/*
+Note: Pag header, century gothic
+    Pag simple text lang, product sans
+
+*/
+
+#sidebar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	float: right;
+	width: 300px;
+	height: 100%;
+	background-color: #222;
+}
+
+#aboutuscontent1{
+    top: 500px;
+    background-color: white;
+    position: absolute;
+    width: 1066px;
+    height: 300px;
+}
+
+#newcontent1{
+    top: 500px;
+    background-color: white;
+    position: absolute;
+    width: 1066px;
+    height: 2000px;
+}
+
+#aboutuscontainer1{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 1066px;
+    height: 500px;
+}
+
+#answermusic{
+    position: absolute;
+    top: 150px;
+    font-family: product sans;
+    left: 400px;
+    width: 600px;
+    height: 100px;
+    font-size: 20px;
+}
+
+#whymusic{
+    position: absolute;
+    font-family: century gothic;
+    top: 30px;
+    left: 400px;
+    font-size: 60px;
+}
+
+#musiclogo{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+#nowplayingback{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#secondartistcontent{
+    top: 500px;
+    background-color: #222;
+    position: absolute;
+    top: 2000px;
+    width: 1066px;
+    height: 1600px;}
+
+#artistcontent{
+    top: 500px;
+    background-color: white;
+    position: absolute;
+    width: 1066px;
+    height: 2000px;
+}
+
+#image{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+#artistcontainer{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 1066px;
+    height: 1000px;
+}
+
+#albumtiles1{
+    background-size: 100%;
+    background-image: url(../img/pentatonix_albumtiles.jpg);
+    background-color: green;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 400px;
+    top: 0
+}
+
+#albumtiles2{
+    background-size: 100%;
+    background-image: url(../img/David_Guetta_2.jpg);
+    background-color: blue;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 0
+}
+
+#albumtiles3{
+    background-size: 100%;
+    background-image: url(../img/David_Guetta_1.jpg);
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 800px;
+    top: 0
+}
+
+#albumtiles4{
+    background-size: 100%;
+    background-image: url(../img/Himig_1.jpg);
+    background-color: violet;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1000px;
+    top: 0
+}
+
+#albumtiles5{
+    background-size: 100%;
+    background-image: url(../img/Demi_Lovato_2.jpg);
+    background-color: indigo;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    top: 200px;
+}
+
+#albumtiles6{
+    background-size: 100%;
+    background-image: url(../img/Maroon_5_1.jpg);
+    background-color: orange;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 600px;
+    top: 200px;
+}
+
+#albumtiles7{
+    background-size: 100%;
+    background-image: url(../img/maroon_albumtiles.jpg);
+    background-color: cyan;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1000px;
+    top: 200px
+}
+
+#albumtiles8{
+    background-size: 100%;
+    background-image: url(../img/adele_albumtiles.jpg);
+    background-color: gray;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1000px;
+    top: 400px
+}
+
+#albumtiles9{
+    background-size: 100%;
+    background-image: url(../img/florida_albumtiles.jpg);
+    background-color: brown;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 400px;
+}
+
+#albumtiles10{
+    background-size: 100%;
+    background-image: url(../img/cristina_albumtiles.png);
+    background-color: pink;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 200px;
+    top: 400px;
+}
+
+#albumtiles11{
+    background-size: 100%;
+    background-image: url(../img/Boyce_Avenue_3.jpg);
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 600px;
+}
+
+#newvideoname1{
+    font-family: century gothic;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 515px;
+
+}
+
+#newvideo1{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+#videocontainer3{
+    position: absolute;
+    width: 900px;
+    height: 560px;
+    top: 1300px;
+    left: 75px;
+    background-color: #276;
+}
+
+#videocontainer2{
+    position: absolute;
+    width: 900px;
+    height: 560px;
+    top: 700px;
+    left: 75px;
+    background-color: #276;
+}
+
+#videocontainer1{
+    position: absolute;
+    width: 900px;
+    height: 560px;
+    top: 60px;
+    left: 75px;
+    background-color: #276;
+}
+
+#albumtiles12{
+    background-size: 100%;
+    background-image: url(../img/Pentatonix_3.jpg);
+    background-color: black;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 600px;
+    top: 600px;
+}
+
+#albumtiles13{
+    background-size: 100%;
+    background-image: url(../img/demi_albumtiles.jpg);
+    background-color: blue;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 800px;
+    top: 600px;
+}
+
+
+
+#albumtilescontainer{
+    position: absolute;
+    width: 1200px;
+    top: 0;
+    height: 897px; 
+    left: 300px;
+}
+
+
+#controlbar{
+    position: fixed;
+    left: 0;
+    top: 100;
+    bottom: 0px;
+    width: 100%;
+    height: 15%;
+    background-color: black; 
+}
+
+#artistimg1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#artisttitle{
+    font-family: century gothic;
+    background-color: #276;  
+    color: white;
+    text-shadow: 2px 1px 3px black;
+    position: absolute;
+    top: -70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+#artistimg5{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#artistinfo5{
+    border-top: solid;  
+    padding-top: 10px;
+    font-family: product sans;
+    position: absolute;
+    top: 70px;
+    color: white;   
+    right: 630px;
+    text-align: right;
+    height: 325px;
+    width: 350px
+}
+
+#artistname5{
+    font-family: century gothic;
+    position: absolute;
+    top: 10px;
+    right: 630px;
+    color: white;
+}
+
+#artistcontent5{
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    top: 530px;
+    left: 20px;
+}
+
+#artistimg4{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#artistinfo4{
+    border-top: solid;  
+    padding-top: 10px;
+    font-family: product sans;
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    text-align: left;
+    height: 325px;
+    width: 350px
+}
+
+#artistname4{
+    font-family: century gothic;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    color: black;
+    background-color: transparent;
+}
+
+#artistcontent4{
+    background-color: white;
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    top: 60px;
+    left: 20px;
+}
+
+#artistinfo1{
+    border-top: solid;  
+    padding-top: 10px;
+    font-family: product sans;
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    text-align: left;
+    height: 325px;
+    width: 350px
+}
+
+#artistname1{
+    font-family: century gothic;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    color: black;
+    background-color: transparent;
+}
+
+#artistcontent1{
+    border: solid;
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    top: 60px;
+    left: 20px;
+}
+
+#artistinfo3{
+    border-top: solid;  
+    padding-top: 10px;
+    font-family: product sans;
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    text-align: left;
+    height: 325px;
+    width: 350px
+}
+
+#artistname3{
+    font-family: century gothic;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    color: black;
+    background-color: transparent;
+}
+
+#artistimg3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#artistcontent3{
+    border: solid;
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    top: 1000px;
+    left: 20px;
+}
+
+#artistinfo6{
+    border-top: solid; 
+    border-color: white; 
+    padding-top: 10px;
+    font-family: product sans;
+    position: absolute;
+    top: 70px;
+    color: white;
+    left: 630px;
+    text-align: left;
+    height: 325px;
+    width: 350px
+}
+
+#artistname6{
+    font-family: century gothic;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    color: white;
+}
+
+#artistimg6{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#artistcontent6{
+    border: solid;
+    border-color: white;
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    top: 1000px;
+    left: 20px;
+}
+
+#artistinfo2{
+    border-top: solid;  
+    padding-top: 10px;
+    font-family: product sans;
+    position: absolute;
+    top: 70px;
+    right: 630px;
+    text-align: right;
+    height: 325px;
+    width: 350px
+}
+
+#artistname2{
+    font-family: century gothic;
+    position: absolute;
+    top: 10px;
+    right: 630px;
+    color: black;
+    background-color: transparent;
+}
+
+#artistimg2{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#artistcontent2{
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    top: 530px;
+    left: 20px;
+}
+
+#header{
+    font-family: century gothic;
+    color: #222;
+    position: relative;
+    float: left;
+    left: 322.5px;
+    top: -15px
+}
+
+#newcontentdef{
+    font-family: product sans;
+    color: #222;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    font-size: 20px;
+}
+
+#newcontent{
+    font-family: century gothic;
+    color: #222;
+    position: absolute;
+    float: left;
+    left: 350px;
+    text-align: left;
+    font-size: 30px;
+    top: 20px
+}
+
+#listmusic{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    font-family: century gothic;
+    color: #222;
+}
+
+#toggle{
+    top: 25px;
+    right: 0;
+    position: absolute;
+    background-color: transparent;
+}
+
+#refresh{
+    top: 350px;
+    left: 402px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    position: absolute;
+    padding: 10px;
+    background-color: #222
+}
+
+#nosignal{
+    position: absolute;
+    left: 375px;
+    top: 200px;
+}
+
+#logo{
+    bottom: 0;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: transparent;
+}
+
+.h1{
+    background-color: transparent;
+    font-family: product sans;
+    color: white;
+    position: relative;
+    display: block;
+    text-shadow: 2px 1px 3px black;
+    padding-right: 20px;
+    padding-left: 0px;  
+}
+
+#btn {
+    text-shadow: 2px 1px 3px black;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-left: 20px;  
+
+    font-family: century gothic;
+    background-color: #222;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1      ;
+    color: #fff;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+
+#activesonglistbtn{
+    text-shadow: 2px 1px 5px black;
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    padding-top: 15px;
+    padding-bottom: 15px; 
+
+    font-family: product sans;
+    background-color: #276;
+    font-size: 75%;
+    font-weight: 700;
+    color: #fff;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+#artist{
+    color: white;
+    position: absolute;
+    left: 30%
+}
+
+#album{
+    color: white;
+    position: absolute;
+    left: 60%
+}
+
+#duration{
+    color: white;
+    position: absolute;
+    left: 90%
+}
+
+
+
+#songlistbtn{
+    text-shadow: 2px 1px 5px black;
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    padding-top: 15px;
+    padding-bottom: 15px; 
+
+    font-family: product sans;
+    background-color: #555;
+    font-size: 75%;
+    font-weight: 700;
+    color: #fff;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+#songlistbtnodd{
+    text-shadow: 2px 1px 5px black;
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    padding-top: 15px;
+    padding-bottom: 15px; 
+
+    font-family: product sans;
+    background-color: transparent;
+    font-size: 75%;
+    font-weight: 700;
+    color: black;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+#songlistbtnodd:hover{
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+    color: white;
+    background-color: #222;
+}
+
+#songlistbtn:hover{
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+    background-color: #222;
+}
+
+#albumcover{
+    position: fixed;
+    width: 1066px;
+    height: 450px;
+    top: 0px;
+    left: 300px;
+    background-image: url(../img/albumcover.jpg);
+    background-size: 100%;
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+}
+
+#songlist{
+    position: absolute;
+    background-color: white;
+    width: 1066px;
+    height: 100;
+    top: 450px;
+    left: 300px;
+    background-size: 100%;
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+
+}
+
+#btn:hover{
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+    background-color: #444;
+}
+
+#theprogressbar{
+    position: absolute;
+    left: 500px;
+    top: 40px
+}
+
+#progressbar{
+    position: absolute;
+    width: 500px;
+    border: solid;
+    border-color: white;
+    height: 10px;
+}
+
+#progress{
+    height: 10px;
+    background-color: white;
+    width: 0px;
+}
+
+#mainheader{
+    position: absolute;
+    color: black;
+    font-family: century gothic;
+    font-size: 60px;
+    left: 130px;
+    top: -30px;
+}
+
+#homediv{
+    position: relative;
+    width: 70%;
+    height: 90%;
+}
+
+.activebtn{
+    text-shadow: 2px 2px 5px black;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-left: 20px;  
+
+    font-family: century gothic;
+    background-color: #276;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1      ;
+    color: #fff;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+#homelogo{
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+
+#homeintro{
+    position: absolute;
+    color: black;
+    top: 330px;
+    left: 50px;
+    width: 500px;
+    font-family: product sans;
+}
+
+.allbtn{
+    text-shadow: 2px 1px 5px black;
+    position: relative;
+    float: left; 
+    text-decoration: none;
+    padding: 12px 12px;
+    padding-right: 20px;
+    padding-left: 20px;  
+    margin-left: 5px; 
+
+    font-family: century gothic;
+    background-color: #666;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1      ;
+    color: #fff;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+.allbtn:hover{
+    background-color: #222;
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+}
+
+.activeallbtn{
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+    position: relative;
+    float: left; 
+    text-decoration: none;
+    padding: 12px 12px;
+    padding-right: 20px;
+    padding-left: 20px;  
+    margin-left: 5px; 
+
+    font-family: century gothic;
+    background-color: #276;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1      ;
+    color: #fff;
+}
+
+.GettingStarted{
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    padding: 12px 12px;
+    padding-right: 20px;
+    padding-left: 20px;  
+    margin-left: 5px; 
+    top: 450px;
+    left: 225px;
+
+    font-family: century gothic;
+    background-color: white;
+    border: solid;
+    font-size: 20px;
+}
+
+#videoname{
+    font-family: century gothic;
+    color: black;
+    position: absolute;
+    left: 50px;
+    top:480px;
+}
+
+#videodescription{
+    position: absolute;
+    top: 50px;
+}
+
+#controlprevious{
+    top: 40px;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    color: white
+}
+
+#controlplay{
+    top: 40px;
+    font-size: 20px;
+    position: absolute;
+    left: 350px;
+    color: white
+}
+
+#controlnext{
+    top: 40px;
+    font-size: 20px;
+    position: absolute;
+    left: 400px;
+    color: white
+}
+
+#latestcontent{
+    padding-top:20px; 
+    margin-top: 20px;
+    position: relative;
+    background-color: black;
+    width: 900px;
+    height: 450px;
+    z-index: -1;
+}
+
+#controlartist{
+    font-family: product sans;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+#controlsongname{
+    position: absolute;
+    font-family: century gothic;
+    color: white;
+    left: 100px;
+    top: 10px;
+}
+
+#albumholder{
+    position: absolute;
+    top: 12.5px;
+    left: 12.5px;
+}
+
+#latestcontainer{
+    position: absolute;
+    top: 0;
+    left: 325px;
+    height: 10000px;
+    width: 1000px;
+    z-index: -2;
+}
+
+.contentcontainer{
+    position: absolute;
+    background-color: transparent;
+    width: 70%;
+    height: 100%;
+    top: 60px;
+    left: 325px;
+}
+
+.homecover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#playpause{
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    
+}
+
+.home{
+    background-image: url(../img/home_cover1.jpg);
+    position: absolute;
+    background-position: 200px 0px;
+    background-size: 1300px 670px;
+    background-repeat: no-repeat;
+}
+
+#nowplaying{
+    background-image: url(../img/nowplayingwallpaper.jpg);
+    background-size: 100% ;
+}
+
+.musicbox{
+    text-decoration: none;
+    font-family: product sans;  
+}
+
+.MusicContent{
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100;
+    padding-bottom: 110px;
+    top: 70px;
+    left: -5px;
+}
+
+.MusicContent :hover{
+    transition: background 0.2s linear 0s, color 0.5s linear 0s;
+    background-color: #276;
+    border-color: #276;
+}
+
+.musicalign{
+    font-family: product sans;  
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: solid;
+}
+
+#playingduration{
+
+    font-family: century gothic;
+    font-size: 15px;
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    left: 27.5px;
+    bottom: 90px
+}
+
+#authorinfo{
+    font-family: century gothic;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    color: white;
+    left: 27.5px;
+    bottom: 100px
+}
+
+#songname{
+    font-family: century gothic;
+    font-size: 50px;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    right: 575px;
+    top: -70px;
+}
+
+#songinfo{
+    background-color: transparent;
+    background-size: 100%;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    padding: 200px 50px 50px 600px;
+}
+
+
+.importcontent{
+    background-image: url(../img/import1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 79%;
+    height: 100%;
+    top: 0px;
+    left: 300px;
+}
+
+#importheader{
+    color: white
+}
+
+#importbutton{
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    padding-right: 20px;
+    padding-left: 20px;  
+    top: 50px;
+    right: 210px;
+
+    font-family: century gothic;
+    background-color: white;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1      ;
+    color: black;
+}
+
+.spotifycontent{
+    background-image: url(../img/spotify1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 79%;
+    height: 100%;
+    top: 0px;
+    left: 300px;
+}
+
+#spotifyheader{
+    color: white; font-size: 50px; 
+}
+
+#spotifylogo{
+    position: relative;
+    top: 250px;
+    right: 300px
+}

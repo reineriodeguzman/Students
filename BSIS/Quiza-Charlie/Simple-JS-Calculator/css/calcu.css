@@ -1,0 +1,196 @@
+#calcu{
+	position: relative;
+	width: 340px;
+	height: 450px;
+	border-color: #ffffff;
+	border-style: ridge;
+	background-color: white;
+	box-shadow: 1px 1px 20px #f29237;
+	padding-top: 20px;
+	margin:auto;
+
+
+}
+
+#answer{
+	
+	width: 82%;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 5pt;
+	border-color: #f29237;
+	height: 50px;
+	padding: 20px 5px 0px 20px;
+	margin-left: 13px;
+	line-height: 35px;
+	color: orange;
+	font-weight: bolder;
+	font-size: 50pt;
+	overflow: hidden;
+	font-family: SAO UI, roboto;
+
+
+}
+
+button{
+	position: absolute;
+	width: 65px;
+	height: 60px;
+	color: white;
+	font-family: SAO UI,roboto;
+	line-height: 10px;
+	font-size: 23pt;
+	font-weight: bolder;
+	background-color: #f29237;
+	
+
+}
+#all_btn{
+	position: relative;
+	margin-top: 20px;
+}
+#answer input{
+	position: absolute;
+	width: 72%;
+	height: 10px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 5pt;
+	border-color: #f29237;
+	height: 50px;
+	padding: 20px 5px 0px 20px;
+	margin-left: -8px;
+	margin-top: -10px;
+	line-height: 35px;
+	color: orange;
+	font-weight: bolder;
+	font-size: 30pt;
+	overflow: hidden;
+	font-family: SAO UI, roboto;
+	text-align: right;
+
+
+
+
+}
+
+#name p{
+	float: left;
+	margin: -15px 0px 0px 14px;
+	font-family: SAO UI, Roboto;
+	color: #f29237;
+
+}
+
+
+button:hover{
+	color: #f29237;
+	background-color: white;
+
+}
+button:active{
+	border-color: lightgreen;
+	border-width: 5px 5px;
+}
+
+#b_dot{
+
+	margin: 235px 0px 0px 20px;
+}
+ 
+#b0 {
+	margin: 235px 0px 0px 85px;
+}
+#b_ans {
+	width: 166px;
+	margin: 235px 0px 0px 150px;
+}
+
+#b1 {
+	margin: 175px 0px 0px 20px;
+}
+#b2 {
+	margin: 175px 0px 0px 85px;
+	
+}
+#b3 {
+	margin: 175px 0px 0px 150px;
+	
+}
+#b4 {
+	margin: 115px 0px 0px 20px;
+}
+#b5 {
+	margin: 115px 0px 0px 85px;
+	
+}
+#b6 {
+	margin: 115px 0px 0px 150px;
+	
+}
+
+#b7 {
+	margin: 55px 0px 0px 20px;
+}
+#b8{
+	margin: 55px 0px 0px 85px;
+	
+}
+#b9 {
+	margin: 55px 0px 0px 150px;
+	
+}
+
+#b_plus {
+	margin: 55px 0px 0px 216px;
+	font-weight: bolder;
+	font-size: 50pt;
+	height: 90px;
+	width: 50px;
+}
+
+#b_minus {
+	margin: 55px 0px 0px 266px;
+	font-weight: bolder;
+	font-size: 50pt;
+	height: 90px;
+	width: 50px;
+}
+
+#b_multi {
+	margin: 145px 0px 0px 216px;
+	font-weight: bolder;
+	font-size: 50pt;
+	height: 90px;
+	width: 50px;
+	padding-top: 20px;
+	
+}
+
+#b_divide {
+	margin: 145px 0px 0px 266px;
+	font-weight: bolder;
+	font-size: 50pt;
+	height: 90px;
+	width: 50px;
+	padding-top: 15px;
+	
+}
+#b_cls {
+	margin: 0px 0px 0px 246px;
+	width: 70px;
+	height: 50px;
+
+}
+#b_cls:active {
+	border-color: red;
+
+}
+
+#made_by em{
+
+	position: absolute;
+	margin: 310px 0px 0px 256px;
+	color: #f29237;
+
+}

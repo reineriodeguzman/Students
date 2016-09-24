@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Calculator 2.0 </title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+		<h2> CALCULATOR v2.0 </h2>
+	</header>
+
+	<main>
+		<!-- Screen display  -->
+		<input type="text" id="result" disabled>
+
+		<!-- Button numbers and operations -->
+		<div class="row">
+			<input type="button" value="C" class="btn" onclick="AddToScreen('C')">
+			<input type="button" value="±" class="btn">
+			<input type="button" value="√" class="btn">
+			<input type="button" value="%" class="btn">
+		</div>
+		<div class="row">
+			<input type="button" value="7" class="btn" onclick="AddToScreen('7')">
+			<input type="button" value="8" class="btn" onclick="AddToScreen('8')">
+			<input type="button" value="9" class="btn" onclick="AddToScreen('9')">
+			<input type="button" value="/" class="btn" onclick="AddToScreen('/')">
+		</div>
+		<div class="row">
+			<input type="button" value="4" class="btn" onclick="AddToScreen('4')">
+			<input type="button" value="5" class="btn" onclick="AddToScreen('5')">
+			<input type="button" value="6" class="btn" onclick="AddToScreen('6')">
+			<input type="button" value="*" class="btn" onclick="AddToScreen('*')">
+		</div>
+		<div class="row">
+			<input type="button" value="1" class="btn" onclick="AddToScreen('1')">
+			<input type="button" value="2" class="btn" onclick="AddToScreen('2')">
+			<input type="button" value="3" class="btn" onclick="AddToScreen('3')">
+			<input type="button" value="-" class="btn" onclick="AddToScreen('-')">
+		</div>
+		<div class="row">
+			<input type="button" value="0" class="btn" onclick="AddToScreen('0')">
+			<input type="button" value="." class="btn" onclick="AddToScreen('.')">
+			<input type="button" value="=" class="btn" onclick="Answer()">
+			<input type="button" value="+" class="btn" onclick="AddToScreen('+')">
+		</div>
+	</main>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

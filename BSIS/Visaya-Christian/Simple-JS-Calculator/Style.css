@@ -1,0 +1,221 @@
+*{
+          margin: 0;
+          font-family: "Product Sans";
+}
+
+body{
+          background-color: #00B8D4;
+}
+
+#MainScreen span{
+          position: absolute;
+          top: 30%;
+          right: 2.5%;
+}
+
+#MainScreen{
+          font-size: 150px;
+          z-index: 1;
+          position: absolute;
+          width: 1348px;
+          height: 249.5px;
+          background-color: white;
+          box-shadow: 0px 2.5px 10px;
+}
+
+.MainWrapper{
+          box-shadow: 0px 10px 20px;
+          position: relative;
+          width: 1348px;
+          height: 656.5px;
+          background-color: #00B8D4;
+}
+
+.NumbersFirst{
+          position: relative;
+          margin-top: 3.5%;
+          margin-bottom: 3.5%;
+}
+
+.NumbersSecond{
+          position: relative;
+          margin-top: 3.5%;
+          margin-bottom: 3.5%;
+}
+
+.NumbersThird{
+          position: relative;
+          margin-top: 3.5%;
+          margin-bottom: 3.5%;
+}
+
+.NumbersFourth{
+          position: relative;
+          margin-top: 3.5%;
+          margin-bottom: 3.5%;
+}
+
+.Numbers{
+          position: relative;
+          padding-left: 10%;
+          padding-right: 10%;
+}
+
+.NumberButton{
+          color: white;
+          font-size: 400%;
+          position: absolute;
+          top: 250px;
+          width: 40%;
+          height: 406.5;
+          background-color: #424242;
+}
+
+.OperatorButton{
+          color: White;
+          font-size: 400%;
+          position: absolute;
+          left: 40%;
+          top: 250px;
+          width: 10%;
+          height: 406.5;
+          background-color: #616161;
+}
+
+.AdvanceOperatorButton{
+          color: white;
+          font-size: 350%;
+          position: absolute;
+          left: 50%;
+          top: 250px;
+          width: 40%;
+          height: 406.5;
+          background-color: #009688;
+}
+
+.FunctionButton{
+          color: white;
+          font-size: 275%;
+          position: absolute;
+          left: 90%;
+          top: 250px;
+          width: 10%;
+          height: 406.5;
+          background-color: #1DE9B6;
+}
+
+#BackFocus{
+          display: none;
+          background-color: #212121;
+          opacity: .7;
+          z-index: 2;
+          position: fixed;
+          width: 100%;
+          height: 100%;
+}
+
+#NavBar{
+          z-index: 3;
+          background-color: #212121;
+          position: fixed;
+          width: 0%;
+          height: 100%;
+          transition: width .2s linear 0s;
+}
+
+.Toggle{
+          z-index: 2;
+          box-shadow: 1px 1px 3.5px;
+          border-radius: 200px;
+          position: absolute;
+          top: 30px;
+          left: 30px;
+          width: 45px;
+          height: 45px;
+          background-color: #E91E63;
+}
+
+#Times{
+          position: relative;
+          height: 20%;
+}
+
+#Divide{
+                    position: relative;
+                    height: 20%;
+}
+
+#Minus{
+          position: relative;
+          height: 20%;
+}
+
+#Plus{
+          position: relative;
+          height: 20%;
+}
+
+#Del{
+          position: relative;
+          height: 20%;
+}
+
+#Deg{
+                    position: relative;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+}
+
+#Rad{
+                    position: relative;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+}
+
+#func{
+                    position: relative;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+}
+
+#Table{
+                    position: relative;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+}
+
+#Graph{
+                    position: relative;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+}
+
+#AdvanceFirst span{
+          padding-left: 7.5%;
+          padding-right: 7.5%;
+}
+
+#AdvanceSecond span{
+          padding-left: 5%;
+          padding-right: 5%;
+}
+
+#AdvanceThird span{
+          padding-left: 2.5%;
+          padding-right: 2.5%;
+}
+
+#AdvanceFourth span{
+          padding-left: 5%;
+          padding-right: 5%;
+}
+
+#AdvanceFifth span{
+          padding-left: 2.5%;
+          padding-right: 2.5%;
+}
+
+#AdvanceSixth span{
+          padding-left: 2.5%;
+          padding-right: 2.5%;
+}

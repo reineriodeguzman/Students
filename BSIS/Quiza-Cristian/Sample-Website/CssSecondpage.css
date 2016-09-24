@@ -1,0 +1,68 @@
+
+nav{
+	font-size: 24px;
+	font-family: georgia;
+	text-align: center;
+
+}
+div{
+	width: 119px;
+	border:solid 1px;
+	float: left;
+	padding: 10px;
+	background-color: white;
+	
+}
+a:first-child div{
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 10px;
+}
+a:last-child div{
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 10px;
+}
+a:link{
+	text-decoration: none;
+	text-transform: none;
+}
+a:visited{
+	color: black;
+}
+.nav:hover{
+	opacity: 0.5;
+}
+fieldset{
+	padding-left: 26em;
+	padding-top: 10em;
+	background-image: url("pictures/sample2.png");
+	background-repeat: no-repeat;
+	width: 900px;
+}
+body{
+	background: url("pictures/anime_girl_music_wallpaper_1080p.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.welcome{
+	background-color: white;
+	font-family: verdana;
+	margin-left: 20em;
+	margin-top: 15px;
+	width: 45em;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+	opacity: 0.8;	
+
+}
+.back{
+	width: 10em; height: 3em;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	font-size: 20px;
+	background-color: #7FFF00;
+}
+.nav{
+	background-image: url("pictures/images-4.jpeg");
+	color: white;
+}

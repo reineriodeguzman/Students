@@ -1,0 +1,39 @@
+h1{
+	font-family: Gill Sans Ultra Bold Condensed;
+	color: white;
+	font-size: 100pt;
+}
+#menu li{
+	list-style: none;
+	text-align: center;
+}
+body{
+	background-image: url(too-old-sneakerhead-small.jpg);
+	background-position: 100px -100px;
+}
+.Logo img{
+	float: left;
+}
+ul{
+	text-align: center;
+	font-size: 18pt;
+	font-family: Broadway;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	border-style: outset;
+	border width: 50px;
+	padding: 8px 8px 8px 8px;
+	background-size: 100%;
+	left: 0px;
+	list-style: none;
+}
+footer{
+	font-size: 10pt;
+	font-family: Times;
+	text-align: center;
+}
+nav{
+	border-radius: 283px;
+	border-width: 50px;
+}

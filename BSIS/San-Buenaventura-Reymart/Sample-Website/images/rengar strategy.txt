@@ -1,0 +1,99 @@
+
+ 
+Rengar/Strategy
+< Rengar
+   
+Gameplay
+By NeeksNaman [1]
+
+The ultimate predator's many things: methodical, determined, and unrelenting. Meet Rengar Rengar, the Pridestalker, one of the most-feared hunters in all of Valoran, whether he's slashing his way through foes or leaping from the shadows of the brush to take enemies by surprise. Rengar's monstrous, most-sought Head of Kha&#039;Zix item.png prize, however, remains at large, missing from the Pridestalker's impressive trophy wall.
+
+As a top-laner or jungler, Rengar's brutal Savagery.png strikes and Battle Roar.png roars tear through his enemies. When you use any of his abilities on an enemy, you generate a point of Ferocity. Once you've stored five Ferocity points, Rengar's skills become available instantly and the next skill activated gains a powerful new secondary effect. Players will have to strategically manage their Ferocity, activating the appropriate ability for each precarious situation. Rengar's Unseen Predator.png passive also grants his auto attack a leap when used from the brush or while invisible, giving this apex predator immense ganking potential from hiding.
+
+Rengar's ultimate ability, Thrill of the Hunt.png Thrill of the Hunt, grants him invisibility, extra movement speed and Ferocity points. The true power behind Rengar's Thrill of the Hunt.png ultimate is his visibility of enemies under the fog of war. Rengar enters an all-consuming hunting mode, allowing him to see enemy locations and their hearts beating faster and louder as he closes in.
+
+No hunter would be whole without his trophies and Rengar is no stranger to collecting the prized remains of his downed prey. Playing as Rengar grants optional access to the Bonetooth Necklace item.png Bonetooth Necklace, a unique store item that collects trophies as he racks up kills and assists. Slaying enemies will increase the power of the Bonetooth Necklace item.png necklace and new bonuses unlock when trophy thresholds are met. You're never forced to purchase or use the Bonetooth Necklace item.png Bonetooth Necklace, but are rewarded for an aggressive playstyle if you choose to use it.
+
+Tricks
+Ability Usage
+Unseen Predator.png Unseen Predator allows you to gank unexpectedly. Use Thrill of the Hunt.png Thrill of the Hunt in order to not be seen across the map as you move towards your gank or save it for chasing if you think the target can escape with Flash.png Flash and/or stealth or dash ability.
+Be careful with this as opponents will know if they are revealed.
+Unseen Predator.png Unseen Predator allows Rengar Rengar to lunge to his enemies while stealthed using his ultimate. Use this to your advantage and use Thrill of the Hunt.png Thrill of the Hunt combined with Savagery.png Savagery for an exceptionally well executed combo in rapid succession, then slow the enemy using your Bola Strike.png Bola Strike.
+Rengar Rengar can hop over walls using Unseen Predator.png Unseen Predator. Place a ward next to a jungle camp and get inside a brush over the wall, then simply attack the monsters. However, make sure they're inside your circle. Also, when your Bonetooth Necklace item.png Bonetooth Necklace reaches 9 Trophies, use the extra range on your passive to make this wall-hopping easier.
+This is a great tactic for stealing epic monsters when counter-jungling or killing the enemy jungler.
+Maxing Savagery.png Savagery first gives you a little bit of single targeted damage and burst.
+Rengar Rengar is a great jungler as his Empowered Battle Roar.png Empowered Battle Roar heals him for a flat amount of his health. This allows him for excellent survivability both in lanes and jungles.
+When jungling alternate between Empowered Battle Roar.png Empowered Battle Roar and Empowered Savagery.png Empowered Savagery.
+The sustain of Empowered Savagery.png Empowered Savagery with a Vampiric Scepter item.png Vampiric Scepter is better than Empowered Battle Roar.png Empowered Battle Roar if you can do full damage with the stacked attack speed. Use this to your advantage to get faster clear times, and get life back.
+Maxing Battle Roar.png Battle Roar first gives you a good burst of AoE damage and a high defense boost for a few seconds. Consider it over maxing Savagery.png Savagery, when jungling or playing defensively.
+Use Empowered Bola Strike.png Empowered Bola Strike in order to stop enemies from running away.
+Thrill of the Hunt.png Thrill of the Hunt is a decent tool for escaping ganks and other nasty situations. However consider that the stealth can be delayed to up to 3 seconds when attacked and enemies will know when you are within 1450 range of them.
+Rengar Rengar can use his ultimate in order to see invisible champions, such as Shaco Shaco, Twitch Twitch, Evelynn Evelynn, or another Rengar Rengar.
+When you cast Thrill of the Hunt.png Thrill of the Hunt Rengar Rengar does not immediately turn invisible but after about a 1-second delay. So keep this in mind while you are in battle.
+Thrill of the Hunt.png Thrill of the Hunt allows Rengar to scout as it reveals enemy champions in a huge radius. This can allow his team to catch enemy champions hiding in bushes, or to prevent an ambush by the enemy hiding in bushes. This can also prevent enemy champions juking you or your allies using the fog of war or bushes.
+When ganking a warded lane, use Thrill of the Hunt.png Thrill of the Hunt outside of the ward's range.
+Item/skill usage ends Thrill of the Hunt.png Thrill of the Hunt, but with the half second delay Rengar Rengar can still leap. This is useful to finish off almost dead champions with Ravenous Hydra item.png Ravenous Hydra or Blade of the Ruined King item.png Blade of the Ruined King and then leap to another target.
+Using Thrill of the Hunt.png Thrill of the Hunt with 5 Ferocity charges can lead to an overwhelming burst of damage, as he can leave stealth with an empowered skill, use his 3 non-empowered skills in quick succession on his target and then already use another empowered skill because of the Ferocity gain after leaving stealth.
+Rengar Rengar can cast Bola Strike.png Bola Strike and Empowered Bola Strike.png Empowered Bola Strike when he's leaping mid-air with Unseen Predator.png Unseen Predator. Therefore, casting Thrill of the Hunt.png Thrill of the Hunt first, leaping on an enemy champion with Unseen Predator.png Unseen Predator then using Empowered Bola Strike.png Empowered Bola Strike mid-air almost guarantees a snare, then following Bola Strike.png Bola Strike for further slow. It is extremely effective when ganking and is very easy for your teammates to deal more damage for a kill.
+Jungle Rengar Rengar is one of the best CC bursters allowing the player to Double Snare:
+With 4-5 stacks of Ferocity, engage the enemy with Thrill of the Hunt.png Thrill of the Hunt.
+Use either Empowered Savagery.png Empowered Savagery for burst damage or Empowered Bola Strike.png Empowered Bola Strike for superior CC lockdown during or shortly after leaping.
+Then, use abilities to reach 5 Ferocity stacks again in which time you can Bola Strike.png Bola Strike to slow them for a ton, or use Savagery.png Savagery for further damage.
+Once 5 Ferocity stacks have been reached again (should be about 2-4 seconds to regain 5 stacks) use Empowered Bola Strike.png Empowered Bola Strike to Snare them again, or Empowered Savagery.png Empowered Savagery for more damage.
+After level 6 it should be OK to take 1-3 turret hits when ganking a lane to secure a kill.
+This combo is an effective lockdown tactic, which most champions would find escaping difficult (unless you miss the skillshots). This double Empowered Bola Strike.png Empowered Bola Strike snare combo is mostly inescapable unless they have two or more flash/dash abilities.
+Make sure your lane partner(s) is there to deal the damage or alternatively you deal the damage while they focus CC abilities.
+Mastery Usage
+Item Usage
+Rengar Rengar is generally played as an assassin or a bruiser, relying on mobility and disabling the enemies and dealing massive amounts of damage in a short burst. Therefore, he is meant to be built with items that help him achieve this.
+
+Ravenous Hydra item.png Ravenous Hydra is a must for Rengar Rengar, because of its very high AD, some health regen and life steal, and it also gives very nice wave clear and its active is very important for his one-shot combo.
+Youmuu&#039;s Ghostblade item.png Youmuu's Ghostblade Is an exceptionally good item for Rengar since his skills are limited only by cooldowns, and the item's stats and active effect synergize well with his kit.
+CDR is one of the stronger stats you can get on Rengar, because you are not limited by mana whatsoever and Rengar's empowered abilities are VERY powerful.
+Youmuu&#039;s Ghostblade item.png Youmuu's Ghostblade and Spirit Visage item.png Spirit Visage are great items on Rengar Rengar, each giving 10% CDR.
+The Black Cleaver item.png The Black Cleaver is also great on Rengar Rengar, giving 20% CDR, AD, health, and armor shred.
+Frozen Mallet item.png Frozen Mallet's Icy passive allows Rengar Rengar to squeeze in a lot more attacks when the enemy would otherwise escape.
+Rengar has higher than average base attack speed as well as good AS per level scaling.
+Spirit Visage item.png Spirit Visage can be a good choice since it grants you MR, health and cooldown reduction as well as empowering Empowered Battle Roar.png Empowered Battle Roar's healing and any lifesteal/spellvamp items that you may have.
+Banshee&#039;s Veil item.png Banshee's Veil is a good choice as it can block a spell while you are engaging a fight with your ultimate, allowing you to not be interrupted by abilities such as Death Sentence.png Death Sentence or any kind of AoE ability.
+Since Rengar Rengar will sometimes need initiate for your team, it might be a good idea to buy tankiness and initiation items, such as Locket of the Iron Solari item.png Locket of the Iron Solari or Sunfire Cape item.png Sunfire Cape. Ravenous Hydra item.png Ravenous Hydra is a very good choice to deal AoE damage and add burst to a target.
+A possible item is Trinity Force item.png Triforce, as it pushes his burst damage even higher, but as this is not an optimal bursting item, purchase when very much ahead of opponents. However, if building a fighter Rengar Rengar, this will be a decent purchase.
+Rengar Rengar can take almost any boots and benefit from them.
+Berserker&#039;s Greaves item.png Berserker's Greaves gives you bonus attack speed for DPS builds.
+Ionian Boots of Lucidity item.png Ionian Boots of Lucidity gives you 10% CDR for reduced cooldown on your skills, which is very effective on a skill-based resourceless champion.
+Boots of Mobility item.png Boots of Mobility gives you more mobility and allows you to travel the map and gank more often.
+Ninja Tabi item.png Ninja Tabi gives you armor and damage reduction from autoattacks.
+Mercury&#039;s Treads item.png Mercury's Treads gives you magic resistance and Tenacity to make you less vulnerable to crowd control.
+The assassin build is recommended only for assassin Rengar Rengar players. It capitalizes on Rengar Rengar's ability to catch out single targets and quickly burst them down.
+This build is full glass cannon build with only offensive items or maybe one defensive item.
+In this build most important stats are CDR, Attack Damage, and probably the most important one, Armor Penetration.
+Core items needed to oneshot someone are Ravenous Hydra item.png Ravenous Hydra or Tiamat item.png Tiamat and Youmuu&#039;s Ghostblade item.png Youmuu's Ghostblade followed by a The Black Cleaver item.png The Black Cleaver, and last two items can be recommended boots for assassin Rengar (Boots of Mobility item.png Boots of Mobility or Ionian Boots of Lucidity item.png Ionian Boots of Lucidity) and a defensive item like Banshee&#039;s Veil item.png Banshee's Veil or Randuin&#039;s Omen item.png Randuin's Omen or an Guardian Angel item.png Guardian Angel or instead of a defensive item you can buy one more offensive item, for example The Bloodthirster item.png The Bloodthirster or Trinity Force item.png Trinity Force (and in some cases Infinity Edge item.png Infinity Edge).
+With this build your basic attacks and physical damage abilities will penetrate most (if not all) armor of Marksmen without defensive items or even Mages without Zhonya&#039;s Hourglass item.png Zhonya's Hourglass, which is equivalent to dealing true damage.
+Combo with this build is meant to burst one enemy down in less time that he can react or in short to oneshot. To do this you need to have 5 Ferocity Points, then activate Thrill of the Hunt.png Thrill of the Hunt and Youmuu&#039;s Ghostblade item.png Youmuu's Ghostblade. Before you jump press Empowered Savagery.png Empowered Savagery and then while in the air press Bola Strike.png Bola Strike and Ravenous Hydra item.png Ravenous Hydra for burst combo which kills enemy in less than 1 second or even oneshot enemy carry.
+This build is very hard to counter in low ELO because this build counters armor so hardest counters of this build are Zhonya&#039;s Hourglass item.png Zhonya's Hourglass because of the active and Guardian Angel item.png Guardian Angel due to its revival passive.
+It's mostly built on toplane Rengar Rengar and before this build players usually build 3 or 4 Doran&#039;s Blade item.png Doran's Blades. Stacking Doran&#039;s Blade item.png Doran's Blades is very good in the early laning phase because it gives you health, life steal and some very needed attack damage.
+When trying to assassinate very mobile champion like LeBlanc LeBlanc or Zed Zed is recommended to use Empowered Bola Strike.png Empowered Bola Strike instead of Empowered Savagery.png Empowered Savagery unless you are sure you can kill them before they can react for example with Distortion.png Distortion or Living Shadow.png Living Shadow in this case.
+With this build you get around 500-600 attack damage or more and you still have a lot of armor penetration so you kill squishier targets easily and tanks like Malphite Malphite or Shen Shen with moderate effort.
+If you have built Frozen Mallet item.png Frozen Mallet or Randuin&#039;s Omen item.png Randuin's Omen you will be very hard to run away from because of Icy or the AOE slow (respectively) and both items give health which is always useful.
+Don't buy Blade of the Ruined King item.png Blade of the Ruined King on assassin Rengar Rengar if you are very ahead, as a round of your skills will kill your target, rendering the attack speed useless.
+With an assassin build you want to maximize your burst damage and consistency, which is why it's recommended forgoing boots for another damage / crit item late game, like Rapid Firecannon item.png Rapid Firecannon. This is done by many high-skill Rengar players such as DEKAR173, AVAIL, PHILIPVE98, RYAN CHOI, CHAOSRAIN77, PRIDESTALKER, NIGHTBLUE3.
+Countering
+Since Rengar Rengar deals mostly physical damage, buying armor is a top priority. Ninja Tabi item.png Ninja Tabi and Thornmail item.png Thornmail are very effective against him since the majority of his damage comes from autoattacks enhanced with Savagery.png Savagery.
+Avoid fighting Rengar Rengar near and especially inside brushes as his passive Unseen Predator.png Unseen Predator provides him with great mobility and utility.
+His passive has no cooldown making slows ineffective when fighting him inside brushes as he can constantly close the distance.
+Skilled players can use Unseen Predator.png Unseen Predator to juke and escape when being chased and even dodge skillshots and avoid AoEs.
+Avoid dueling Rengar Rengar as his kit makes him excel at it.
+Battle Roar.png Battle Roar and Empowered Battle Roar.png Empowered Battle Roar make him deceptively tanky. That alongside life steal and Savagery.png Savagery allow Rengar Rengar to quickly regain health and with Thrill of the Hunt.png Thrill of the Hunt and Empowered Savagery.png Empowered Savagery to overpower you even if he was at low health when you started fighting.
+When Rengar Rengar uses Thrill of the Hunt.png Thrill of the Hunt, nearby allies will get an exclamation point on top of their heads, which means he is close and could pounce you.
+Always stick together or close to a tower so he can't leap towards your allies.
+Avoid engaging Rengar Rengar when he already has 2 or more Ferocity, as when he uses all 3 of his basic abilities he will be able to cast one Empowered spell as well.
+Beware if Rengar Rengar is jungling as he has great ganking potential with Thrill of the Hunt.png Thrill of the Hunt - in addition to his high damage output and burst capabilities, Bola Strike.png Bola Strike and Phage item.png Phage or Frozen Mallet item.png Frozen Mallet prevent his target from escaping.
+If Rengar Rengar uses Thrill of the Hunt.png Thrill of the Hunt while your team has sight of him a distinctive sound can be heard. Otherwise you will receive no warning of the ability's use, unless Rengar Rengar comes within 1450 range of enemy champion.
+This also works if you are in sight of a bush that he uses Thrill of the Hunt.png Thrill of the Hunt in.
+Rengar Rengar relies heavily on perfect surprise attacks and burst to take down his target, stunning him and getting out of melee range will stop his momentum and ruin his initial attack.
+Placing a Vision Ward item.png Vision Ward near your lane can prevent Rengar Rengar from ganking you with Thrill of the Hunt.png Thrill of the Hunt. Placing one when Rengar Rengar uses Thrill of the Hunt.png Thrill of the Hunt to run can prevent his stealthy escape.
+Traps such as Noxious Trap.png Noxious Trap can punish him for entering bushes, hindering his ability to leap at you. Additionally, he is particularly susceptible to Blinds, as almost all of his damage is autoattack reliant.
+Rengar Rengar doesn't trade very well at low Ferocity, so if you can keep him at a distance and poke him constantly you will make him much more vulnerable in lane. However, be wary if he has maximum Ferocity, because in early laning a Empowered Savagery.png Empowered Savagery plus Savagery.png Savagery combo can take more than half your health.
+Rengar Rengar's damage, burst and sustain relies mostly on his Empowered abilities. Aim to engage Rengar when he is low on Ferocity stacks so that he cannot heal back any damage (Empowered Battle Roar.png Empowered Battle Roar) or counter burst you (Empowered Savagery.png Empowered Savagery) or nullify your engage abilities using his strong CC (snare) (Empowered Bola Strike.png Empowered Bola Strike).
+Rengar Rengar cannot function well in large-scale teamfights, as he is an assassin focused on picking off lone targets. Grouping late game and focusing him can make his ability to fight significantly lower.
+However it can only happen if Rengar Rengar builds glass cannon. Some Rengar players especially Jungle Rengar players would probably require to build tank items on him in order to compensate Battle Roar.png Battle Roar and Empowered Battle Roar.png Empowered Battle Roar. It is very important to keep him underfarmed in order to hinder a Fighter Builld Rengar in teamfights.

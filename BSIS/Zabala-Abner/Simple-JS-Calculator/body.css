@@ -1,0 +1,153 @@
+
+.Body{position: absolute;
+	top: 300px;
+	left: 500px;
+	background-color: antiquewhite;
+	border-radius: 50px;
+}
+
+.1{ position: absolute;
+	left: 500px;
+	background-color: antiquewhite;
+	border-radius: 50px;}
+
+.buttons3{
+	position: absolute;
+	left: 0px;
+	bottom:0px;
+	border: 5px solid grey;
+	width: 220px;
+	height: 157px;
+	position: relative;
+	font-family: Arial;
+	font-size: 70pt;
+	margin: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;	
+
+}
+.Result_Screen {
+	border: 3px solid black;
+	box-shadow: 10px 2px 2px black;
+	position: relative;
+	font-family: Arial;
+	font-size: 100pt;
+	color: yellow;
+	text-align: right;
+	padding: 10px;
+	background-color: #3E4651;
+	border-radius: 10px;
+	margin: 50pt;
+	
+}
+.Buttons:hover {background-color: white}
+.Button1:hover {background-color: white}
+.RESET:hover {background-color: white}
+.Buttons{
+	transition-duration: 0.4s;
+	background-color: gold;
+	position: absolute;
+	left: 100px;
+	bottom:0px;
+	border: 5px solid grey;
+	width: 210px;
+	height: 157px;
+	position: relative;
+	font-family: Arial;
+	font-size: 70pt;
+	margin: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+	box-shadow: 0 9px #999;	
+}
+
+.Button1{
+	transition-duration: 0.4s;
+	background-color:maroon;
+	position: absolute;
+	left: 100px;
+	bottom:0px;
+	border: 5px solid red;
+	width: 210px;
+	height: 157px;
+	position: relative;
+	color:yellow;
+	font-family: Arial;
+	font-size: 70pt;
+	margin: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+	box-shadow: 0 9px #999;
+}
+.RESET{
+	transition-duration: 0.4s;
+	border: 2px solid maroon;
+	width: 300px;
+	height: 150px;
+	float: left;
+	position: relative;
+	background-color: firebrick;
+	font-size: 60pt;
+	color: Gold;
+	font-family: Built Titling;
+	margin: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+	box-shadow: 0 9px #999;
+}
+
+.A{	margin-left: 50pt;
+	float: center;
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 0;}
+
+.B{	margin-left: 100pt;
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 0;}
+
+.SYMBOL{
+	border: 2px solid grey;
+	width: 300px;
+	height: 150px;
+	float: left;
+	position: relative;
+	background-color: #777;
+	font-size: 60pt;
+	color: Gold;
+	font-family: built Titling;
+	margin: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 10px;
+}
+
+.SPECIAL{
+	position: absolute;
+	right: 100px;
+	bottom: 100px;
+}
+
+.brand{
+	position: absolute;
+	top: -50px;
+	width: 100pt;
+	height: 100pt;
+}

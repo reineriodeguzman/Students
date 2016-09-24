@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculaotr</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+<body>
+
+<div id="bodycalculator">
+<div id="result"></div>
+
+	<button id="cancel" class="mrg-side">ce</button>
+	<button id="rem" class="percent button operator">%</button>
+	<button id="mul" class="multiply button operator">x</button>
+	<button id="div" class="division button operator">/</button>
+
+	<button id="s" class="seven button mrg-side">7</button>
+	<button id="e" class="eight button">8</button>
+	<button id="n" class="nine button">9</button>
+	<button id="plu" class="addition button operator">+</button>
+	<button id="min" class="subtraction button operator">-</button>
+
+	<button id="f" class="four button mrg-side">4</button>
+	<button id="fiv" class="five button">5</button>
+	<button id="six" class="six button">6</button>
+	<button id="equals">=</button>
+
+	<button id="o" class="one button mrg-side">1</button>
+	<button id="t" class="two button">2</button>
+	<button id="thr" class="three button">3</button>
+	<button id="zero">0</button>
+</div>
+</div>
+
+</body>
+</html>
+
+<script>
+
+	(function (){
+
+		    
+
+   			cancel.onclick = function(){
+   				result.innerHTML = "";
+   			}
+   			rem.onclick = function(){
+   				result.innerHTML +="%";
+   			}
+   			mul.onclick = function(){
+   				result.innerHTML +="*";
+   			}
+   			div.onclick = function(){
+   				result.innerHTML +="/";
+   			}
+   			s.onclick = function(){
+   				result.innerHTML +="7";
+   			}
+   			e.onclick = function(){
+   				result.innerHTML +="8";
+   			}
+   			n.onclick = function(){
+   				result.innerHTML +="9";
+   			}
+   			plu.onclick = function(){
+   				result.innerHTML +="+";
+   			}
+   			min.onclick = function(){
+   				result.innerHTML +="-";
+   			}
+   			f.onclick = function(){
+   				result.innerHTML +="4";
+   			}
+   			fiv.onclick = function(){
+   				result.innerHTML +="5";
+   			}
+   			six.onclick = function(){
+   				result.innerHTML +="6";
+   			}
+   			
+   			equals.onclick = function(){
+   				equal = eval(result.innerHTML);
+   				result.innerHTML = equal;
+   			}
+   			o.onclick = function(){
+   				result.innerHTML +="1";
+   			}
+   			t.onclick = function(){
+   				result.innerHTML +="2";
+   			}
+   			thr.onclick = function(){
+   				result.innerHTML +="3";
+   			}
+   			zero.onclick = function(){
+   				result.innerHTML +="0";
+   			}
+
+
+}
+());
+
+</script>

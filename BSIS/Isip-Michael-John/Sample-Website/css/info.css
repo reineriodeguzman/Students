@@ -1,0 +1,42 @@
+.field {
+	margin: 30px 80px;
+	width: 300px;
+	overflow: auto;
+	position: absolute;
+}
+
+.field p {
+	margin: 1px;
+	padding: 0;
+	height: 25px;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 500;
+}
+
+.content {
+	margin: 38px 0 0 300px;
+	width: 500px;
+	overflow: auto;
+}
+
+.content p {
+	margin: 1px;
+	padding: 0;
+	height: 25px;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 400;
+}
+
+.add-info {
+	margin: auto;
+	padding: 30px;
+	width: 90%;
+	line-height: 25px;
+	text-indent: 50px;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 400;
+	overflow: auto;
+}

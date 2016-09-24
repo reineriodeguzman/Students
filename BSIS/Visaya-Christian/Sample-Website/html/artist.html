@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" style="zoom: reset;">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Ringtunes | Artist</title>
+
+	<script src="../js/script.js" type="text/javascript"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logogray.ico" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<!-- Kaya ko to inuna kaysa sa sidebar kasi pa iniscroll pati gilid, nawawala ung side ba -->
+
+<body>
+
+<script type="text/javascript">
+			var ypos,image;
+			function parallex () {
+				title = document.getElementById('artisttitle');
+				ypos = window.pageYOffset;
+				image = document.getElementById('image');
+				image.style.top = ypos * .5 + 'px';
+				title.style.left = ypos * -.5 + 'px';
+			}
+			window.addEventListener('scroll',parallex);
+			
+</script>
+
+<div id="content" align="center"><!-- Content -->
+
+	<div id="artistcontainer">
+
+		<img id="image" src="../img/artistcover2.jpg" width="1066px">
+
+		<div id="artistcontent">
+			
+			<h1 id="artisttitle">Artist</h1>
+
+			<div id="artistcontent1">
+				<img id="artistimg1" src="../img/adeleartist.jpg" width="600px" height="400px">
+				<h1 id="artistname1">Adele</h1>
+				<p id="artistinfo1">Adele Laurie Blue Adkins[4] MBE (/əˈdɛl/; born 5 May 1988) is an English singer and songwriter. Graduating from the BRIT School for Performing Arts and Technology in 2006, Adele was given a recording contract by XL Recordings after a friend posted her demo on Myspace the same year. In 2007, she received the Brit Awards "Critics' Choice" award and won the BBC Sound of 2008 poll. Her debut album, 19, was released in 2008 to commercial and critical success. It is certified seven times platinum in the UK, and double platinum in the US. An appearance she made on Saturday Night Live in late 2008 boosted her career in the US. At the 51st Annual Grammy Awards in 2009, Adele received the awards for Best New Artist and Best Female Pop Vocal Performance.</p>
+			</div>
+
+			<div id="artistcontent2">
+
+				<img id="artistimg2" src="../img/maroon5artist.jpg" width="600px" height="400px">
+				<h1 id="artistname2">Maroon 5</h1>
+				<p id="artistinfo2">Maroon 5 is an American pop rock band that originated in Los Angeles, California.[6][7] Before the current group was established, the original four members, Adam Levine (lead vocals, lead guitar), Jesse Carmichael (rhythm guitar, backing vocals) Mickey Madden (bass guitar) and Ryan Dusick (drums), formed a band known as Kara's Flowers in 1994, while they were still in high school. The band, which self-released an album called We Like Digging?, then signed to Reprise Records and released the album The Fourth World in 1997. After the album garnered a tepid response, the band parted ways with the record label and the members attended college.</p>
+			</div>
+
+			<div id="artistcontent3">
+
+				<img id="artistimg3" src="../img/Pentatonixartist.jpg" width="600px" height="400px">
+				<h1 id="artistname3">Pentatonix</h1>
+				<p id="artistinfo3">Pentatonix (often abbreviated as PTX) are a two-time Grammy winning American a cappella group from Arlington, Texas consisting of five vocalists: Avi Kaplan, Scott Hoying, Kirstin Maldonado, Kevin Olusola, and Mitch Grassi.[2] Their work, which is mostly in the pop style, consists of covers of existing songs, sometimes in the form of medleys, along with their original material. Their music is defined by their own arrangement style, tight vocal harmonies, extensive vocal riffing, deep and steady vocal basslines, and a diverse range of vocal percussion and beatboxing.</p>
+			</div>
+
+		</div>
+
+		<div id="secondartistcontent">
+
+			<div id="artistcontent4">
+				<img id="artistimg4" src="../img/charlieartist.jpg" width="600px" height="400px">
+				<h1 id="artistname4">Charlie Puth</h1>
+				<p id="artistinfo4">Charles Otto "Charlie" Puth, Jr. (/puːθ/; born December 2, 1991) is an American singer, songwriter, arranger, and record producer. Puth gained popularity virally by posting his work to YouTube. Puth released two extended plays, The Otto Tunes (2010) and Ego (2013), as an independent artist. In 2015, he signed with Atlantic Records and released his debut single "Marvin Gaye", which features guest vocals from Meghan Trainor.</p>
+			</div>
+
+			<div id="artistcontent5">
+
+				<img id="artistimg5" src="../img/selenaartist.jpg" width="600px" height="400px">
+				<h1 id="artistname5">Selena Gomez</h1>
+				<p id="artistinfo5">Selena Marie Gomez (/səˈliːnə məˈriː ˈɡoʊmɛz/ sə-lee-nə mə-ree goh-mez;[3] Spanish pronunciation: [seˈlena ˈɣomes];[4] born July 22, 1992) is an American actress and singer. Having appeared as a child in the children's television series Barney & Friends, Gomez rose to fame as the leading role in the Disney channel series Wizards of Waverly Place (2007–12). Due to the success of the series, Gomez worked on various films, television shows, and musical collaborations for the network in the following years. She signed a recording contract with Hollywood Records in 2008, and subsequently formed her band Selena Gomez & the Scene the following year. The band released three studio albums by 2011, each of which sold over one million copies worldwide.</p>
+			</div>
+
+			<div id="artistcontent6">
+
+				<img id="artistimg6" src="../img/johnartist.jpg" width="600px" height="400px">
+				<h1 id="artistname6">John Legend</h1>
+				<p id="artistinfo6">John Legend (born John Roger Stephens; December 28, 1978), is an American singer, songwriter, musician and actor. He has won ten Grammy Awards, one Golden Globe, and one Academy Award. In 2007, Legend received the Hal David Starlight Award from the Songwriters Hall of Fame.[1]</p>
+			</div>
+
+		</div>
+		
+	</div>
+	
+</div><!-- End nato ng content -->
+
+<div id="sidebar"><!-- Umpisa ng Main sidebar -->
+
+	<span>
+		<h1 class="h1"><img id="logo" src="../img/logowhite.png" width="50px" height="50px" />Khuletunes<li id="toggle" class="fa fa-tasks">&nbsp;</li></h1>
+	</span>
+
+	<div><!-- EUmpisa ng side bar 2 -->
+
+		<h1>	
+			<span>
+				<a href="home.html" id="btn" title="Collection"><li class="fa fa-music fa-fw">&nbsp;</li>Collection</a>
+			</spam>
+
+			<span>
+				<a href="song.html" id="btn" title="Songs"><li class="fa fa-headphones fa-fw">&nbsp;</li>Songs</a>
+			</span>
+
+			<span>
+				<a href="new.html" id="btn" title="New"><li class="fa fa-tint fa-fw">&nbsp;</li>New</a>
+			</span>
+
+			<span>
+				<a href="album.html" id="btn" title="Album"><li class="fa fa-simplybuilt fa-fw">&nbsp;</li>Album</a>
+			</span>
+
+			<span>
+				<a href="import.html" id="btn" title="Import"><li class="fa fa-usb fa-fw">&nbsp;</li>Import</a>
+			</span>
+
+			<span>
+				<a href="artist.html" class="activebtn" title="Artist"><li class="fa fa-ticket fa-fw">&nbsp;</li>Artist</a>
+			</span>
+
+			<span>
+				<a href="nowplaying.html" id="btn" title="Now playing"><li class="fa fa-bar-chart fa-fw">&nbsp;</li>Now playing</a>
+			</span>
+
+
+		</h1>
+
+	</div><!-- End nato ng side bar 1 -->
+
+	<hr id="hr1">
+
+	<div><!-- Umpisa ng side bar 2 -->
+
+		<h2>	
+			<span>
+				<a href="spotify.html" id="btn" title="Connect to Spotify"><li class="fa fa-spotify fa-fw">&nbsp;</li>Connect to Spotify</a>
+			</spam>
+			
+			<span>
+				<a href="aboutus.html" id="btn" title="About Us"><li class="fa fa-code fa-fw">&nbsp;</li>About Us</a>
+			</span>
+
+		</h2>
+
+	</div><!-- End nato ng side bar 2 -->
+
+</div><!-- End nato ng Main sidebar -->
+
+<div id="controlbar"><!-- Umpisa ng Control bar sa baba -->
+	
+	<div id="albumholder">
+		<img id="holder" src="../img/Taylor_Swift_1.jpg" width="75px" height="75px">
+	</div>
+
+	<div id="controlsongname">
+		<h3>Wildest Dream</h3>
+	</div>
+
+	<div id="controlartist">
+		<p>Taylor Swift</p>
+	</div>
+
+	<div id="controlprevious">
+		<li class="fa fa-step-backward"></li>
+	</div>
+
+	<div id="controlplay">
+		<img id="playpause" src="../img/play.png" width="50px" height="50px" onclick="togglePlayPause()">
+	</div>
+
+	<div id="controlnext">
+		<li class="fa fa-step-forward"></li>
+	</div>
+
+	<div id="theprogressbar">
+		<div id="progressbar">
+			<div id="progress"></div>
+		</div>
+	</div>
+
+</div><!-- End nato ng control bar sa baba -->
+
+</body>
+</html>

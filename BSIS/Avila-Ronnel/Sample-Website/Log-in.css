@@ -1,0 +1,134 @@
+
+.a{
+		font-family: Franklin Gothic Heavy;
+	font-size: 120px;
+	text-align: center;
+	margin-top: -15px;
+	font-style: bold;
+	color: red;
+
+}
+.contain{
+	font-size: 70px;
+	background-color: yellow;
+	height: 100px;
+	width: 1000px;
+	color: black;
+	
+	margin-top: -150px;
+}
+.account{
+
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	background-color: black; 
+	font-size: 40px;
+}
+div.container{
+	margin-left: 350px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	margin-top: 50px;
+}
+.log{
+	
+margin-top: 60px;
+position: absolute;
+margin-left: 10px;
+}
+
+input[type="text"]{
+	margin-top: 100px;
+	position: absolute;
+}
+.home{
+	height:40px;
+	width: 200px;
+	color: black;
+	background-color: lightblue;
+	margin-top: 100px;
+	font-size: 20px;
+}
+.button{
+	color:white; 
+	background-color: blue; 
+	width:200px;
+	height: 50px;
+	font-size: 30px;
+	margin-top: -40px;
+}
+.email{
+	font-size: 20px;
+
+}
+.pass{
+
+font-size: 20px;	
+}
+div.head{
+	background-color: red;
+	width: 100%;
+	height: 50px;
+	
+	margin-top: 25px;
+}
+.official{
+	color: white;
+	font-size: verdana;
+	font-size: 20px;
+	margin-left: 90px;
+	font-style: bold;
+	position: absolute;
+
+
+}
+.po{
+	margin-left: 600px;
+	position: absolute;
+	margin-top:23px;
+	background-color: yellow;
+}
+.po1{
+position: absolute;
+	margin-top:23px;
+	margin-left: 675px;
+	background-color: yellow;
+}
+.po2{
+position: absolute;
+	margin-top:23px;
+	margin-left: 750px;
+	background-color: yellow;
+}
+.po3{
+	position: absolute;
+	margin-top:23px;
+	margin-left: 825px;
+	background-color: yellow;
+}
+.po4{
+	position: absolute;
+	margin-top:23px;
+	margin-left: 900px;
+	background-color: yellow;
+}
+.headImg{
+	position: absolute;
+	width: 70px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.account{
+	font-size: 70px;
+	text-align: center;
+	color: white;
+
+}
+input[type="email"],
+input[type="password"]{
+	margin-top: 20px;
+}

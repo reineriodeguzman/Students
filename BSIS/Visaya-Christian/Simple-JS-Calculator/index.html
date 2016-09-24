@@ -1,0 +1,133 @@
+          <html>
+          <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <link rel="stylesheet" href="Style.css" media="screen" title="no title" charset="utf-8">
+                    <script type="text/javascript" src="Script.js"></script>
+                    <title>My Calculator</title>
+          </head>
+          <body>
+
+                    <div id="BackFocus" onclick="ReturnView()">
+
+                    </div>
+
+                    <nav id="NavBar">
+
+                    </nav>
+
+                    <center>
+                              <div class="MainWrapper">
+
+                                        <span class="Toggle" onclick="Toggle()">
+
+                                        </span>
+
+                                        <div  id="MainScreen">
+                                                  <span id="ScreenValue">0</span>
+                                        </div>
+
+                                        <div class="NumberButton">
+                                                  <div class="NumbersFirst">
+                                                                      <span class="Numbers" onmousedown="Send('7')">7</span>
+                                                                      <span class="Numbers" onmousedown="Send('8')">8</span>
+                                                                      <span class="Numbers" onmousedown="Send('9')">9</span>
+                                                  </div>
+                                                  <div class="NumbersSecond">
+                                                            <span class="Numbers" onmousedown="Send('4')">4</span>
+                                                            <span class="Numbers" onmousedown="Send('5')">5</span>
+                                                            <span class="Numbers" onmousedown="Send('6')">6</span>
+                                                  </div>
+                                                  <div class="NumbersThird">
+                                                            <span class="Numbers" onmousedown="Send('1')">1</span>
+                                                            <span class="Numbers" onmousedown="Send('2')">2</span>
+                                                            <span class="Numbers" onmousedown="Send('3')">3</span>
+                                                  </div>
+                                                  <div class="NumbersFourth">
+                                                            <span class="Numbers">.</span>
+                                                            <span class="Numbers" onmousedown="Send('0')">0</span>
+                                                            <span class="Numbers" onmousedown="Equals()">=</span>
+                                                  </div>
+                                        </div>
+
+                                        <div class="OperatorButton">
+                                                  <div id="DEL" onmousedown="Del()">
+                                                            DEL
+                                                  </div>
+                                                  <div id="Plus" onmousedown="Operator('+')">
+                                                            +
+                                                  </div>
+                                                  <div id="Minus">
+                                                            -
+                                                  </div>
+                                                  <div id="Divide">
+                                                            /
+                                                  </div>
+                                                  <div id="Times">
+                                                            x
+                                                  </div>
+                                        </div>
+
+                                        <div class="AdvanceOperatorButton">
+                                                  <div id="AdvanceFirst">
+                                                            <span>2nd</span>
+                                                            <span>(</span>
+                                                            <span>)</span>
+                                                            <span>%</span>
+                                                  </div>
+                                                  <div id="AdvanceSecond">
+                                                            <span>1/x</span>
+                                                            <span>x2</span>
+                                                            <span>x3</span>
+                                                            <span>yn</span>
+                                                  </div>
+                                                  <div id="AdvanceThird">
+                                                            <span>x!</span>
+                                                            <span>Sqrt</span>
+                                                            <span>nSq</span>
+                                                            <span>log</span>
+                                                  </div>
+                                                  <div id="AdvanceFourth">
+                                                            <span>sin</span>
+                                                            <span>cos</span>
+                                                            <span>tan</span>
+                                                            <span>ln</span>
+                                                  </div>
+                                                  <div id="AdvanceFifth">
+                                                            <span>sinh</span>
+                                                            <span>cosh</span>
+                                                            <span>tanh</span>
+                                                            <span>en</span>
+                                                  </div>
+                                                  <div id="AdvanceSixth">
+                                                            <span>EXP</span>
+                                                            <span>PI</span>
+                                                            <span>EE</span>
+                                                            <span>Rand</span>
+                                                  </div>
+                                        </div>
+
+                                        <div class="FunctionButton">
+                                                  <div id="Deg">
+                                                            Deg
+                                                  </div>
+                                                  <div id="Rad">
+                                                            Rad
+                                                  </div>
+                                                  <div id="func">
+                                                            func
+                                                  </div>
+                                                  <div id="Table">
+                                                            Table
+                                                  </div>
+                                                  <div id="Graph">
+                                                            Graph
+                                                  </div>
+                                        </div>
+
+                              </div>
+                    </center>
+
+          </body>
+          </html>

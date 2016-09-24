@@ -1,0 +1,71 @@
+.rolling-background {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 1%;
+  height: 4em;
+  vertical-align: middle;
+  line-height: 3em;
+  background-image: url("bg/mainbgnext.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  color : #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.rolling-background-2 {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 1.7%;
+  height: 4em;
+  vertical-align: middle;
+  line-height: 3em;
+  background-image: url("bg/mainbgnext.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  color : #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.store-footer {
+  font-family: 'Lato', sans-serif;
+  background-color: #000;
+  color: #fffff0;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 4em;
+  margin-top: -0.3%;
+  padding-bottom: 0.1%;
+  margin-top: 3%;
+}
+
+.roll .fa {
+  background: #fe1e1e;
+  border-radius: 50%;
+  color: #FFF;
+  font-size: 28px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.roll .fa:hover {
+  background: #ffffff;
+  color: #fe1e1e;
+  border-top: solid;
+  border-bottom: solid; 
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+@media (min-width: 30em) {
+  .rolling-background, 
+  .rolling-background-2, .store-footer { display: table-cell; }
+}

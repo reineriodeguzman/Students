@@ -1,0 +1,77 @@
+body{
+	background: url(IPhone6.png);
+	background-repeat: no-repeat;
+} 	
+.button{
+	background: #FFA500;
+	height: 72px;
+	width: 75px;
+	border: 0.1px solid black;
+	text-align: center;
+	font-family: Calibri Light;
+	font-size: 40px;
+	color: black;
+	margin: -2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.button1{
+
+	background: white;
+	height: 72px;
+	width: 75px;
+	border: 0.1px solid black;
+	text-align: center;
+	font-family: Calibri Light;
+	font-size: 40px;
+	color: black;
+	margin: -2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+.buttons{
+	text-align: center;
+}
+.button2{
+
+	background: white;
+	height: 72px;
+	width: 150px;
+	border: 0.1px solid black;
+	font-family: Calibri Light;
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	margin: -2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+#asdf{
+	margin-top: 6%;
+	background: grey;
+	padding: 0px;
+	width: 300px;
+	height: 508px;
+	margin-left: 13px;
+	overflow: hidden;
+
+}
+button:hover{
+	background: grey;
+}
+#wew{
+	width: 300px;
+	background: black;
+	height: 148px;
+	margin-top: 0px;
+	color: white;
+	font-size: 48pt;
+	text-align: right;
+	overflow: hidden;
+	
+}
+#asdf{
+	color: white;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calcu.css">
+</head>
+<body>
+	<center><div class="calculator">
+		<form>
+			<center><div>
+				<input id="result" type="text" disabled>
+			</div></center>
+			<div>
+				<input type="button" value="C" class="buttonsc" onclick="addtoscreen('C')">
+			</div>
+			<div>
+				<input type="button" value="/" class="buttonso" onclick="addtoscreen('/')">
+			</div>
+			<div>
+				<input type="button" value="*" class="buttonso" onclick="addtoscreen('*')">
+			</div>
+			<div>
+				<input type="button" value="<=" class="buttonso" onclick="backspace()">
+			</div>
+			<div>
+				<input type="button" value="7" class="buttons" onclick="addtoscreen('7')">
+			</div>
+			<div>
+				<input type="button" value="8" class="buttons" onclick="addtoscreen('8')">
+			</div>
+			<div>
+				<input type="button" value="9" class="buttons" onclick="addtoscreen('9')">
+			</div>
+			<div>
+				<input type="button" value="-" class="buttonso" onclick="addtoscreen('-')">
+			</div>
+			<div>
+				<input type="button" value="4" class="buttons" onclick="addtoscreen('4')">
+			</div>
+			<div>
+				<input type="button" value="5" class="buttons" onclick="addtoscreen('5')">
+			</div>
+			<div>
+				<input type="button" value="6" class="buttons" onclick="addtoscreen('6')">
+			</div>
+			<div>
+				<input type="button" value="+" class="buttonso" onclick="addtoscreen('+')">
+			</div>
+			<div>
+				<input type="button" value="1" class="buttons" onclick="addtoscreen('1')">
+			</div>
+			<div>
+				<input type="button" value="2" class="buttons" onclick="addtoscreen('2')">
+			</div>
+			<div>
+				<input type="button" value="3" class="buttons" onclick="addtoscreen('3')">
+			</div>
+			<div>
+				<input type="button" value="%" class="buttonso" onclick="addtoscreen('%')">
+			</div>
+			<div>
+				<input type="button" value="0" class="buttons" onclick="addtoscreen('0')">
+			</div>
+			<div>
+				<input type="button" value="." class="buttons" onclick="addtoscreen('.')">
+			</div>
+			<div>
+				<input type="button" value="+/-" class="buttons" onclick="addtoscreen('+/-')">
+			</div>
+			<div>
+				<input type="button" value="=" class="buttonse" onclick="answer()">
+			</div>
+		</form>	
+	</div></center>
+
+
+	<script src="Script.js"></script>
+</body>
+</html>

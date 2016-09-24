@@ -1,0 +1,57 @@
+.field {
+	margin: 30px 70px;
+	width: 300px;
+	overflow: auto;
+	position: absolute;
+}
+
+.field p:first-child {
+	margin-top: 5px;
+}
+
+.field p {
+	margin: 13.5px;
+	padding: 0;
+	height: 25px;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 500;
+}
+
+.content {
+	margin: 38px 0 0 400px;
+	width: 500px;
+	overflow: auto;
+}
+
+.content p {
+	margin: 5px;
+	padding: 0;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 400;
+}
+
+table {
+	margin: 0px;
+	padding: 20px 80px;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 400;
+}
+
+table tr td {
+	padding: 5px;
+	width: 300px;
+}
+
+#add {
+	margin: auto;
+	margin: 50px;
+	width: 90%;
+	line-height: 25px;
+	text-indent: 50px;
+	letter-spacing: 1px;
+	font-family: Segoe UI;
+	font-weight: 400;
+	overflow: auto;

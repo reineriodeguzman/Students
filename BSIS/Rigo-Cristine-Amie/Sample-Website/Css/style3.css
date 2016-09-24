@@ -1,0 +1,53 @@
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #cd5c5c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.fill {
+	padding-bottom: 50px;
+    border-radius: 5px;
+    padding: 40px;
+    width: 400px;
+    top: 30px;
+    left: 850px;
+    position: absolute;
+    background: #66cdaa;    
+}
+
+.mainFooter {
+    width: 98%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer {
+    margin-left: 2%;
+    text-align: center;
+    letter-spacing: 3px;
+}

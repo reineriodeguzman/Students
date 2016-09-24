@@ -1,0 +1,171 @@
+body{
+	font-family: tahoma;
+	background: #191919;
+	font-size: 150%;	
+}
+#back{
+	position: fixed;
+	width: 105%;
+	height:105%;
+	margin: -10px 0 0 -10px;
+}
+.calculator{
+	padding: 15px 15px 290px 15px;
+	position: fixed;
+	margin-left: 21%;
+	margin-top: 7%;
+}
+
+.screen{
+	border-top: 4px solid #D88842;
+	position: fixed;
+	padding: 15px 30px 15px 15px;
+	margin-left: 2px;
+	text-align: right;
+	background: #262626;
+	color: white;
+	font-size: 300%;
+	overflow: hidden;
+	width: 694px;
+	height: 94px;
+}
+.screen p{
+	position: fixed;
+	float: right;
+	position: fixed;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 646px;
+}
+.numpad{
+	margin-top: 130px;
+	position: fixed;
+}
+.buttons{
+	float: left;
+	padding: 20px 35px 20px 39.25px;
+	background: #393939;
+	color: #ffffff;
+	border: 2px solid #191919;
+
+}
+.buttons:hover{
+	background: #424242;
+}
+.buttons:active{
+	background: white;
+}
+
+#name{
+	margin: 4.54% 0 0 22.3%;
+	color: white;
+	position: absolute;
+}
+
+#arithmetic{
+	color: white;
+	position: absolute;
+	margin-top: 83px;
+	margin-left: 25px;
+}
+#firstnum{
+	color: white;
+	margin-left: 310px;
+	position: absolute;
+	text-align: right;
+	width: 400px;
+	padding-top: 13px;
+	overflow: hidden;
+}
+#display{
+	overflow: hidden;
+}
+
+#button4{
+	padding: 20px 35.5px 20px 35.5px;
+	background: #d88842;
+}
+#button4:hover{
+	background: red;
+}
+#button4:active{
+	background: white;
+}
+#button5{
+	padding: 20px 47.5px 20px 47.5px;
+}
+#button9{
+	padding: 20px 47.5px 20px 47.5px;
+}
+#button10{
+	padding: 20px 46px 20px 46px;
+}
+#button14{
+	padding: 20px 47.5px 20px 47.5px;
+}
+#button15{
+	padding: 20px 50.5px 20px 50.5px;
+}
+#button16{
+	padding: 20px 37px 20px 37px;
+}
+#button17{
+	padding: 20px 40px 20px 40px;
+}
+#button18{
+	padding: 20px 104.5px 20px 104.5px;
+}
+#button19{
+	padding: 20px 26px 20px 26px;
+}
+
+
+
+#button27{
+	padding: 20px 20px 20px 20px;
+}
+#button20{
+	padding: 20px 24px 20px 24px;
+}
+#button21{
+	padding: 20px 21px 20px 21px;
+}
+
+
+#button22{
+	padding: 20px 23px 20px 23px;
+}
+#button23{
+	padding: 20px 20.5px 20px 20.5px;
+}
+#button24{
+	padding: 20px 21px 20px 21px;
+}
+
+
+#button26{
+	padding: 17.5px 46.4px 17.5px 46.4px;
+}
+#button28{
+	padding: 20px 109.5px 20px 109.5px;
+}
+
+
+#button25{
+	padding: 20px 49px 20px 49px;
+}
+#button29{
+	padding: 17.5px 43.5px 17.5px 43.5px;
+}
+.scientific{
+	float: left;
+	border: 2px solid #191919;
+	background: #d88842;
+	color: black;
+}
+.scientific:hover{
+	background: #dc5a35;
+}
+.scientific:active{
+	background: white;
+}

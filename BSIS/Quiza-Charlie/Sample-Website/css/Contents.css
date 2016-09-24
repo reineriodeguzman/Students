@@ -1,0 +1,104 @@
+body{
+	font-size:10pt;
+	line-height:20pt;
+	margin:0px 0px 0px 0px;
+	color:#000000;
+	background-color:rgb(255,255,255);
+	padding:0px 0px 0px 0px;
+	
+}
+.c_body{
+	position: absolute;
+	
+}
+
+.logo{
+	margin: 0px 0px 8px -10px;
+	padding: 20px 30px 40px 40px;
+	background-color: #000000 ;
+	
+}
+
+.contents_main{
+	padding:0px 4px 12px 8px;
+
+}
+
+.c_contents_grp_row{
+	padding-top:8pt;
+	margin-top: 20px;
+}
+
+a.c_contents_grp{
+	
+	font-weight:bold;
+ 	color:rgb(255,255,255);
+	text-decoration: none;
+	font-size:14pt;
+	font-family: Consolas;
+
+
+}
+a.c_contents{
+	color:rgb(60,140,160);
+	text-decoration:none;
+	font-size:10pt;
+	font-family: Verdana;
+	font-size: 10pt;
+	
+}
+
+
+a.c_contents:hover{
+	background-color:rgb(121,107,174);
+	color: #ffffff;
+}
+
+a.c_contents_grp:hover{
+	
+	color: violet;
+	border-radius: 5pt;
+}
+.box{
+	
+	background-color: black;
+	text-align: justify;
+	width: 99%;
+	margin-left: -5px;
+	border-radius: 2px 2px 0 0;
+	box-shadow: 1px 1px 20px black;
+	border-style: ridge;
+
+
+}
+.box:hover{
+	
+	color: rgb(121,107,174);
+}
+
+ul li{
+	list-style: square;
+
+}
+
+ul li a{
+	text-decoration: none;
+	text-align: left;
+	font-size: 11pt;
+}
+ul li a:hover{
+	color: violet;
+}
+hr {
+	margin-left: -17px;
+	width: 125px;
+}
+.box_2{
+	background-color: white;
+	border-radius: 0pt 0pt 7pt 7pt;
+	border-style: solid;
+	width: 160px;
+
+}
+
+

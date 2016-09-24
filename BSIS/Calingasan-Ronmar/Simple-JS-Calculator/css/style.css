@@ -1,0 +1,128 @@
+#calc{
+	height: 340px;
+	width: 240px;
+	background-color: black ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	opacity: 0.6;
+	
+}
+
+#result{
+	background-color: black;
+	height: 50px;
+	width: 240px;
+	margin-right: 15px;
+	color: #41fe02;
+	font-size: 100%;
+	text-align: right;
+	font-size: 40px;
+	font-family: "Segoe UI Light";
+	overflow: hidden;
+    
+
+}
+
+#subresult {
+    height: 30px;
+    opacity :0.6;
+    color: aqua;
+    line-height:2;
+    text-align: right;
+    font-family: "Segoe UI Light";
+}
+
+#buttons{
+    height: inherit;
+    margin-top: 20px;
+    -webkit-user-select: none;
+    user-select:none;
+    
+}
+
+#buttons .key{
+    
+	height: 30px;
+	width: 50px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: "Segoe UI Light";
+	font-size: 20px;
+ 	float:left;
+ 	cursor: pointer;
+    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+
+}
+
+
+.equals{
+    
+	height: 30px;
+	width: 50px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: "Segoe UI Light";
+	font-size: 20px;
+ 	float:left;
+ 	cursor: pointer;
+    -webkit-transition-duration: 2s;
+ 	transition-duration: 2s;
+    
+}
+
+.equals:hover{
+    transition-duration: 0.4s;
+	background-color: green;
+	-webkit-animation: eq 2s infinite;
+	animation: eq 2s infinite;
+    color: black;
+}
+
+.key:hover{
+	background-color: #015b01;
+	-webkit-animation: mymove 2s infinite;
+	animation: mymove 2s infinite;
+
+}
+
+
+@keyframes mymove {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+@keyframes eq {
+    from {background-color: blue;}
+    to {background-color: orange;}
+
+}
+
+@-webkit-keyframes eq {
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+
+hr{
+color: aliceblue;
+width: 100%;
+margin-top: 55px;
+size: 0.5px;
+
+
+}
+@keyframes hrs {
+    from {color: blue;}
+    to {color: red;}
+
+}
+

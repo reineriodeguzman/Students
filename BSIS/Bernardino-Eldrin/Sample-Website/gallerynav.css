@@ -1,0 +1,3068 @@
+.gallerynav{
+	background: #FE683a;
+}
+
+.wallpaper{
+  position: fixed;
+  margin-left: -2px;
+}
+
+.monet{
+  color: #ffffff;
+  padding: 0.2%;-->
+  /*border: 2px solid #ffffff;*/
+  width: 20%;
+  text-align: center;
+}
+.monet:hover{
+  opacity: .7;
+  /*border: 2px solid #000000;*/
+}
+.davinci{
+  color: #ffffff;
+  padding: 0.2%;-->
+  /*border: 2px solid #ffffff;*/
+  width: 28%;
+  text-align: center;
+}
+.davinci:hover{
+  opacity: .7;
+  /*border: 2px solid #000000;*/
+}
+.picasso{
+  color: #ffffff;
+  padding: 0.2%;-->
+  /*border: 2px solid #ffffff;*/
+  width: 20%;
+  text-align: center;
+}
+.picasso:hover{
+  opacity: .7;
+  /*border: 2px solid #000000;*/
+}
+.warhol{
+  color: #ffffff;
+  padding: 0.2%;-->
+  /*border: 2px solid #ffffff;*/
+  width: 20%;
+  text-align: center;
+}
+.warhol:hover{
+  opacity: .7;
+  /*border: 2px solid #000000;*/
+}
+.vangogh{
+  color: #ffffff;
+  padding: 0.2%;-->
+  /*border: 2px solid #ffffff;*/
+  width: 27%;
+  text-align: center;
+}
+.vangogh:hover{
+  opacity: .7;
+  /*border: 2px solid #000000;*/
+}
+.rembrandt{
+  color: #ffffff;
+  padding: 0.2%;-->
+  /*border: 2px solid #ffffff;*/
+  width: 27%;
+  text-align: center;
+}
+.rembrandt:hover{
+  opacity: .7;
+  /*border: 2px solid #000000;*/
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.monet{
+	position: absolute;
+	margin: 60px 0 0 75px;
+}
+.firstline{
+	position: absolute;
+	margin-top: 125px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button1 {
+	position: absolute;
+ 	margin: 0px 0 0 75px; 
+}
+.picture1	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture1:hover {
+	opacity: .7;
+}
+.overlay1 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay1:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup1 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture1{
+	position: absolute;
+	margin: 3px 0 0 335px;
+}
+.popup1 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup1 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button2 {
+	position: absolute;
+ 	margin: 0px 0 0 195px; 
+}
+.picture2	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture2:hover {
+	opacity: .7;
+}
+.overlay2 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay2:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup2 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture2{
+	position: absolute;
+	margin: 3px 0 0 400px;
+}
+.popup2 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup2 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button3 {
+	position: absolute;
+ 	margin: 0px 0 0 298px; 
+}
+.picture3	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture3:hover {
+	opacity: .7;
+}
+.overlay3 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay3:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup3 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture3{
+	position: absolute;
+	margin: 3px 0 0 135px;
+}
+.popup3 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup3 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button4 {
+	position: absolute;
+ 	margin: 0px 0 0 475px; 
+}
+.picture4	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture4:hover {
+	opacity: .7;
+}
+.overlay4 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay4:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup4 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture4{
+	position: absolute;
+	margin: 3px 0 0 345px;
+}
+.popup4 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup4 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button5 {
+	position: absolute;
+ 	margin: 0px 0 0 594px; 
+}
+.picture5	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture5:hover {
+	opacity: .7;
+}
+.overlay5 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay5:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup5 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture5{
+	position: absolute;
+	margin: 3px 0 0 330px;
+}
+.popup5 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup5 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button6 {
+	position: absolute;
+ 	margin: 0px 0 0 720px; 
+}
+.picture6	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture6:hover {
+	opacity: .7;
+}
+.overlay6 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay6:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup6 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture6{
+	position: absolute;
+	margin: 3px 0 0 460px;
+}
+.popup6 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup6 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button7 {
+	position: absolute;
+ 	margin: 0px 0 0 805px; 
+}
+.picture7	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture7:hover {
+	opacity: .7;
+}
+.overlay7 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay7:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup7 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture7{
+	position: absolute;
+	margin: 3px 0 0 335px;
+}
+.popup7 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup7 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button8 {
+	position: absolute;
+ 	margin: 0px 0 0 928px; 
+}
+.picture8	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture8:hover {
+	opacity: .7;
+}
+.overlay8 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay8:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup8 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture8{
+	position: absolute;
+	margin: 3px 0 0 350px;
+}
+.popup8 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup8 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button9 {
+	position: absolute;
+ 	margin: 0px 0 0 1045px; 
+}
+.picture9 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture9:hover {
+	opacity: .7;
+}
+.overlay9 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay9:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup9 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture9{
+	position: absolute;
+	margin: 3px 0 0 305px;
+}
+.popup9 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup9 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button10 {
+	position: absolute;
+ 	margin: 100px 0 0 75px; 
+}
+.picture10	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture10:hover {
+	opacity: .7;
+}
+.overlay10 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay10:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup10 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture10{
+	position: absolute;
+	margin: 3px 0 0 335px;
+}
+.popup10 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup10 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.rembrandt{
+	position: absolute;
+	margin: 350px 0 0 75px;
+}
+.secondline{
+	position: absolute;
+	margin-top: 410px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button11 {
+	position: absolute;
+ 	margin: 0px 0 0 75px; 
+}
+.picture11	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture11:hover {
+	opacity: .7;
+}
+.overlay11 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay11:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup11 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture11{
+	position: absolute;
+	margin: 3px 0 0 475px;
+}
+.popup11 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup11 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button12 {
+	position: absolute;
+ 	margin: 0px 0 0 156px; 
+}
+.picture12	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture12:hover {
+	opacity: .7;
+}
+.overlay12 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay12:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup12 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture12{
+	position: absolute;
+	margin: 3px 0 0 465px;
+}
+.popup12 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup12 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button13 {
+	position: absolute;
+ 	margin: 0px 0 0 238px; 
+}
+.picture13	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture13:hover {
+	opacity: .7;
+}
+.overlay13 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay13:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup13 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture13{
+	position: absolute;
+	margin: 3px 0 0 360px;
+}
+.popup13 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup13 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button14 {
+	position: absolute;
+ 	margin: 0px 0 0 352px; 
+}
+.picture14	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture14:hover {
+	opacity: .7;
+}
+.overlay14 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay14:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup14 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture14{
+	position: absolute;
+	margin: 3px 0 0 380px;
+}
+.popup14 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup14 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button15 {
+	position: absolute;
+ 	margin: 0px 0 0 457px; 
+}
+.picture15	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture15:hover {
+	opacity: .7;
+}
+.overlay15 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay15:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup15 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture15{
+	position: absolute;
+	margin: 3px 0 0 340px;
+}
+.popup15 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup15 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button16 {
+	position: absolute;
+ 	margin: 0px 0 0 575px; 
+}
+.picture16	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture16:hover {
+	opacity: .7;
+}
+.overlay16 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay16:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup16 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture16{
+	position: absolute;
+	margin: 3px 0 0 290px;
+}
+.popup16 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup16 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button17 {
+	position: absolute;
+ 	margin: 0px 0 0 710px; 
+}
+.picture17	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture17:hover {
+	opacity: .7;
+}
+.overlay17 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay17:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup17 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture17{
+	position: absolute;
+	margin: 3px 0 0 460px;
+}
+.popup17 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup17 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.picasso{
+	position: absolute;
+	margin: 535px 0 0 75px;
+}
+.thirdline{
+	position: absolute;
+	margin-top: 470px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button18 {
+	position: absolute;
+ 	margin: 125px 0 0 75px; 
+}
+.picture18	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture18:hover {
+	opacity: .7;
+}
+.overlay18 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay18:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup18 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture18{
+	position: absolute;
+	margin: 3px 0 0 412px;
+}
+.popup18 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup18 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button19 {
+	position: absolute;
+ 	margin: 125px 0 0 175px; 
+}
+.picture19 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture19:hover {
+	opacity: .7;
+}
+.overlay19 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay19:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup19 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture19{
+	position: absolute;
+	margin: 3px 0 0 480px;
+}
+.popup19 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup19 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button20 {
+	position: absolute;
+ 	margin: 125px 0 0 255px; 
+}
+.picture20	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture20:hover {
+	opacity: .7;
+}
+.overlay20 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay20:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup20 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture20{
+	position: absolute;
+	margin: 3px 0 0 80px;
+}
+.popup20 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup20 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button21 {
+	position: absolute;
+ 	margin: 125px 0 0 447px; 
+}
+.picture21	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture21:hover {
+	opacity: .7;
+}
+.overlay21 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay21:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup21 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture21{
+	position: absolute;
+	margin: 3px 0 0 490px;
+}
+.popup21 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup21 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button22 {
+	position: absolute;
+ 	margin: 125px 0 0 523px; 
+}
+.picture22	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture22:hover {
+	opacity: .7;
+}
+.overlay22 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay22:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup22 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture22{
+	position: absolute;
+	margin: 3px 0 0 380px;
+}
+.popup22 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup22 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button23 {
+	position: absolute;
+ 	margin: 125px 0 0 633px; 
+}
+.picture23	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture23:hover {
+	opacity: .7;
+}
+.overlay23 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay23:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup23 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture23{
+	position: absolute;
+	margin: 3px 0 0 455px;
+}
+.popup23 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup23 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.warhol{
+	position: absolute;
+	margin: 720px 0 0 75px;
+}
+.fourthline{
+	position: absolute;
+	margin: 655px 0 0 75px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button24 {
+	position: absolute;
+ 	margin: 125px 0 0 0px; 
+}
+.picture24	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture24:hover {
+	opacity: .7;
+}
+.overlay24 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay24:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup24 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture24{
+	position: absolute;
+	margin: 3px 0 0 480px;
+}
+.popup24 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup24 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button25 {
+	position: absolute;
+ 	margin: 125px 0 0 82px; 
+}
+.picture25	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture25:hover {
+	opacity: .7;
+}
+.overlay25 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay25:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup25 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture25{
+	position: absolute;
+	margin: 3px 0 0 305px;
+}
+.popup25 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup25 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button26 {
+	position: absolute;
+ 	margin: 125px 0 0 216px; 
+}
+.picture26	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture26:hover {
+	opacity: .7;
+}
+.overlay26 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay26:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup26 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture26{
+	position: absolute;
+	margin: 3px 0 0 230px;
+}
+.popup26 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup26 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button27 {
+	position: absolute;
+ 	margin: 125px 0 0 373px; 
+}
+.picture27	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture27:hover {
+	opacity: .7;
+}
+.overlay27 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay27:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup27 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture27{
+	position: absolute;
+	margin: 3px 0 0 215px;
+}
+.popup27 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup27 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button28 {
+	position: absolute;
+ 	margin: 125px 0 0 531px; 
+}
+.picture28	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture28:hover {
+	opacity: .7;
+}
+.overlay28 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay28:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup28 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture28{
+	position: absolute;
+	margin: 3px 0 0 495px;
+}
+.popup28 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup28 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button29 {
+	position: absolute;
+ 	margin: 125px 0 0 608px; 
+}
+.picture29 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture29:hover {
+	opacity: .7;
+}
+.overlay29 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay29:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup29 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture29{
+	position: absolute;
+	margin: 3px 0 0 270px;
+}
+.popup29 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup29 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button30 {
+	position: absolute;
+ 	margin: 0125px 0 0 749px; 
+}
+.picture30	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture30:hover {
+	opacity: .7;
+}
+.overlay30 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay30:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup30 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture30{
+	position: absolute;
+	margin: 3px 0 0 410px;
+}
+.popup30 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup30 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button31 {
+	position: absolute;
+ 	margin: 125px 0 0 848px; 
+}
+.picture31	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture31:hover {
+	opacity: .7;
+}
+.overlay31 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay31:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup31 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture31{
+	position: absolute;
+	margin: 3px 0 0 328px;
+}
+.popup31 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup31 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button32 {
+	position: absolute;
+ 	margin: 125px 0 0 974px; 
+}
+.picture32	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture32:hover {
+	opacity: .7;
+}
+.overlay32 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay32:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup32 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture32{
+	position: absolute;
+	margin: 3px 0 0 500px;
+}
+.popup32 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup32 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.vangogh{
+	position: absolute;
+	margin: 908px 0 0 75px;
+}
+.fifthline{
+	position: absolute;
+	margin: 845px 0 0 75px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button33 {
+	position: absolute;
+ 	margin: 125px 0 0 0px; 
+}
+.picture33	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture33:hover {
+	opacity: .7;
+}
+.overlay33 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay33:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup33 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture33{
+	position: absolute;
+	margin: 3px 0 0 345px;
+}
+.popup33 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup33 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button34 {
+	position: absolute;
+ 	margin: 125px 0 0 120px; 
+}
+.picture34	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture34:hover {
+	opacity: .7;
+}
+.overlay34 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay34:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup34 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture34{
+	position: absolute;
+	margin: 3px 0 0 345px;
+}
+.popup34 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup34 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button35 {
+	position: absolute;
+ 	margin: 125px 0 0 240px; 
+}
+.picture35	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture35:hover {
+	opacity: .7;
+}
+.overlay35 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay35:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup35 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture35{
+	position: absolute;
+	margin: 3px 0 0 465px;
+}
+.popup35 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup35 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button36 {
+	position: absolute;
+ 	margin: 125px 0 0 322px; 
+}
+.picture36	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture36:hover {
+	opacity: .7;
+}
+.overlay36 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay36:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup36 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture36{
+	position: absolute;
+	margin: 3px 0 0 340px;
+}
+.popup36 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup36 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button37 {
+	position: absolute;
+ 	margin: 125px 0 0 442px; 
+}
+.picture37	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture37:hover {
+	opacity: .7;
+}
+.overlay37 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay37:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup37 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture37{
+	position: absolute;
+	margin: 3px 0 0 340px;
+}
+.popup37 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup37 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button38 {
+	position: absolute;
+ 	margin: 125px 0 0 562px;  
+}
+.picture38	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture38:hover {
+	opacity: .7;
+}
+.overlay38 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay38:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup38 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture38{
+	position: absolute;
+	margin: 3px 0 0 305px;
+}
+.popup38 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup38 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button39 {
+	position: absolute;
+ 	margin: 125px 0 0 692px; 
+}
+.picture39 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture39:hover {
+	opacity: .7;
+}
+.overlay39 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay39:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup39 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture39{
+	position: absolute;
+	margin: 3px 0 0 450px;
+}
+.popup39 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup39 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button40 {
+	position: absolute;
+ 	margin: 125px 0 0 778px; 
+}
+.picture40	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture40:hover {
+	opacity: .7;
+}
+.overlay40 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay40:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup40 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture40{
+	position: absolute;
+	margin: 3px 0 0 125px;
+}
+.popup40 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup40 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button41 {
+	position: absolute;
+ 	margin: 125px 0 0 958px; 
+}
+.picture41	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture41:hover {
+	opacity: .7;
+}
+.overlay41 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay41:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup41 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture41{
+	position: absolute;
+	margin: 3px 0 0 340px;
+}
+.popup41 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup41 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button42 {
+	position: absolute;
+ 	margin: 225px 0 0 0px;  
+}
+.picture42	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture42:hover {
+	opacity: .7;
+}
+.overlay42 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay42:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup42 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture42{
+	position: absolute;
+	margin: 3px 0 0 282px;
+}
+.popup42 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup42 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.davinci{
+	position: absolute;
+	margin: 1195px 0 0 75px;
+}
+.sixthline{
+	position: absolute;
+	margin: 1135px 0 0 75px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button43 {
+	position: absolute;
+ 	margin: 125px 0 0 0px; 
+}
+.picture43	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture43:hover {
+	opacity: .7;
+}
+.overlay43 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay43:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup43 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture43{
+	position: absolute;
+	margin: 3px 0 0 500px;
+}
+.popup43 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup43 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button44 {
+	position: absolute;
+ 	margin: 125px 0 0 77px; 
+}
+.picture44	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture44:hover {
+	opacity: .7;
+}
+.overlay44 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay44:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup44 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture44{
+	position: absolute;
+	margin: 3px 0 0 345px;
+}
+.popup44 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup44 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button45 {
+	position: absolute;
+ 	margin: 125px 0 0 152px; 
+}
+.picture45	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture45:hover {
+	opacity: .7;
+}
+.overlay45 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay45:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup45 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture45{
+	position: absolute;
+	margin: 3px 0 0 490px;
+}
+.popup45 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup45 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button46 {
+	position: absolute;
+ 	margin: 125px 0 0 230px; 
+}
+.picture46	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture46:hover {
+	opacity: .7;
+}
+.overlay46 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay46:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup46 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture46{
+	position: absolute;
+	margin: 3px 0 0 120px;
+}
+.popup46 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup46 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button47 {
+	position: absolute;
+ 	margin: 125px 0 0 415px; 
+}
+.picture47	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture47:hover {
+	opacity: .7;
+}
+.overlay47 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay47:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup47 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture47{
+	position: absolute;
+	margin: 3px 0 0 195px;
+}
+.popup47 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup47 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button48 {
+	position: absolute;
+ 	margin: 125px 0 0 580px; 
+}
+.picture48	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture48:hover {
+	opacity: .7;
+}
+.overlay48 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay48:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup48 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture48{
+	position: absolute;
+	margin: 3px 0 0 480px;
+}
+.popup48 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup48 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button49 {
+	position: absolute;
+ 	margin: 125px 0 0 662px; 
+}
+.picture49 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture49:hover {
+	opacity: .7;
+}
+.overlay49 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay49:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup49 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture49{
+	position: absolute;
+	margin: 3px 0 0 510px;
+}
+.popup49 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup49 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+.button50 {
+	position: absolute;
+ 	margin: 125px 0 0 1045px; 
+}
+.picture50 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture49:hover {
+	opacity: .7;
+}
+.overlay50 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay50:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup50 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture50{
+	position: absolute;
+	margin: 3px 0 0 305px;
+}
+.popup50 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup50 .close:hover {
+  color: gray;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+
+/*<footer>*/
+.media{
+	position: absolute;
+	margin-top: 1945px;
+	margin-left: 327px;
+}
+.no1{
+	position: absolute;
+}
+.no1:hover{
+	opacity: 0;
+}
+.hover1{
+	position: absolute;
+}
+.no2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no2:hover{
+	opacity: 0;
+}
+.hover2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no3:hover{
+	opacity: 0;
+}
+.hover3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no4:hover{
+	opacity: 0;
+}
+.hover4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no5{
+	position: absolute;
+	margin-left: 280px;
+}
+.no5:hover{
+	opacity: 0;
+}
+.hover5{
+	position: absolute;
+	margin-left: 280px;
+}
+.media2{
+	position: absolute;
+	margin-top: 1945px;
+	margin-left: 673px;
+}
+.no6{
+	position: absolute;
+}
+.no6:hover{
+	opacity: 0;
+}
+.hover6{
+	position: absolute;
+}
+.no7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no7:hover{
+	opacity: 0;
+}
+.hover7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no8:hover{
+	opacity: 0;
+}
+.hover8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no9:hover{
+	opacity: 0;
+}
+.hover9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no10{
+	position: absolute;
+	margin-left: 280px;
+}
+.no10:hover{
+	opacity: 0;
+}
+.hover10{
+	position: absolute;
+	margin-left: 280px;
+}
+.contact1{
+	position: absolute;
+	margin: 1545px 0 0 150px;
+	max-width: 40%;
+	text-align: right;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.contact2{
+	position: absolute;
+	margin: 1560px 0 0 670px;
+	max-width: 37%;
+	text-align: left;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.image7{
+	position: absolute;
+	margin: 1472px 0 0 0;
+}
+footer{
+	background: #000000;
+	color: #ffffff;
+	position: absolute;
+	margin: 2000px 0 0 0;
+	font-size: 75%;
+	text-align: center;
+	width: 100%;
+	font-family: calibri;
+	z-index: 	1000;
+}
+/*</footer>*/

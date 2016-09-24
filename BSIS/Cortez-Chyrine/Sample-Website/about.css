@@ -1,0 +1,33 @@
+html{
+	background-image: url("HP Cover.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.banner{
+	font-family: "Georgia" times, serif;
+	font-weight: `15px;
+}
+
+
+.clear{
+	background-color: gray;
+}
+
+#back{
+	text-decoration: none;
+	float: center;
+	font-size: 18px;
+	border: 1px solid #333;
+	padding: 6px 14px;
+	box-shadow: 0 8px 16px 0 (0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 4px;
+}
+
+#back:hover {
+	background-color: #ff0066 ;
+	color: black;
+}
+

@@ -1,0 +1,61 @@
+#main{
+	width: 1320px;
+	height: 1000px;
+	background-color: #000;
+	margin: 10px;
+	border-radius: 10pt;
+	float: left;
+}
+img{
+	float: center;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+}
+#description{
+	font-family: courier new;
+	color: #fff
+}
+#cont{
+	padding: 10px;
+	width: 900px;
+	height: 300px;
+	margin: 20px;
+	float: right;
+	background-color:  #336600;
+	border-radius: 10pt;
+	opacity: 0.5;
+}
+#desc{
+	float: left;
+	width: 1200px;
+	height:600px;
+	background-color: #fff;
+	margin:20px;
+	border-radius: 10pt;
+	padding-right: 80px;
+}
+#download{
+	background-image: url("Image/download-button-plain.png");
+	background-repeat: no-repeat;
+	float: center;
+	width: 210px;
+	height: 70px;
+	background-size: 200px;
+	margin-left:500px;
+	padding-left:10px;
+	padding-top: 10px;
+	border-radius: 10pt;
+}
+#back{
+	background-image: url("Image/zz.png");
+	background-repeat: no-repeat;
+	float: center;
+	width: 210px;
+	height: 70px;
+	background-size: 70px;
+	margin-left:500px;
+	padding-left:10px;
+	padding-top: 10px;
+	border-radius: 10pt;
+}

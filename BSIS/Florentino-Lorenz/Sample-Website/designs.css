@@ -1,0 +1,949 @@
+
+	#backgroundPlays {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#backgroundChamps {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: -100;
+	}
+
+	#backgroundChamps1 {
+		position: absolute;
+		top: 600px;
+		left: 0px;
+		padding-left: 75px;
+		padding-bottom: 150px;
+		padding-top: 50px;
+		padding-right: 75px;
+		background-color: black;
+		z-index: -10;
+		color: white;
+		border-top-style: solid;
+		border-top-width: 3px;
+		border-top-color: #f7d46e;
+		text-align: center;
+		font-family: poor richard;
+		font-size: 20px;
+	}
+
+		#supportwall {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: -10;
+		}
+
+		#magewall {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: -10;
+		}
+
+		#assassinwall {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: -100;
+		}
+
+		#fighterwall {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: -10;
+		}
+
+		#marksmanwall {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: -10;
+		}
+
+	#logoLol {
+		position: fixed;
+		top: 0px;
+		left: 460px;
+		z-index: 1000;
+	}
+
+	#backLogo {
+		position: fixed;
+		left: 430px;
+		top: -100px;
+		background-color: black;
+		padding-top: 170px;
+		padding-bottom: 15px;
+		padding-left: 490px;
+		opacity: 0.7;
+		border-bottom-color: #f7d46e;
+		border-bottom-style: solid;
+		border-bottom-width: 3px;
+		z-index: 1000;	
+	}
+
+	#backfigure {
+		position: fixed;
+		top: 88px;
+		left: 0px;
+		background-color: black;
+		padding: 10px;
+		padding-right: 1339px;
+		z-index: 10;
+	}
+
+	#figure {
+		position: fixed;
+		top: 88px;
+		left: 0px;
+		background-color: #151d1d;
+		opacity: 1;
+		padding: 10px;
+		padding-right: 1339px;
+		z-index: 100;
+		border-bottom-style: solid;
+		border-bottom-color: #f7d46e;
+		border-bottom-width: 3px;
+	}
+
+	#leftNavHome {
+		text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 65px;
+	    padding-left: 60px;
+	    padding-top: 57px;
+	    font-family: Poor Richard;
+	    font-size: 30px;
+	    font-weight: 700;
+	    top: -20px;
+	    left: 0px;
+		z-index: 1000;
+	}
+
+
+	#leftNavHome:hover {
+	   	text-align: center;
+	    position: fixed;
+	    padding: 20px;
+	    padding-right: 55px;
+	    padding-left: 60px;
+	    padding-top: 46.5px;
+	    opacity: 1;
+	    font-family: Poor Richard;
+	    background-color: #151d1d;
+	    font-size: 35px;
+	    font-weight: 700;
+	    top: -22px;
+	    left: 0px;
+		z-index: 1000;
+	}
+
+	#leftNavPlays {
+		text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 68px;
+	    padding-left: 57px;
+	    padding-top: 57px;
+	    font-family: Poor Richard;
+	    background-color: transparent;
+	    font-size: 30px;
+	    font-weight: 700;
+	    top: -20px;
+	    left: 217px;
+		z-index: 1000;
+	}
+
+	#leftNavPlays:hover {
+	   	text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 55px;
+	    padding-left: 60px;
+	    padding-top: 47px;
+	    opacity: 1;
+	    font-family: Poor Richard;
+	    background-color: #151d1d;
+	    font-size: 35px;
+	    font-weight: 700;
+	    top: -18px;
+	    left: 212px;
+		z-index: 1000;
+	}
+
+	#rightNavChamps {
+		text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 55px;
+	    padding-left: 45px;
+	    padding-top: 57px;
+	    font-family: poor richard;
+	    background-color: transparent;
+	    font-size: 30px;
+	    font-weight: 700;
+	    top: -20px;
+	    left: 923px;
+		z-index: 1000;
+	}
+
+	#rightNavChamps:hover {
+		text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 40px;
+	    padding-left: 40px;
+	    padding-top: 50px;
+	    opacity: 1;
+	    font-family: Poor Richard;
+	    background-color: #151d1d;
+	    font-size: 35px;
+	    font-weight: 700;
+	    top: -20px;
+	    left: 923px;
+		z-index: 1000;
+	}
+
+	#rightNavTips {
+		text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 57px;
+	    padding-left: 50px;
+	    padding-top: 60px;
+	    font-family: Poor Richard;
+	    background-color: transparent;
+	    font-size: 30px;
+	    font-weight: 700;
+	    top: -20px;
+	    left: 1196px;
+		z-index: 1000;
+	}
+
+	#rightNavTips:hover{
+		text-align: center;
+	    position: fixed;
+	    padding: 15px;
+	    padding-right: 57px;
+	    padding-left: 50px;
+	    padding-top: 48px;
+	    opacity: 1;
+	    font-family: Poor Richard;
+	    background-color: #151d1d;
+	    font-size: 35px;
+	    font-weight: 700;
+	    top: -18px;
+	    left: 1196px;
+		z-index: 1000;
+	}
+
+	#leftBackNav {
+		position: fixed;
+		left: -60px;
+		top: -100px;
+		padding-top: 170px;
+		padding-bottom: 15px;
+		padding-left: 490px;
+		opacity: 1;
+		background-color: black;
+		border-bottom-color: #f7d46e;
+		border-bottom-style: solid;
+		border-right-color: #f7d46e;
+		border-right-style: solid;
+		border-right-width: 3px;
+		border-bottom-width: 3px;
+		z-index: 1000;
+	}
+
+	#rightBackNav {
+		position: fixed;
+		left: 920px;
+		top: -100px;
+		padding-top: 170px;
+		padding-bottom: 15px;
+		padding-left: 425px;
+		opacity: 1;
+		background-color: black;
+		border-bottom-color: #f7d46e;
+		border-bottom-style: solid;
+		border-left-color: #f7d46e;
+		border-left-style: solid;
+		border-left-width: 3px;
+		border-bottom-width: 3px;
+		z-index: 1000;
+	}
+
+#footer {
+		position: absolute;
+		top: 3720px;
+		left: 0px;
+		background-color: #151d1d;
+		padding: 20px;
+		padding-left: 500px;
+		padding-right: 500px;
+		width: 349px;
+		border-top-style: solid;
+		border-top-width: 3px;
+		border-top-color: #f7d46e;
+		z-index: 1000;
+		text-align: center;
+		color: white;
+	}
+
+	#registerHere {
+		color: white;
+		position: absolute;
+		text-align: center;
+		font-family: Poor Richard;
+		font-size: 20px;
+		font-weight: 700px;
+		left: 1100px;
+		top: 130px;
+		padding-left: 15px;
+		padding-right: 20px;
+		padding-top: 18px;
+		padding-bottom: 20px;
+		opacity: 0.8;
+		border-top-style: solid;
+		border-top-color: #f7d46e;
+		border-bottom-style: solid;
+		border-bottom-color: #f7d46e;
+		border-radius: 15px;
+		background-color: black;
+	}
+
+	#registerHere:hover {
+		font-size: 23px;
+		background-color: red;
+		left: 1100px;
+		top: 125px;
+		padding-left: 10px;
+		padding-right: 20px;
+		padding-top: 18px;
+		padding-bottom: 20px;
+		border-radius: 20px;
+	}
+
+#separator {
+		position: absolute;
+		top: 690px;
+		left: 0px;
+		background-color: black;
+		padding-top: 810px;
+		padding-right: 1349px;
+		z-index: 10;
+		border-top-style: solid;
+		border-top-width: 3px;
+		border-top-color: #f7d46e;
+		border-bottom-style: solid;
+		border-bottom-width: 3px;
+		border-bottom-color: #f7d46e;
+}
+
+#line {
+		position: absolute;
+		top: 800px;
+		left: 170px;
+		background-color: white;
+		padding-bottom: 40px;
+		padding-right: 1000px;
+		z-index: 10;
+}
+
+#frame {
+		position: absolute;
+		top: 193px;
+		left: 80px;
+}
+	
+#contentHome1 {
+		position: absolute;
+		top: 220px;
+		left: 100px;
+		background-color: black;
+		opacity: 0.7;
+		padding-top: 400px;
+		padding-right: 1150px;
+
+}
+
+#text1 {
+		position: absolute;
+		top: 235px;
+		left: 100px;
+		color: white;
+		font-size: 30px;
+		padding: 97px;
+		text-align: center;
+		font-family: Imprint MT Shadow;
+}
+
+#contentHome2 {
+		position: absolute;
+		top: 890px;
+		left: 230px;
+		background-color: white;
+		opacity: 0.7;
+		padding-top: 420px;
+		padding-right: 850px;
+		z-index: 10;
+		border-width: 10px;
+		border-color: black;
+		border-style: dashed; 
+}
+
+#text2 {
+		position: absolute;
+		top: 1325px;
+		text-indent: 160px;
+		color: white;
+		z-index: 10;
+		font-size: 50px;
+}
+
+#videoContent2 {
+		position: absolute;
+		top: 910px;
+		left: 265px;
+		z-index: 10;
+		background-color: transparent;
+}
+
+#text3 {
+		position: absolute;
+		top: 1506px;
+		left: 50px;
+		z-index: 10;
+		padding: 30px;
+		color: white;
+		font-size: 50px;
+		font-family: poor richard;
+		border-bottom-width: 3px;
+		border-bottom-style: solid;
+		border-bottom-color: #f7d46e;
+		border-left-width: 3px;
+		border-left-style: solid;
+		border-left-color: #f7d46e;
+		border-right-width: 3px;
+		border-right-style: solid;
+		border-right-color: #f7d46e;
+		background-color: black;
+		opacity: 0.6;
+}
+
+#slide {
+		position: absolute;
+		top: 1705px;
+		left: 125px;
+		z-index: 100;
+}
+
+#torch {
+		position: absolute;
+		top: 2300px;
+		left: 1000px;
+		z-index: 100;
+}
+
+#text4 {
+		position: absolute;
+		top: 2470px;
+		left: 230px;
+		z-index: 100;
+		color: white;
+		padding: 50px;
+		padding-top: 30px;
+		padding-left: 600px
+		padding-right: 300px;
+		padding-bottom: 30px;
+		background-color: transparent;
+		opacity: 0.6;
+		font-family: poor richard;
+		font-size: 80px;
+		text-align: right;
+		border-right-color: red;
+		border-right-style: solid;
+		border-right-width: 3px;
+}
+
+#third {
+		position: absolute;
+		z-index: 10;
+		top: 2225px;
+		background-color: transparent;
+		padding-left: 1000px;
+		padding-bottom: 450px;
+		border-bottom-width: 3px;
+		border-bottom-style: solid;
+		border-bottom-color: black;
+		border-top-width: 800px;
+		border-top-style: solid;
+		border-top-color: black;
+		border-bottom-width: 300px;
+		border-bottom-style: solid;
+		border-bottom-color: black;
+		border-left-width: 175px;
+		border-left-color: black;
+		border-right-style: solid;
+		border-right-width: 174px;
+		border-right-color: black;
+		border-left-style: solid;  
+}
+
+#last {
+		position: absolute;
+		z-index: 100;
+		top: 3450px;
+		left: 310px;
+		padding: 50px;
+		padding-right: 50px;
+		background-color: transparent;
+		font-family: poor richard;
+		color: white;
+		font-size: 80px;
+		text-align: center;
+}
+
+	#firstPlay {
+		position: absolute;
+		top: 250px;
+		left: 100px;
+		background-color: transparent;
+	}
+
+	#firstPlayBack {
+		position: absolute;
+		top: 290px;
+		left: 70px;
+		background-color: black;
+		padding-top: 170px;
+		padding-bottom: 180px;
+		padding-left: 560px;
+		opacity: 0.8;
+		border-radius: 25px; 
+	}
+
+	#firstVideoBack {
+		position: absolute;
+		top: 287px;
+		left: 770px;
+		background-color: black;
+		padding-bottom: 80px;
+		padding-left: 300px;
+		opacity: 0.8;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		border-top-style: solid;
+		border-top-color: #f7d46e
+	}
+
+	#firstVideo {
+		font-size: 55px;
+		font-family: Poor Richard;
+		color: white;
+		position: absolute;
+		top: 290px;
+		left: 755px;
+		background-color: transparent;
+		padding-left: 65px;
+		padding-top: 5px;
+		padding-bottom: 8px;
+		padding-right: 180px; 
+	}
+
+	#firstPlayDescBack {
+		position: absolute;
+		top: 370px;
+		left: 723px;
+		background-color: black;
+		padding-bottom: 250px;
+		padding-left: 560px;
+		opacity: 0.8;
+		border-radius: 25px;
+		border-bottom-style: solid;
+		border-bottom-color: #f7d46e;
+	}
+
+	#firstPlayDesc {
+		color: white;
+		position: absolute;
+		top: 372.5px;
+		left: 723px;
+		background-color: transparent;
+		padding:25px;
+		padding-left: 25px;
+		padding-top: 25px;
+		padding-bottom: 189px;
+		padding-right: 252px;
+		border-radius: 25px;				
+	}
+
+	#secondPlay {
+		position: absolute;
+		top: 800px;
+		left: 100px;
+		background-color: transparent;
+	}
+
+	#secondPlayBack {
+		position: absolute;
+		top: 840px;
+		left: 70px;
+		background-color: black;
+		padding-top: 170px;
+		padding-bottom: 180px;
+		padding-left: 560px;
+		opacity: 0.8;
+		border-radius: 25px; 
+	}
+
+	#secondVideoBack {
+		position: absolute;
+		top: 837px;
+		left: 770px;
+		background-color: black;
+		padding-bottom: 80px;
+		padding-left: 300px;
+		opacity: 0.8;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		border-top-style: solid;
+		border-top-color: #f7d46e
+	}
+
+	#secondVideo {
+		font-size: 55px;
+		font-family: Poor Richard;
+		color: white;
+		position: absolute;
+		top: 840px;
+		left: 750px;
+		background-color: transparent;
+		padding-left: 65px;
+		padding-top: 5px;
+		padding-bottom: 8px;
+		padding-right: 180px; 
+	}
+
+	#secondPlayDescBack {
+		position: absolute;
+		top: 920px;
+		left: 723px;
+		background-color: black;
+		padding-bottom: 250px;
+		padding-left: 560px;
+		opacity: 0.8;
+		border-radius: 25px;
+		border-bottom-style: solid;
+		border-bottom-color: #f7d46e;
+	}
+
+	#secondPlayDesc {
+		color: white;
+		position: absolute;
+		top: 922.5px;
+		left: 723px;
+		background-color: transparent;
+		padding:25px;
+		padding-left: 25px;
+		padding-top: 25px;
+		padding-bottom: 189px;
+		padding-right: 252px;
+		border-radius: 25px;
+	}
+
+	#thirdPlay {
+		position: absolute;
+		top: 1350px;
+		left: 100px;
+		background-color: transparent;
+	}
+
+	#thirdPlayBack {
+		position: absolute;
+		top: 1390px;
+		left: 70px;
+		background-color: black;
+		padding-top: 170px;
+		padding-bottom: 180px;
+		padding-left: 560px;
+		opacity: 0.8;
+		border-radius: 25px; 
+	}
+
+	#thirdVideoBack {
+		position: absolute;
+		top: 1387px;
+		left: 770px;
+		background-color: black;
+		padding-bottom: 80px;
+		padding-left: 300px;
+		opacity: 0.8;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		border-top-style: solid;
+		border-top-color: #f7d46e
+	}
+
+	#thirdVideo {
+		font-size: 55px;
+		font-family: Poor Richard;
+		color: white;
+		position: absolute;
+		top: 1390px;
+		left: 750px;
+		background-color: transparent;
+		padding-left: 65px;
+		padding-top: 5px;
+		padding-bottom: 8px;
+		padding-right: 180px; 
+	}
+
+	#thirdPlayDescBack {
+		position: absolute;
+		top: 1470px;
+		left: 723px;
+		background-color: black;
+		padding-bottom: 250px;
+		padding-left: 560px;
+		opacity: 0.8;
+		border-radius: 25px;
+		border-bottom-style: solid;
+		border-bottom-color: #f7d46e;
+	}
+
+	#thirdPlayDesc {
+		color: white;
+		position: absolute;
+		top: 1472.5px;
+		left: 723px;
+		background-color: transparent;
+		padding:25px;
+		padding-left: 25px;
+		padding-top: 25px;
+		padding-bottom: 189px;
+		padding-right: 252px;
+		border-radius: 25px;
+	}
+
+#center {
+		position: absolute;
+		background-color: black;
+		padding: 20px;
+		padding-right: 750px;
+		top: 250px;
+		left: 295px;
+		border-radius: 15px;
+}
+
+#mage {
+		position: absolute;
+		background-color: #646159;
+		padding: 20px;
+		padding-bottom: 30px;
+		color: white;
+		font-family: poor richard;
+		font-size: 25px;
+		top: 290px;
+		left: 319px;
+}
+
+#mage:hover {
+		background-color: black;
+}
+
+#assassin {
+		position: absolute;
+		background-color: #646159;
+		padding: 20px;
+		padding-bottom: 30px;
+		color: white;
+		font-family: poor richard;
+		font-size: 25px;
+		top: 290px;
+		left: 439px;
+}
+
+#assassin:hover {
+		background-color: black;
+}
+
+#marksman {
+		position: absolute;
+		background-color: #646159;
+		padding: 20px;
+		padding-bottom: 30px;
+		color: white;
+		font-family: poor richard;
+		font-size: 25px;
+		top: 290px;
+		left: 598px;
+}
+
+#marksman:hover {
+		background-color: black;
+}
+
+#fighter {
+		position: absolute;
+		background-color: #646159;
+		padding: 20px;
+		padding-bottom: 30px;
+		color: white;
+		font-family: poor richard;
+		font-size: 25px;
+		top: 290px;
+		left: 773px;
+}
+
+#fighter:hover {
+		background-color: black;
+}
+
+#support {
+		position: absolute;
+		background-color: #646159;
+		padding: 20px;
+		padding-bottom: 30px;
+		color: white;
+		font-family: poor richard;
+		font-size: 25px;
+		top: 290px;
+		left: 905px;
+}
+
+#support:hover {
+		background-color: black;
+}
+
+.slider {
+	    box-shadow: inset 0 0 2px hsla(0,0%,0%,.2),
+	                0 3px 1px hsla(0,0%,100%,.75),
+	                0 -1px 1px 2px hsla(0,0%,0%,.1);
+	    height: 800px;
+	    left: 250px;
+	    margin: -8em -13em;
+	    padding: 5px;
+	    position: absolute;
+	    top: 650px;
+	    width: 1254px;
+	    z-index: -10;
+	}
+
+.slider:before {
+	    background-color: black;
+	    bottom: -2.5em;
+	    box-shadow: inset 0 1px 1px 1px hsla(0,0%,100%,.2),
+	                inset 0 -2px 1px hsla(0,0%,0%,.4),
+	                0 5px 50px hsla(0,0%,0%,.25),
+	                0 20px 20px -15px hsla(0,0%,0%,.2),
+	                0 30px 20px -15px hsla(0,0%,0%,.15),
+	                0 40px 20px -15px hsla(0,0%,0%,.1);
+	    content: '';
+	    left: -40px;
+	    position: absolute;
+	    right: -40px;
+	    top: -2.5em;
+	    z-index: -10;
+	}
+
+.slider:after {
+	    background-color: #151d1d;
+	    bottom: -1.5em;
+	    box-shadow: 0 2px 1px hsla(0,0%,100%,.2),
+	                0 -1px 1px 1px hsla(0,0%,0%,.4),
+	                inset 0 2px 3px 1px hsla(0,0%,0%,.2),
+	                inset 0 4px 3px 1px hsla(0,0%,0%,.2),
+	                inset 0 6px 3px 1px hsla(0,0%,0%,.1);
+	    content: '';
+	    left: -1.5em;
+	    position: absolute;
+	    right: -1.5em;
+	    top: -1.5em;
+	    z-index: -10;
+	}
+
+.slider li {
+	    box-shadow: 0 -1px 0 2px hsla(0,0%,0%,.03);
+	    list-style: none;
+	    position: absolute;
+	}
+
+
+.slider input {
+		display: none;
+}
+
+.slider label {
+		background-color: black;
+		background-image: linear-gradient(transparent, hsla(0,0%,0%,.25));
+		border: .2em solid transparent;
+		bottom: .5em;
+		border-radius: 100%;
+		cursor: pointer;
+		display: block;
+		height: 30px;
+		left: 500px;
+		opacity: 0;
+		position: absolute;
+		transition: 2s;
+		width: 40px;
+		visibility: hidden;
+		z-index: 100;
+}
+
+.slider label:after {
+		border-radius: 100%;
+		bottom: -.2em;
+		box-shadow: inset 0 0 0 .2em #111,
+					inset 0 2px 2px #000,
+					0 1px 1px hsla(0,0%,100%,.25);
+		content: '';
+		left: -.2em;
+		position: absolute;
+		right: -.2em;
+		top: -.2em;
+}
+
+.slider:hover label {
+		opacity: 1;
+		visibility: visible;
+}
+
+.slider input:checked + label {
+		background-color: #f7d46e;
+}
+
+.slider:hover li:nth-child(1) label {
+		left: 1em;
+}
+
+.slider:hover li:nth-child(2) label {
+		left: 5em;
+}
+
+.slider:hover li:nth-child(3) label {
+		left: 9em;
+}
+
+.slider img {
+		opacity: 0;
+		transition: 1s;
+		vertical-align: top;
+		visibility: hidden;
+		height: 800px;
+		width: 1247.5px;
+}
+
+.slider li input:checked ~ img {
+		opacity: 1;
+		visibility: visible;
+		z-index: 100;
+}

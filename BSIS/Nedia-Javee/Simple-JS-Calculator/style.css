@@ -1,0 +1,88 @@
+#calculator{
+	width:250px;
+	height:425px;
+	border:1px solid black;
+	text-align:center;
+	background:#fab93c;
+	margin:150px auto;
+	box-shadow:0px 0px 30px gray;
+	border-color: black;
+	border-width: 5px;
+}
+#display{
+	margin:25px 0px 0px 0px;
+	width:221px;
+	height:30px;
+	border:1px solid red;
+	text-align:right;
+	font:20px bold;
+	color:black;
+	border-color: transparent;
+	border-width: 2px;
+}
+#second_display{
+	float:right;
+	margin:-36px 13px 25px 0px;
+	width:209px;
+	height:30px;
+	border:1px solid red;
+	text-align:right;
+	font:20px bold;
+	color:black;
+	border-color: transparent;
+	border-width: 2px;
+}
+#third_display{
+	float:left;
+	margin:0px 0px 0px 12px;
+	width:12px;
+	height:30px;
+	border:1px solid red;
+	text-align:left;
+	font:20px bold;
+	color:black;
+	border-color: transparent;
+	border-width: 2px;
+}
+#M{
+	width:40.8px;
+	height:32px;
+	margin-left:1px;
+	margin-bottom:10px;
+	box-shadow:0px 0px 20px skyblue;
+	cursor:pointer;
+	border-color: black;
+	border-width: 2px;
+}
+#keys{
+	width:51px;
+	height:40px;
+	margin-left:3px;
+	margin-bottom:10px;
+	box-shadow:0px 0px 20px skyblue;
+	cursor:pointer;
+	border-color: black;
+	border-width: 2px;
+}
+#M:hover{
+	background:yellow;
+	font-weight:bold;
+}
+#keys:hover{
+	background:yellow;
+	font-weight:bold;
+}
+#equal{
+	width:99px;
+	height:40px;
+	margin-left:7px;
+	margin-bottom:20px;
+	box-shadow:0px 0px 20px skyblue;
+	cursor:pointer;
+	border-color: black;
+	border-width: 2px;
+}
+#equal:hover{
+	background:yellow;
+	font-weight:bold;
+}

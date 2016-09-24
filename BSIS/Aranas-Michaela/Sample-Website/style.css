@@ -1,0 +1,131 @@
+#top{
+	font-family: Segoe UI;
+	font-size: 17px;
+	background-color: #999999;
+	color: white;
+	margin:0
+}
+
+#header {
+	background-color: white;
+	margin-left: 40%;
+	margin-bottom: -20px;
+}
+
+#image { margin-left: 43%; }
+
+#special > h1{ color: #FF1493; }
+
+#special{
+	background-image: url("pic.jpg");
+	margin-bottom: 10px;
+	color: black;
+}
+
+#end { background-image: url("pic2.jpg"); margin-bottom: 10px; color:black; }
+
+#end > h1, h2{ color: #FF1493; }
+
+#container {
+    background-color: white;
+    font-family: Segoe UI;
+	font-size: 15px;
+	color: #696969;
+}
+
+#menubar1 {
+	padding: 30px; border:white
+}
+
+#menubar1 > a {
+		font-family: Segoe UI;
+		font-size: 17px;
+		background:#FFF5EE;
+		padding: 15px 80px;
+		color: #FF1493;
+		margin-right: 5px;
+		text-decoration: none;
+		border-radius: 5px;
+		transition: background 0.5s linear 0s, color 0.5s linear 0s;
+		-webkit- transition: background 0.5s linear 0s, color 0.5s linear 0s;
+	}
+
+#menubar1 > a:hover {
+		background:#FF1493;
+		color:white;
+	}
+
+body {
+	margin:0;
+}
+
+#footer{
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 15px;
+	}
+
+#content{ margin-left: 2%; margin-right: 2%; }
+
+div.img {
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #999999;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #FF1493;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 230px;
+  margin: 5px;
+}
+
+#details{
+	width: 450px; margin-left: 14%;
+	float: left;
+}
+
+#details.selected{
+	font-weight: bold;
+}
+#mainPic{
+	width: 590px; 
+	float: right;
+}
+
+div.option > a {
+		font-family: Segoe UI;
+		font-size: 17px;
+		background:#999999;
+		padding: 10px 10px;
+		color: #FFF5EE;
+		text-decoration: none;
+		
+		transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		-webkit- transition: background 0.1s linear 0s, color 0.1s linear 0s;
+	}
+
+div.option > a:hover {
+		background:#FF1493;
+		color:white;
+	}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	
+</head>
+<body>
+	<div id="calculator">
+				
+			<div id="resultbar" class="result"></div>
+			<div id="clear" class="clear" onclick="clear1()">C</div>
+			
+			<div class="group2"> 
+				<div id="num7" onclick="numberDisplay('7')" class="button">7</div>
+				<div id="num8" onclick="numberDisplay('8')" class="button">8</div>
+				<div id="num9" onclick="numberDisplay('9')" class="button">9</div>
+				<div id="plus" onclick="operator('+')" class="button">+</div>
+				<div id="minus" onclick="operator('-')" class="button">-</div>
+				<br>
+				<div id="num4" onclick="numberDisplay('4')" class="button">4</div>
+				<div id="num5" onclick="numberDisplay('5')" class="button">5</div>
+				<div id="num6" onclick="numberDisplay('6')" class="button">6</div>
+				<div id="times" onclick="operator('*')" class="button">x</div>
+				<div id="divide" onclick="operator('/')" class="button">/</div>
+				<br>
+				<div id="num1" onclick="numberDisplay('1')" class="button">1</div>
+				<div id="num2" onclick="numberDisplay('2')" class="button">2</div>
+				<div id="num3" onclick="numberDisplay('3')" class="button">3</div>
+			</div>
+			<br>
+			<div class="group3">
+				<div id="zero" onclick="numberDisplay('0')" class="button1">0</div>
+				<div id="dot" onclick="numberDisplay('.')" class="button1">.</div>
+			</div>
+			<div class="group1">
+				<div id="equas" onclick="show()" class="button2">=</div>
+			</div>
+			<br>
+			
+
+		</div>
+			<script src="Calculator.js"></script>
+	
+</body>
+</html>

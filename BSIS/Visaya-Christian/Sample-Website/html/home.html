@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" style="zoom: reset;">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Ringtunes | Colletion</title>
+
+	<script src="../js/script.js" type="text/javascript"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logogray.ico" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div></div>
+
+<div id="sidebar"><!-- Umpisa ng Main sidebar -->
+
+	<span>
+		<h1 class="h1"><img id="logo" src="../img/logowhite.png" width="50px" height="50px" />Khuletunes<li id="toggle" class="fa fa-tasks">&nbsp;</li></h1>
+	</span>
+
+	<div><!-- EUmpisa ng side bar 2 -->
+
+		<h1>	
+			<span>
+				<a href="home.html" class="activebtn" title="Collection"><li class="fa fa-music fa-fw">&nbsp;</li>Collection</a>
+			</spam>
+
+			<span>
+				<a href="song.html" id="btn" title="Songs"><li class="fa fa-headphones fa-fw">&nbsp;</li>Songs</a>
+			</span>
+
+			<span>
+				<a href="new.html" id="btn" title="New"><li class="fa fa-tint fa-fw">&nbsp;</li>New</a>
+			</span>
+
+			<span>
+				<a href="album.html" id="btn" title="Album"><li class="fa fa-simplybuilt fa-fw">&nbsp;</li>Album</a>
+			</span>
+
+			<span>
+				<a href="import.html" id="btn" title="Import"><li class="fa fa-usb fa-fw">&nbsp;</li>Import</a>
+			</span>
+
+			<span>
+				<a href="artist.html" id="btn" title="Artist"><li class="fa fa-ticket fa-fw">&nbsp;</li>Artist</a>
+			</span>
+
+			<span>
+				<a href="nowplaying.html" id="btn" title="Now playing"><li class="fa fa-bar-chart fa-fw">&nbsp;</li>Now playing</a>
+			</span>
+
+
+		</h1>
+
+	</div><!-- End nato ng side bar 1 -->
+
+	<hr id="hr1">
+
+	<div><!-- Umpisa ng side bar 2 -->
+
+		<h2>	
+			<span>
+				<a href="spotify.html" id="btn" title="Connect to Spotify"><li class="fa fa-spotify fa-fw">&nbsp;</li>Connect to Spotify</a>
+			</spam>
+			
+			<span>
+				<a href="aboutus.html" id="btn" title="About Us"><li class="fa fa-code fa-fw">&nbsp;</li>About Us</a>
+			</span>
+
+		</h2>
+
+	</div><!-- End nato ng side bar 2 -->
+
+</div><!-- End nato ng Main sidebar -->
+
+<div id="content" align="center"><!-- Content -->
+
+	<div id="header">
+
+		<h1>Collection</h1>
+
+	</div>
+	
+	<div class="contentcontainer"><!-- Umpisa ng Container -->
+
+		<span>
+			<a href="album.html" class="activeallbtn" >Albums</a>
+		</span>
+
+		<span>
+			<a href="artist.html" class="allbtn" >Artist</a>
+		</span>
+
+		<span>
+			<a href="song.html" class="allbtn" >Song</a>
+		</span>
+
+		<p id="listmusic">35 all music</p>
+
+		<div class="MusicContent"><!-- Umpisa ng Music content -->
+		
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/David Guetta - Play Hard (feat. Ne-Yo & Akon)');togglePlayPause()">
+
+				<img src="../img/David_Guetta_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Play Hard</strong>
+				<br/>
+				David Guetta
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Maroon 5 - Animals');togglePlayPause()">
+
+				<img src="../img/Maroon_5_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Animals</strong>
+				<br/>
+				Maroon 5
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/David Guetta - Shot me Down (feat. Skylar Grey) (Radio Edit)');togglePlayPause()">
+
+				<img src="../img/David_Guetta_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Shot Me Down</strong>
+				<br/>
+				David Guetta
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Barbie Almalbis - Ambon');togglePlayPause()">
+
+				<img src="../img/himig_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Ambon</strong>
+				<br/>
+				ABS-CBN
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Demi Lovato - Skyscraper');togglePlayPause()">
+
+				<img src="../img/Demi_Lovato_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Skyscraper</strong>
+				<br/>
+				Demi Lovato
+				
+			</span>
+
+			<br/>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Christina Perri - distance');togglePlayPause()">
+
+				<img src="../img/Cristina_Perri_1.png" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Distance</strong>
+				<br/>
+				Cristina Perri
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Katy Perry - Dark Horse');togglePlayPause()">
+
+				<img src="../img/Katy_Perry_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Dark Horse</strong>
+				<br/>
+				Katy Perry
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Flo Rida - Wild Ones (feat. Sia)');togglePlayPause()">
+
+				<img src="../img/Florida_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Wild Ones</strong>
+				<br/>
+				Florida
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Pentatonix - Cheerleader');togglePlayPause()">
+
+				<img src="../img/Pentatonix_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Cheeleader</strong>
+				<br/>
+				Pentatonix
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Taylor Swift - Wildest Dreams');togglePlayPause()">
+
+				<img src="../img/Taylor_Swift_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Wildest Dreams</strong>
+				<br/>
+				Taylor Swift
+				
+			</span>
+
+			<br/>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Maroon 5 - Maps');togglePlayPause()">
+
+				<img src="../img/Maroon_5_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Maps</strong>
+				<br/>
+				Maroon 5
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Boyce Avenue - Story of My Life');togglePlayPause()">
+
+				<img src="../img/Boyce_Avenue_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Sory Of My Life</strong>
+				<br/>
+				Boyce Avenue
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Adele - Hello');togglePlayPause()">
+
+				<img src="../img/Adele_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Hello</strong>
+				<br/>
+				Adele
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Pentatonix - Radioactive');togglePlayPause()">
+
+				<img src="../img/Pentatonix_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Radioactive</strong>
+				<br/>
+				Pentatonix
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Demi Lovato - Two Pieces');togglePlayPause()">
+
+				<img src="../img/Demi_Lovato_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Two Pieces</strong>
+				<br/>
+				Demi Lovato
+				
+			</span>
+
+			<br/>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Pentatonix - Daft Punk');togglePlayPause()">
+
+				<img src="../img/Pentatonix_3.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Daft Punk</strong>
+				<br/>
+				Pentatonix
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/David Guetta - No Worries');togglePlayPause()">
+
+				<img src="../img/David_Guetta_3.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >No Worries</strong>
+				<br/>
+				David Guetta
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Christina Perri - burning gold');togglePlayPause()">
+
+				<img src="../img/Cristina_Perri_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Burning Gold</strong>
+				<br/>
+				Cristina Perri
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/David Guetta - Play Hard (feat. Ne-Yo & Akon)');togglePlayPause()">
+
+				<img src="../img/Chris_Brown_1.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Song Name</strong>
+				<br/>
+				Chris Brown
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Christina Perri - A Thousand Years');togglePlayPause()">
+
+				<img src="../img/Cristina_Perri_3.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >A Thousand Years</strong>
+				<br/>
+				Cristina Perri
+				
+			</span>
+
+			<br/>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Demi Lovato - Neon Lights');togglePlayPause()">
+
+				<img src="../img/Demi_Lovato_3.png" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Neon Lights</strong>
+				<br/>
+				Demi Lovato
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/David Guetta - Titanium (feat. Sia)');togglePlayPause()">
+
+				<img src="../img/David_Guetta_4.png" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Titanium</strong>
+				<br/>
+				David Guetta
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/David Guetta - Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)');togglePlayPause()">
+
+				<img src="../img/David_Guetta_5.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Hey Mama</strong>
+				<br/>
+				David Guetta
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Demi Lovato - Heart Attack');togglePlayPause()">
+
+				<img src="../img/Demi_Lovato_4.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Heart Attack</strong>
+				<br/>
+				Demi Lovato
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Boyce Avenue - Radioactive');togglePlayPause()">
+
+				<img src="../img/Boyce_Avenue_2.png" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Radioactive</strong>
+				<br/>
+				Boyce Avenue
+				
+			</span>
+
+			<br/>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Taylor Swift - Shake It Off');togglePlayPause()">
+
+				<img src="../img/Taylor_Swift_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Shake It Off</strong>
+				<br/>
+				Taylor Swift
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Flo Rida - Whistle');togglePlayPause()">
+
+				<img src="../img/Florida_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Whistle</strong>
+				<br/>
+				Florida
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Demi Lovato - Made In The USA');togglePlayPause()">
+
+				<img src="../img/Demi_Lovato_5.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Made in the USA</strong>
+				<br/>
+				Demi Lovato
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Juris - Bibitawan Ka');togglePlayPause()">
+
+				<img src="../img/Himig_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Bibitawan Ka</strong>
+				<br/>
+				ABS-CBN
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Christina Perri - human');togglePlayPause()">
+
+				<img src="../img/Cristina_Perri_4.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Human</strong>
+				<br/>
+				Cristina Perri
+				
+			</span>
+
+			<br/>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Maroon 5 - She Will Be Loved');togglePlayPause()">
+
+				<img src="../img/Maroon_5_3.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >She Will Be Loved</strong>
+				<br/>
+				Maroon 5
+
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Christina Perri - Jar of Hearts');togglePlayPause()">
+
+				<img src="../img/Cristina_Perri_5.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Jar of Hearts</strong>
+				<br/>
+				Cristina Perri
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Katy Perry - Unconditionally');togglePlayPause()">
+
+				<img src="../img/Katy_Perry_2.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#"  class="musicbox"  >Unconditionally</strong>
+				<br/>
+				Katy Perry
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Boyce Avenue - Photograph (feat. Bea Miller)');togglePlayPause()">
+
+				<img src="../img/Boyce_Avenue_3.jpg" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Photograph</strong>
+				<br/>
+				Boyce Avenue
+				
+			</span>
+
+			<span class="musicalign" id="playlist" onclick="playlistClick('../music/Taylor Swift - Blank Space');togglePlayPause();">
+
+				<img src="../img/Taylor_Swift_3.png" width="150" height="150">
+				<br/>
+				<br/>
+				<strong href="#" class="musicbox" >Blank Space</strong>
+				<br/>
+				Taylor Swift
+				
+			</span>
+
+			<br/>
+		
+		</div><!-- End nato ng Music content -->
+
+	</div><!-- End nato ng Container -->
+
+</div><!-- End nato ng content -->
+
+<div id="controlbar"><!-- Umpisa ng Control bar sa baba -->
+	
+	<div id="albumholder">
+		<img id="holder" src="../img/Taylor_Swift_1.jpg" width="75px" height="75px">
+	</div>
+
+	<div id="controlsongname">
+		<h3>Wildest Dream</h3>
+	</div>
+
+	<div id="controlartist">
+		<p>Taylor Swift</p>
+	</div>
+
+	<div id="controlprevious">
+		<li class="fa fa-step-backward"></li>
+	</div>
+
+	<div id="controlplay">
+		<img id="playpause" src="../img/play.png" width="50px" height="50px" onclick="togglePlayPause()">
+	</div>
+
+	<div id="controlnext">
+		<li class="fa fa-step-forward"></li>
+	</div>
+
+	<div id="theprogressbar">
+		<div id="progressbar">
+			<div id="progress"></div>
+		</div>
+	</div>
+
+</div><!-- End nato ng control bar sa baba -->
+
+<!-- Para sa Audio Acces -->
+	
+	<audio id="audio">
+		<source  src="../music/Adele - Hello.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Barbie Almalbis - Ambon.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Boyce Avenue - Photograph (feat. Bea Miller).mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Boyce Avenue - Radioactive.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Boyce Avenue - Story of My Life.mp3" type="audio/mpeg">
+	</audio>
+
+		<audio id="audio">
+		<source  src="../music/Christina Perri - A Thousand Years.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Christina Perri - burning gold.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Christina Perri - distance.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Christina Perri - human.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Christina Perri - Jar of Hearts.mp3" type="audio/mpeg">
+	</audio>
+
+		<audio id="audio">
+		<source  src="../music/David Guetta - Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack).mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/David Guetta - No Worries.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/David Guetta - Play Hard (feat. Ne-Yo & Akon).mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/David Guetta - Shot me Down (feat. Skylar Grey) (Radio Edit).mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/David Guetta - Titanium (feat. Sia).mp3" type="audio/mpeg">
+	</audio>
+
+		<audio id="audio">
+		<source  src="../music/Demi Lovato - Heart Attack.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Demi Lovato - Made In The USA.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Demi Lovato - Neon Lights.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Demi Lovato - Skyscraper.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Demi Lovato - Two Pieces.mp3" type="audio/mpeg">
+	</audio>
+
+		<audio id="audio">
+		<source  src="../music/Flo Rida - Whistle.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Flo Rida - Wild Ones (feat. Sia).mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Juris - Bibitawan Ka.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Katy Perry - Dark Horse.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Katy Perry - Unconditionally.mp3" type="audio/mpeg">
+	</audio>
+
+		<audio id="audio">
+		<source  src="../Let It Go (Frozen) Lyrics.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Maroon 5 - Animals.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Maroon 5 - Maps.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Maroon 5 - She Will Be Loved.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Pentatonix - Cheerleader.mp3" type="audio/mpeg">
+	</audio>
+
+		<audio id="audio">
+		<source  src="../music/Pentatonix - Daft Punk.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Pentatonix - Radioactive.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Taylor Swift - Blank Space.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Taylor Swift - Shake It Off.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="audio">
+		<source  src="../music/Taylor Swift - Wildest Dreams.mp3" type="audio/mpeg">
+	</audio>
+
+<script>
+			var audio = document.getElementById("audio");
+			audio.controls = false;
+			audio.addEventListener("timeupdate", updateProgress, false);
+
+			function togglePlayPause() {
+				var playpause = document.getElementById("playpause");
+				if (audio.paused || audio.ended) {
+					audio.play();
+					playpause.src = "../img/pause.png";
+				}
+				else {
+					audio.pause();
+					playpause.src = "../img/play.png";
+				}
+			}
+			
+			function updateProgress() {
+				var progress = document.getElementById("progress");
+				var value = 0;
+				if (audio.currentTime > 0) {
+					value = Math.floor((100 / audio.duration) * audio.currentTime);
+				}
+				progress.style.width = value + "%";
+			}
+
+			function changeartwork(file){
+				var s = "file";
+				var y = document.getElementById("holder");
+				y.src = "s";
+			}
+						
+			function playlistClick(file) {
+				var v = document.createElement("audio");
+				if (v.canPlayType("audio/mp3") != "") changeSource(file + ".mp3");
+				return false;
+			}
+			
+			function changeSource(src) {
+				resetPlayer();
+				audio.src = src;
+			}
+			
+			function resetPlayer() {
+				var playpause = document.getElementById("playpause");
+				if (audio.currentTime > 0) audio.currentTime = 0;
+				updateProgress();
+			}
+
+		</script>
+
+</body>
+</html>

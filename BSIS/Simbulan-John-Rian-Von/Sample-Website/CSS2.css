@@ -1,0 +1,71 @@
+h1{
+	font-size: 40pt;
+	font-family: Gill Sans Ultra Bold Condensed;
+	color: white;
+}
+
+#waw{
+	background-color: transparent;
+	border-style: outset;
+	position: absolute;
+	left: 0;
+	border-radius: 8px;
+	top: 105px;
+}
+
+body{
+	background-image: url(nike-2016-allstar-shoes-wallpaper.jpg);
+	background-position: -270px -110px;
+}
+
+#wew{
+	background-color: transparent;
+	border-style: outset;
+	position: absolute;
+	left: 0;
+	border-radius: 8px;
+	top: 170px;
+}
+
+#wiw{
+	background-color: transparent;
+	border-style: outset;
+	position: absolute;
+	left: 0;
+	border-radius: 8px;
+	top: 235px;
+}
+
+#wow{
+	background-color: transparent;
+	border-style: outset;
+	position: absolute;
+	left: 0;
+	border-radius: 8px;
+	top: 300px;
+}
+
+#wuw{
+	background-color: transparent;
+	border-style: outset;
+	position: absolute;
+	left: 0;
+	border-radius: 8px;
+	top: 365px;
+}
+
+ul {
+	list-style-type: none;
+	font-family: broadway;
+	font-size: 36pt;
+}
+
+ul li {
+	margin: 0;
+	margin-top: 10px;
+	width: 100%; 
+}
+
+ul li a{
+	text-decoration: none;
+}

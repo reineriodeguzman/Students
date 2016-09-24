@@ -1,0 +1,42 @@
+body{
+	background: black;
+}
+#nav {
+	width: 98%;
+    height: 90px;
+    font-size: 30px;
+    text-shadow: 1.2px 1.2px #FF0000;
+    background: url();
+    padding: 6px;
+    margin-top: 2pt;
+    font-family: Baskerville Old Face;
+    border: 2px solid white;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+}
+#nav ul {
+    height: auto;
+    padding: -95px 0px;
+    margin: 0px;
+}
+.logo{
+
+    font-family: Baskerville Old Face;
+    font-size: 50pt;
+    color: red;
+    margin: 2px; 	
+    margin-top: 2px;
+   	float: left;
+}
+#nav li{
+	display: inline;
+	margin: 5px;
+}
+#nav li a{
+	text-decoration: none;
+}
+.rtc a{
+	margin-top: 20px;
+	padding-top: 2322pt;
+}

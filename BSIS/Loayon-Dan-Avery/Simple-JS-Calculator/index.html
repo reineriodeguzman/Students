@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+<body bgcolor = #F7C78D >
+
+	<div id = "Calc">
+		<div id = "result">
+			   0
+		</div>
+		<div class = "buttons">
+			<button type = "submit" onclick= "output('1')"> 1 </button>
+			<button type = "submit" onclick= "output('2')"> 2 </button>
+			<button type = "submit" onclick= "output('3')"> 3 </button>
+			<button type = "submit" class = "Operators" onclick = "operator('a');"> + </button>
+		</div>
+		<div class = "buttons">
+			<button type = "submit" onclick= "output('4')"> 4 </button>
+			<button type = "submit" onclick= "output('5')"> 5 </button>
+			<button type = "submit" onclick= "output('6')"> 6 </button>
+			<button type = "submit" class = "Operators" onclick = "operator('c');"> * </button>
+		</div>
+		<div class = "buttons">
+			<button type = "submit" onclick= "output('7')"> 7 </button>
+			<button type = "submit" onclick= "output('8')"> 8 </button>
+			<button type = "submit" onclick= "output('9')"> 9 </button>
+			<button type = "submit" class = "Operators" onclick = "operator('d');"> / </button>
+		</div>
+		<div class = "buttons">
+			<button type = "submit" onclick= "output('0')"> 0 </button>
+			<button type = "submit" onclick= "output('.')"> . </button>
+			<button type = "submit" class = "Operators" onclick = "result()"> = </button>
+			<button type = "submit" class = "Operators" onclick = "operator('b');"> - </button>
+		</div>
+		<div class = "buttons">
+			<button type = "submit" id = "clear" onclick = 'c("0")'> AC </button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="calc.js"></script>	
+
+</body>
+</html>
+

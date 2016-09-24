@@ -1,0 +1,88 @@
+html{
+	background-image: url("HP Cover.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#sitename{
+	background-image: url("hp_Hogwarts.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1000px;
+	width: 500px 1000px;
+
+}
+
+h1{
+	font-family: utopia, Georgia, serif;
+	font-weight: bold;
+	font-size: 50px;
+
+}
+
+
+.nav{
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+}
+
+li a{
+	float: center;
+	text-decoration: none;
+	font-size: 25px;
+	border: 1px solid #333;
+	padding: 6px 14px;
+	box-shadow: 0 8px 16px 0 (0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 4px;
+}
+
+
+.nav li{
+	display: inline-block;
+	font-family: Georgia, times, serif;
+	text-align: center;
+	text-decoration: none;
+	border-spacing: 50px;
+	list-style-type: none;
+
+}
+
+li a.active{
+	background-color: #ffffcc ;
+	color: black;
+}
+
+li a:not(.active) {
+	background-color: black;
+	color: #ffe4c4;
+}
+
+li a:hover {
+	background-color: #ff0066;
+	color: white;
+}
+
+
+
+
+.content{
+	color: gray;
+	padding: 20px 200px;
+	text-align: center;
+	text-indent: 15px;
+
+}
+
+
+.clear{
+	background-color: #99ffcc;
+	background-attachment: fixed;
+	
+}

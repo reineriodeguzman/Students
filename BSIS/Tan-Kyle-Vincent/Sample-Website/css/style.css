@@ -1,0 +1,193 @@
+body {
+	background: url(Dota-2-logo-HD-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%; 	
+
+}
+
+.font { font-family:"Bodomi MT Poster Compressed" ;
+font-size: 20px;
+color : pink;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #A67F00;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, .15);
+}
+
+.search-engine > input{
+	height: 35px;
+	width: 230px;
+  padding-left: 5px;
+	border-radius: 20px;
+	border-width: 0px;
+	padding-top: -10px; 
+	background-color: black;
+  margin-left: 600px;
+}
+
+.pindutan
+ {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pindutan
+ {
+    margin-left: 0;
+}
+.pindutan
+ > .btn {
+    position: relative;
+    float: right;
+    margin-top: -35px;
+}
+.button
+ {
+    color: #cccccc;
+    background-color: black;
+    border-color: #ccc;
+    margin-left: 3px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 18px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.heroPic{
+	margin-top: 4%;
+	margin-left: 8%;
+
+}
+
+.heroFont{
+	margin-left:15%;
+}
+.StrengthFont{
+	margin-top: 8%;
+	margin-left: 15%;
+}
+
+.heroFont2{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 45%;
+	margin-top: -124%
+}
+
+.heroPic2{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 40%;
+	margin-top: -116%;
+}
+.heroname2{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 46%;
+	margin-top: -100%
+}
+.heroPic3{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 40%;
+	margin-top: -92%;
+}
+.heroname3{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 46%;
+	margin-top: -76%
+}
+.heroPic4{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 40%;
+	margin-top: -68%;
+}
+.heroname4{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 46%;
+	margin-top: -52%
+}
+
+.heroFont3{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 75%;
+	margin-top: -124%
+}
+
+
+.heroPic5{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 70%;
+	margin-top: -116%;
+}
+.heroname5{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 76%;
+	margin-top: -100%
+}
+.heroPic6{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 70%;
+	margin-top: -92%;
+}
+.heroname6{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 76%;
+	margin-top: -76%
+}
+.heroPic7{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 70%;
+	margin-top: -68%;
+}
+.heroname7{
+	width: 100px;
+	float: left;
+	position: top;
+	margin-left: 76%;
+	margin-top: -51%
+}

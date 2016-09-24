@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styleCal.css">
+</head>
+<body>
+
+
+	<div id="calculator"><br>
+
+		<div id ="screen"><div id="result"></div></div>
+		<div class ="clear" id="clear" onclick="clear()"><p>C</p></button></div>			
+	
+
+		<div id="keys">
+
+		<div class="numbers" 	id = "key7"  onclick="seven()">7</div>
+		<div class="numbers" 	id = "key8" onclick="eight()">8</div>
+		<div class="numbers" 	id = "key9" onclick="nine()">9</div>
+		<div class="operator" 	id = "keyDiv" onclick="divi()">/</div><br>
+		<div class="numbers" 	id = "key4" onclick="four()">4</div>
+		<div class="numbers" 	id = "key5" onclick="five()">5</div>
+		<div class="numbers" 	id = "key6" onclick="six()">6</div>
+		<div class="operator" 	id = "keyMul" onclick="multi()">*</div><br>
+		<div class="numbers" 	id = "key1" onclick="one()">1</div>
+		<div class="numbers" 	id = "key2" onclick="two()">2</div>
+		<div class="numbers" 	id = "key3" onclick="three()">3</div>
+		<div class="operator" 	id = "keySub" onclick="sub()">-</div><br>
+		<div class="numbers" 	id = "key0" onclick="zero()">0</div>
+		<div class="dot" 		id = "keyDot" onclick="dot()">.</div>
+		<div class="answer" 	id = "keyAns" onclick="answer()" >Ans</div>
+		<div class="operator" 	id = "keyPlus" onclick="plus()">+</div><br>
+
+
+
+
+	<script type="text/javascript" src="cal.js"></script>
+
+
+
+</body>
+</html>

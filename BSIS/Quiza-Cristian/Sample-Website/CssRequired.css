@@ -1,0 +1,25 @@
+input:required{
+	border: 2px solid green;
+}
+body{
+	width: 10px; 
+	background-image:url("pictures/manga_anime_girl_1920x1080_wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 	
+}
+fieldset{
+	background-image: url("pictures/HD-Music-Desktop-Wallpapers.jpg");
+	padding-top: 5px;
+}
+
+#proceed{
+	width: 15em; height: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+h1{
+	text-decoration: underline;
+}

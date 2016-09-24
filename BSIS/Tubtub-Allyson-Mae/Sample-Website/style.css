@@ -1,0 +1,59 @@
+
+#header{
+	background-image: url(img/ban.jpg);
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+	background-position: top;
+	white-space: pre-wrap;
+}
+h3{
+	font-family: tolkien;
+	font-size: 38px;
+
+}
+
+body{
+	background-image: url(img/body.jpg);
+	background-attachment: scroll;
+
+}
+.button{
+	background-color: royalblue;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#menu{
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+#philosophy{
+	font-family: sans-serif;
+	position: center;
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+#mission{
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+#vision{
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+footer{
+	font-family: sans-serif;
+	color: lightblue;
+	font-size: 10px;
+}

@@ -1,0 +1,73 @@
+body {		background-repeat: no-repeat;
+			background-size: cover;	  		
+}
+.paragraph1{
+			margin-right: 180px;
+			margin-left: 180px;
+			border: 2px solid black;
+			background-color: maroon;
+			font-family: Arial;
+			font-size: 15pt;
+			color: white;
+			padding-bottom: 0;
+			margin-bottom: 0%;
+			text-align: justify;
+}
+p{			
+			padding: 10px;
+			text-align: justify;
+			margin-right: 180px;
+			margin-left: 180px;
+			margin-top: 0px;
+			font-family: arial;
+			font-size: 12pt;
+			border: 2px solid black;
+			background-color: white;
+}
+
+h3{			padding-left: 10px;
+			margin-right: 180px;
+			margin-left: 180px;
+			border: 2px solid black;
+			background-color: #FFF8DC;
+			font-family: Arial;
+			font-size: 15pt;
+			color: maroon;
+			padding-bottom: 0;
+			margin-bottom: 0%;}
+
+.the{		padding: 10px;
+			text-align: justify;
+			margin-right: 180px;
+			margin-left: 180px;
+			margin-top: 0px;
+			font-family: arial;
+			font-size: 12pt;
+			background-color: white;
+			border: 2px solid black;
+			column-rule-style: solid;
+			column-gap: 50px;
+			column-width: 100px;
+			column-span: all;
+			column-count: 3;
+			text-align: justify;
+}
+
+ul{			list-style-type: none;
+			font-family: arial;
+			text-decoration: none;
+}
+
+.title {	background-color: maroon;
+			font-family: arial;
+			color: white;
+			font-size: 12pt;
+}
+.credit2{	border: 2px solid black;
+			margin-left: 170px;
+			margin-right: 170px;
+			font-family: arial;
+			font-size: 12pt;
+			background-color: #FFF8DC;
+}
+.img{background-color: white;}

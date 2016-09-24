@@ -1,0 +1,212 @@
+body.main_body{
+
+	font-size: 20pt;
+	line-height:16pt;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:left;
+	background-color:#000000;
+	width:100%;
+	background-repeat: no-repeat;
+
+
+	
+
+}
+.c_title2{
+
+	font-size:16pt;
+	background-image: url('../img/back_title.png');
+	font-weight:bold; 
+	color:white;
+	padding:16px 0px 10px 32px;
+	height:60px;
+	background-repeat: no-repeat;
+		
+	
+}
+
+
+.c_title3{
+	margin:10px 24px 16px 24px;
+	padding-left:8px;
+	border-left:solid rgb(122,106,173) 10px;
+	border-bottom:solid #808080 1px;
+	font-size:14pt;
+	font-weight:bold;
+	color: white;
+}
+
+.c_block_body{
+	text-align: justify;
+	padding:16px 24px 48px 24px;
+	color: white;
+	line-height: 25pt;
+	font-family: sans-serif;
+	font-size: 14pt;
+
+
+}
+
+.c_characters{
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px;
+	text-align: left;
+	width: 800px;
+
+}
+.chara_sub{
+	font-size:10pt;
+	line-height:12pt;
+	font-weight:normal;
+
+}
+.chara_name{
+	font-weight:bold;
+	font-size:16pt;
+	line-height:20pt;
+	margin:32px 0px 16px 0px;
+	font-family: Verdana;
+}
+
+p.chara_info{
+	text-align: justify;
+	padding:16px 24px 48px 24px;
+	color: #ffffff;
+	font-size: 15pt;
+	font-family: Calibri;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+
+
+
+}
+table{
+	font-size:10pt;
+	line-height:14pt;
+	color: white;
+	margin-left: 20px;
+	font-size: 13pt;
+}
+.block_main{
+	text-align:left;
+	width:90%;
+	padding:4px 4px 4px 28px ;
+	color: #ffffff;
+
+}
+a{
+	color: white;
+}
+
+a:visited{
+	color: #fffff0;
+}
+
+a:hover{
+	color: violet;
+	
+}
+.c_next{
+	font-size:12pt;
+	color: white;
+	text-align: center;
+	margin:64px 64px 0px 16px;
+
+
+}
+
+.c_footer{
+	width:720px;
+	height:240px;
+	
+}
+.c_block_main{
+	text-align:left;
+	width:720px;
+	padding:4px 4px 4px 28px ;
+
+}
+.c_title4{
+	font-size:11pt;
+	font-weight:bold;
+	line-height:16pt;
+	color:rgb(122,106,173);
+	margin:32px 0px 8px 0px ;
+	
+}
+
+#c_lightnovel{
+	padding:16px 24px 48px 24px;
+	background-color: white;
+	color: black;
+	opacity: 0.6;
+	font-weight: bold;
+	line-height: 25pt;
+	font-family: "Segoe UI Light";
+	font-size: 14pt;
+	border-radius: 10px;
+	width: 90%;
+	margin-left: 10px;
+}
+#c_ln_bg{
+
+	padding:16px 24px 48px 24px;
+	background-image: url('../img/manga/LN.jpg');
+	background-position: left;
+	background-repeat: no-repeat;
+	width: 97%;
+	margin-top: -50px;
+
+	
+}
+
+.manga{
+	padding:5px 5px 5px 5px;
+	width: 90%;
+	margin-left: 10px;
+	border-style: ridge;
+
+
+
+}
+.c_nxt_prev{
+	width: 70%;
+	margin-left: 180px;
+
+}
+.c_np a{
+
+	list-style: none;
+	font-family: consolas;
+	text-decoration: none;
+	font-size: 13pt;
+	margin-left: 40px; 
+	text-align: left;
+}
+
+.c_field_title{
+	color:white;
+	background-color:rgb(120,120,200);
+	border:#ffffff 1pt solid;
+	padding:8px 8px 8px 8px ;
+	font-size: 13pt;
+
+}
+.c_field_data{
+	background-color:rgb(255,255,255);
+	border:rgb(120,120,200) 1pt solid;
+	padding:8px 8px 8px 8px ;
+	font-size: 12pt;
+}
+
+.c_table{
+	border-style:ridge;
+	border:rgb(120,120,200) 1pt solid;
+	padding:0px 0px 0px 0px ;
+	margin:30px 0px 0px 50px ;
+	border-color:violet;
+	color: black;
+}

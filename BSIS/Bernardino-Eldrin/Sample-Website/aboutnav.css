@@ -1,0 +1,694 @@
+.aboutnav{
+	background: #FE683a;
+}
+.back1{
+	margin: -5px 0 0 -2px;
+}
+.back2{
+	margin: -15px 0 0 -4px;
+}
+.content{
+	position: absolute;
+	margin: 35px 0 0 520px;
+	color: white;
+	text-align: right;
+}
+h2{
+	margin: 200px 0 0 400px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.monet{
+	position: absolute;
+	margin: -680px 0 0 450px;
+  font-size: 65px;
+  color: white;
+}
+.firstline{
+	position: absolute;
+	margin-top: -490px;
+  margin-left: 53px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button1 {
+	position: absolute;
+ 	margin: 0px 0 0 75px; 
+}
+.picture1	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture1:hover {
+	opacity: .7;
+}
+.overlay1 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay1:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup1 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture1{
+	position: absolute;
+	margin: 3px 0 0 335px;
+}
+.popup1 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup1 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button2 {
+	position: absolute;
+ 	margin: 0px 0 0 195px; 
+}
+.picture2	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture2:hover {
+	opacity: .7;
+}
+.overlay2 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay2:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup2 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture2{
+	position: absolute;
+	margin: 3px 0 0 400px;
+}
+.popup2 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup2 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button3 {
+	position: absolute;
+ 	margin: 0px 0 0 298px; 
+}
+.picture3	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture3:hover {
+	opacity: .7;
+}
+.overlay3 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay3:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup3 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture3{
+	position: absolute;
+	margin: 3px 0 0 135px;
+}
+.popup3 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup3 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button4 {
+	position: absolute;
+ 	margin: 0px 0 0 475px; 
+}
+.picture4	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture4:hover {
+	opacity: .7;
+}
+.overlay4 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay4:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup4 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture4{
+	position: absolute;
+	margin: 3px 0 0 345px;
+}
+.popup4 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup4 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button5 {
+	position: absolute;
+ 	margin: 0px 0 0 594px; 
+}
+.picture5	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture5:hover {
+	opacity: .7;
+}
+.overlay5 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay5:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup5 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture5{
+	position: absolute;
+	margin: 3px 0 0 330px;
+}
+.popup5 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup5 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button6 {
+	position: absolute;
+ 	margin: 0px 0 0 720px; 
+}
+.picture6	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture6:hover {
+	opacity: .7;
+}
+.overlay6 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay6:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup6 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture6{
+	position: absolute;
+	margin: 3px 0 0 460px;
+}
+.popup6 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup6 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button7 {
+	position: absolute;
+ 	margin: 0px 0 0 805px; 
+}
+.picture7	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture7:hover {
+	opacity: .7;
+}
+.overlay7 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay7:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup7 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture7{
+	position: absolute;
+	margin: 3px 0 0 335px;
+}
+.popup7 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup7 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button8 {
+	position: absolute;
+ 	margin: 0px 0 0 928px; 
+}
+.picture8	{
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture8:hover {
+	opacity: .7;
+}
+.overlay8 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay8:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup8 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture8{
+	position: absolute;
+	margin: 3px 0 0 350px;
+}
+.popup8 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup8 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.button9 {
+	position: absolute;
+ 	margin: 0px 0 0 1045px; 
+}
+.picture9 {
+	position: absolute;
+	border: 2px solid #ffffff; 
+}
+.picture9:hover {
+	opacity: .7;
+}
+.overlay9 {
+	z-index: 100000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.83);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay9:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup9 .content{
+  margin: 25px auto;
+  padding: 8px;
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: 200ms;
+  text-align: center;
+}
+.bigpicture9{
+	position: absolute;
+	margin: 3px 0 0 305px;
+}
+.popup9 .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 100ms;
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.popup9 .close:hover {
+  color: gray;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/*<footer>*/
+.media{
+	position: absolute;
+	margin-top: 468px;
+	margin-left: 327px;
+}
+.no1{
+	position: absolute;
+}
+.no1:hover{
+	opacity: 0;
+}
+.hover1{
+	position: absolute;
+}
+.no2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no2:hover{
+	opacity: 0;
+}
+.hover2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no3:hover{
+	opacity: 0;
+}
+.hover3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no4:hover{
+	opacity: 0;
+}
+.hover4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no5{
+	position: absolute;
+	margin-left: 280px;
+}
+.no5:hover{
+	opacity: 0;
+}
+.hover5{
+	position: absolute;
+	margin-left: 280px;
+}
+.media2{
+	position: absolute;
+	margin-top: 468px;
+	margin-left: 673px;
+}
+.no6{
+	position: absolute;
+}
+.no6:hover{
+	opacity: 0;
+}
+.hover6{
+	position: absolute;
+}
+.no7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no7:hover{
+	opacity: 0;
+}
+.hover7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no8:hover{
+	opacity: 0;
+}
+.hover8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no9:hover{
+	opacity: 0;
+}
+.hover9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no10{
+	position: absolute;
+	margin-left: 280px;
+}
+.no10:hover{
+	opacity: 0;
+}
+.hover10{
+	position: absolute;
+	margin-left: 280px;
+}
+.contact1{
+	position: absolute;
+	margin: 68px 0 0 150px;
+	max-width: 40%;
+	text-align: right;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.contact2{
+	position: absolute;
+	margin: 83px 0 0 670px;
+	max-width: 37%;
+	text-align: left;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.image7{
+	position: absolute;
+	margin: -5px 0 0 0;
+}
+footer{
+	background: #000000;
+	color: #ffffff;
+	position: absolute;
+	margin: 523px 0 0 0;
+	font-size: 75%;
+	text-align: center;
+	width: 100%;
+	font-family: calibri;
+	z-index: 	1000;
+}
+/*</footer>*/

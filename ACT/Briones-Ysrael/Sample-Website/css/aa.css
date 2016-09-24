@@ -1,0 +1,50 @@
+body {
+background-color:yellowgreen;
+font-family:Comic Sans MS; 
+background-size: 100%;
+font-size:12px
+     }
+#container{width:800px;
+margin-left:auto;
+margin-right:auto; 
+background-color:white; 
+border:solid 0px #731f21; 
+     }
+#banner {
+width:800px; 
+background-color:#367c26; 
+text-align:left; 
+height:120px;
+        }
+#menu{
+width:800px; 
+background-color:yellowgreen; 
+height:50px; margin-top:1px;
+     }
+#banimg {
+text-align:center; 
+height:120px; 
+width:800px;
+        }
+a.links:link {
+width:100px;
+float:left; 
+color:white; 
+background-color:yellowgreen; 
+font-size:12px; 
+text-align:center;
+text-decoration:none; 
+height:25px; 
+padding-top:5px;
+             }
+a.links:visited {color:white;
+background-color:yellowgreen; 
+font-size:12px; 
+text-align:center; 
+text-align:center; 
+text-decoration:none;
+             }
+a.links:hover { text-decoration:underline; 
+background-color:green; 
+font-weight:bold;
+			 }

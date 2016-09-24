@@ -1,0 +1,269 @@
+	.BodyCalc {
+	background: linear-gradient(to left, white, #8B8680);
+	margin: 50px auto 0 auto;
+	height: 400px;
+	width: 300px;
+	box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#Screen {
+	position: absolute;
+	height: 65px;
+	width: 300px;
+	background-color: white;
+	margin: 0 0 0 0;
+	background-color: black;
+	text-align: right;
+	color: yellow;
+	font-size: 50px;
+
+
+}
+ .bar{
+	background: linear-gradient(to right, darkblue, #214FC6	);
+	position: absolute;
+	height: 35px;
+	width: 225px;
+	margin: 65px 0 0 0;
+}
+.buttonClear {
+	background: linear-gradient(to right, darkblue, #2243B6);
+	position: absolute;
+	height: 35px;
+	width: 75px;
+	margin: 65px 0 0 225px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+.buttonClear:hover {
+				
+    color: black;
+}
+.button7 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 0px;
+	color: black;
+}
+.button7:hover {
+				
+    color: white;
+}
+.button8 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 75px;
+	color: black;
+}
+.button8:hover {
+				
+    color: white;
+}
+.button9 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 150px;
+	color: black;
+}
+.button9:hover {
+
+    color: white;
+}
+.buttonDivide {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 100px 0 0 225px;
+	color: white;
+}
+.buttonDivide:hover {
+
+    color: black;
+}
+.button4 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 0;
+	color: black;
+}
+.button4:hover {
+
+    color: white;
+}
+.button5 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 75px;
+	color: black;
+}
+.button5:hover {
+
+    color: white;
+}
+.button6 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 150px;
+	color: black;
+}
+.button6:hover {
+
+    color: white;
+}
+.buttonMultiply {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 175px 0 0 225px;
+	color: white;
+	font-family: calibri;
+}
+.buttonMultiply:hover {
+
+    color: black;
+}
+.button1 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 0;
+	color: black;
+}
+.button1:hover {
+
+    color: white;
+}
+.button2 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 75px;
+	color: black;
+}
+.button2:hover {
+
+    color: white;
+}
+.button3 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 150px;
+	color: black;
+}
+.button3:hover {
+
+    color: white;
+}
+.buttonMinus {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 250px 0 0 225px;
+	color: white;
+	font-family: arial black;
+}
+.buttonMinus:hover {
+
+    color: black;
+}
+.buttonDecimal {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 0;
+	color: black;
+}
+.buttonDecimal:hover {
+
+    color: white;
+}
+.button0 {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, #8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 75px;
+	color: black;
+}
+.button0:hover {
+				
+    color: white;
+}
+.buttonEquals {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to right, orange, #FBE7B2);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 150px;
+	color: black;
+	font-family: Calibri;
+}
+.buttonEquals:hover {
+
+    color: white;
+}
+.buttonPlus {
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient(to bottom right, #676767,#8B8680);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	margin: 325px 0 0 225px;
+	color: white;
+}
+.buttonPlus:hover {
+
+    color: black;
+}

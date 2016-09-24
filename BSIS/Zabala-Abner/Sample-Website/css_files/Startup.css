@@ -1,0 +1,21 @@
+body   {
+	margin: 0 auto;
+	background: white;
+	background-attachment: fixed;
+	}
+h1     {font-family: built titling;
+	color:red;
+	}
+img    {border: 10px solid black;
+
+	}
+button {font-size: 90%;font-family: built titling;
+		cursor: pointer; }
+input  {font-size: 25px;
+
+	}
+div	   {padding: 0px;
+	   font-family: built titling; 
+	   font-size: 30px;
+	   text-align:center;
+	}

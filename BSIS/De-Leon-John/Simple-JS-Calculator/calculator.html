@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor=grey>
+<head>
+
+<style type="text/css">
+	#div1{
+		background-color: rgb(0,0,0);
+		width: 400px;
+		height: 370px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 10px; 
+		
+
+		
+
+	}
+
+	#tbox{
+		width:350px;
+		height: 50px;
+		background-color: black;
+		margin-right: auto;
+		margin-left: auto;
+		color: #ffffff;
+		text-align: right;
+		border-color: yellow;
+		border-style: solid;
+		font-size: 48px;
+		font-family:impact;
+		color: yellow;
+		overflow: hidden;
+
+	}
+	.butt{
+		width: 40px;
+		height: 40px;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		border-radius: 5px;
+		font-style: bold;
+		font-size: 35px;
+		color: black;
+		font-family: grill san serif;
+
+	}
+	.butt:hover{
+		color: yellow;
+	}
+	#zero{
+		color: black;
+		width: 137px;
+		height: 40px;
+		margin-bottom: 5px;
+		margin-bottom: 5px;
+		border-radius: 5px;
+		font-style: bold;
+		font-size: 35px;
+		font-family: grill san serif;
+		margin-left: 27px;
+	}
+
+	#one{
+			margin-left: 27px;
+	}
+	#four{
+			margin-left: 27px;
+	}
+	#seven{
+			margin-left: 27px;
+	}
+
+	
+</style>
+	<title>
+		Calculator
+	</title>
+
+	<script type="text/javascript">
+
+	var input;
+	var clear;
+	var operation;
+
+
+	
+
+	function one(){
+
+		document.getElementById('tbox').innerHTML+='1';
+		input=tbox.innerHTML;		
+	}
+
+	function two(){
+
+		document.getElementById('tbox').innerHTML+='2';
+	
+		input=tbox.innerHTML;
+	}
+
+	function three(){
+
+
+		document.getElementById('tbox').innerHTML+='3';
+		
+		input=tbox.innerHTML;
+	}
+
+	function four(){
+
+		document.getElementById('tbox').innerHTML+='4';
+		
+		input=tbox.innerHTML;
+
+	}
+
+	function five(){
+
+		document.getElementById('tbox').innerHTML+='5';
+		
+		input=tbox.innerHTML;
+	}
+
+	function six(){
+
+		document.getElementById('tbox').innerHTML+='6';
+		
+		input=tbox.innerHTML;
+
+	}
+
+	function seven(){
+
+		document.getElementById('tbox').innerHTML+='7';
+	
+		input=tbox.innerHTML;
+
+	}	
+
+	function eight(){
+
+		document.getElementById('tbox').innerHTML+='8';
+		
+		input=tbox.innerHTML;
+	}
+
+	function nine(){
+
+		document.getElementById('tbox').innerHTML+='9';
+		
+		input=tbox.innerHTML;
+	}
+
+	function zero(){
+
+		document.getElementById('tbox').innerHTML+='0';
+		
+		input=tbox.innerHTML;
+	}
+
+	function plus(){
+		operation='addition';
+		document.getElementById('tbox').innerHTML+='+';
+		
+		
+
+	}
+
+	function minus(){
+		document.getElementById('tbox').innerHTML+='-';
+	
+		operation='subtraction';
+		
+	}
+
+	function multiply(){
+		document.getElementById('tbox').innerHTML+='*';
+	
+		operation='multiplication';
+	
+	}
+
+	function divide(){
+		document.getElementById('tbox').innerHTML+='/';
+		
+		operation='division';
+	
+	}	
+
+	function cls(){
+			clear=''
+			document.getElementById('tbox').innerHTML=clear;
+			fnum=0;
+			input=0;
+			operation='';
+	}
+
+	function answer(){
+
+		
+		document.getElementById('tbox').innerHTML=eval(input);
+			
+	}
+
+	
+
+	</script>
+</head>
+
+<body>
+<br>
+<br>
+<div id="div1">
+<br>
+<div id="tbox" >
+
+</div>
+<hr color="yellow" align="right">
+<br>
+
+
+
+
+<button id="one"class="butt"onclick="one()">1</button>
+<button id="two"class="butt"onclick="two()">2</button>
+<button id="three"class="butt"onclick="three()">3</button>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<button id="add"class="butt"onclick="plus()">+</button>
+<button id="divide"class="butt"onclick="divide()">/</button>
+<br>
+
+<button id="four"class="butt"onclick="four()">4</button>
+<button id="five"class="butt"onclick="five()">5</button>
+<button id="six"class="butt"onclick="six()">6</button>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<button id="subtract"class="butt"onclick="minus()">-</button>
+<button id="answer"class="butt"onclick="answer()">=</button>
+<br>
+
+<button id="seven"class="butt"onclick="seven()">7</button>
+<button id="eight"class="butt"onclick="eight()">8</button>
+<button id="nine"class="butt"onclick="nine()">9</button>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<button id="multiply"class="butt"onclick="multiply()">*</button>
+<button id="clear"class="butt"onclick="cls()">C</button>
+<br>
+
+<button id="zero"onclick="zero()">0</button>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+.homenav{
+	background: #FE683a;
+}
+
+
+/*<firstwall>*/
+.image1{
+	position: fixed;
+	z-index: -1;
+	margin-left: 0;
+}
+.parallax{
+	z-index: 200;
+}
+.content1{
+	margin-top: 65px;
+	position: absolute;
+	margin-left: 8%;
+	max-width: 38%;
+	text-align: justify;
+	font-size: 25px;
+	color: white;	
+}
+.knowmore{
+	position: absolute;
+	margin: 28px 0 0 115px;
+}
+.knowmore:hover{
+	opacity: 0;
+}
+.knowmorehover{
+	position: absolute;
+	margin: 28px 0 0 115px;
+}
+/*</firstwall>*/
+/*<secondwall>*/
+.image2{
+	position: absolute;
+	margin: 570px 0 0 0;
+}
+.content2{
+	position: absolute;
+	margin-top: 725px;
+	margin-left: 53%;
+	max-width: 38%;
+	text-align: justify;
+	font-size: 25px;
+	color: #FE683a;
+}
+.gallery{
+	position: absolute;
+	margin: 28px 0 0 115px;
+}
+.gallery:hover{
+	opacity: 0;
+}
+.galleryhover{
+	position: absolute;
+	margin: 28px 0 0 115px;
+}
+/*</secondwall>*/
+/*<thirdwall>*/
+.image3{
+	position: absolute;
+	margin: 1326px 0 0 0px;
+}
+.content3{
+	position: absolute;
+	margin-top: 1725px;
+	margin-left: 8%;
+	max-width: 48%;
+	text-align: justify;
+	font-size: 25px;
+	color: #000000;
+}
+.artist{
+	position: absolute;
+	margin: 0 0 0 0;
+}
+.artist:hover{
+	opacity: 0;
+}
+.artisthover{
+	position: absolute;
+	margin: 0 0 0 0;
+}
+/*</thirdwall>*/
+/*<fourthwall>*/
+.image4{
+	position: absolute;
+	margin: 2089px 0 0 0;
+}
+.content4{
+	position: absolute;
+	margin-top: 2450px;
+}
+.seelist{
+	position: absolute;
+	margin: 170px 0 0 538px;
+}
+.seelist:hover{
+	opacity: 0;
+}
+.seelisthover{
+	position: absolute;
+	margin: 170px 0 0 538px;
+}
+/*</fourthwall>*/
+/*<fifthwall>*/
+.image5{
+	position: absolute;
+	margin: 2839px 0 0 0;
+}
+.content5{
+	position: absolute;
+	margin-top: 3000px;
+	margin-left: 8%;
+	max-width: 35%;
+	text-align: justify;
+	font-size: 30px;
+	color: #ffffff;
+}
+.more{
+	position: absolute;
+	margin: 0 0 0 94px;
+}
+.more:hover{
+	opacity: 0;
+}
+.morehover{
+	position: absolute;
+	margin: 0 0 0 94px;
+}
+/*.image6{
+	position: absolute;
+	margin: 3643px 0 0 0;
+}*/
+/*</fifthwall>*/
+
+
+
+
+
+
+
+
+
+/*<footer>*/
+.media{
+	position: absolute;
+	margin-top: 3350px;
+	margin-left: 327px;
+}
+.no1{
+	position: absolute;
+}
+.no1:hover{
+	opacity: 0;
+}
+.hover1{
+	position: absolute;
+}
+.no2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no2:hover{
+	opacity: 0;
+}
+.hover2{
+	position: absolute;
+	margin-left: 70px;
+}
+.no3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no3:hover{
+	opacity: 0;
+}
+.hover3{
+	position: absolute;
+	margin-left: 140px;
+}
+.no4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no4:hover{
+	opacity: 0;
+}
+.hover4{
+	position: absolute;
+	margin-left: 210px;
+}
+.no5{
+	position: absolute;
+	margin-left: 280px;
+}
+.no5:hover{
+	opacity: 0;
+}
+.hover5{
+	position: absolute;
+	margin-left: 280px;
+}
+.media2{
+	position: absolute;
+	margin-top: 3350px;
+	margin-left: 673px;
+}
+.no6{
+	position: absolute;
+}
+.no6:hover{
+	opacity: 0;
+}
+.hover6{
+	position: absolute;
+}
+.no7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no7:hover{
+	opacity: 0;
+}
+.hover7{
+	position: absolute;
+	margin-left: 70px;
+}
+.no8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no8:hover{
+	opacity: 0;
+}
+.hover8{
+	position: absolute;
+	margin-left: 140px;
+}
+.no9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no9:hover{
+	opacity: 0;
+}
+.hover9{
+	position: absolute;
+	margin-left: 210px;
+}
+.no10{
+	position: absolute;
+	margin-left: 280px;
+}
+.no10:hover{
+	opacity: 0;
+}
+.hover10{
+	position: absolute;
+	margin-left: 280px;
+}
+.contact1{
+	position: absolute;
+	margin: 2980px 0 0 150px;
+	max-width: 40%;
+	text-align: right;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.contact2{
+	position: absolute;
+	margin: 2980px 0 0 670px;
+	max-width: 37%;
+	text-align: left;
+	font-size: 125%;
+	color: #000000;
+	z-index: 	1000;
+}
+.image7{
+	position: absolute;
+	margin: 2860px 0 0 0;
+}
+footer{
+	background: #000000;
+	color: #ffffff;
+	position: absolute;
+	margin: 3400px 0 0 0;
+	font-size: 75%;
+	text-align: center;
+	width: 100%;
+	font-family: calibri;
+	z-index: 	1000;
+}
+/*</footer>*/

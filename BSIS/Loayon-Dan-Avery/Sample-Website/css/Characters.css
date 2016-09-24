@@ -1,0 +1,86 @@
+	body{
+		margin: 70px 0 0 0;
+		font-family: Futura;
+		background-repeat: no-repeat;
+		background-image: url(../imgs/boop.jpg);
+		width: 100px;
+	}
+
+	.chap{
+		position: absolute;
+		background-color: white;
+		margin-left: 45%;
+
+
+	}
+	.chip{
+		width: 100%;
+		margin-top: -80px;
+		position: fixed;
+		color: black;
+		list-style: none;
+		text-align: right;
+		padding: 0px 0 0px 0;
+		opacity: 0.8;
+		background: black;
+		
+	}
+	.chip li{
+		display: inline-block;
+		padding: 10px 10px 10px 10px;
+		font-size: 20px;
+	}
+	li:hover{
+		text-align: center;
+		padding: 10px 10px 10px 10px;
+		
+		background-color: #330033;
+	}
+	.chip li a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.vape{
+		position: absolute;
+	}
+	.bleep{
+		position: absolute;
+		text-align: center;
+
+	}
+	.kups{
+		margin-left: 25%;
+		background-color: white;
+	}
+
+	.dope{
+		left: 60px;
+		top: 100px;
+		position: absolute;
+		opacity: 0.8;
+		background-color: black;
+		padding-left: 200px;
+		padding-right: 100px;
+		float: left;	
+		z-index: -1px;	
+		width: 65%;	
+
+	}
+	.fleek{
+		position: absolute;
+		left: 240px;
+		top: 130px;
+		text-decoration: none;
+		
+
+	}
+
+	footer{
+		margin-top: 920px;
+		display:block;
+		position: absolute;
+		border: black;
+		border-width: 20px;
+	}
+

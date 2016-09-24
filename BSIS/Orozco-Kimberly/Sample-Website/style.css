@@ -1,0 +1,147 @@
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body {background:white; margin:0;
+	 font-family: Helvetica;
+	 /*height: 100%;*/
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+#container {
+	background-color: #f08080 ;
+}
+
+a{
+	text-decoration: none;
+	color:  #DEB887 ;
+}
+
+#header{
+  background-color: #101010;
+  color: #DEB887;
+  height: 75px;
+  font-size: 15px;
+}
+#header1{
+  background-color: #101010;
+  color: #DEB887;
+  height: 60px;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+#content{
+  background-color: #D3D3D3 ;
+  border: 3px solid #2F4F4F;
+  border-radius: 13px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+#profile{
+  padding-right: 40px;
+}
+
+
+#aside{
+  margin-left: 150px;
+  margin-right: 220px;
+  font-size: 14px;
+  background-color: #D3D3D3;
+
+
+}
+#album{
+  background-color: #D3D3D3 ;
+	font-size: 13px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#member {
+   margin-left: 75px;
+   font-size: 22px;
+   border: 3px solid #696969;
+   width: 180px;
+   text-align: center;
+   border-radius: 6px;
+   background-color: #101010;
+   color: #fff;
+}
+#section{
+    font-size: 14px;
+}
+
+div.img {
+	background color: #D3D3D3;
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid #fff;
+    height: auto;
+    width: auto;
+    margin-right: 78px;
+    float: right;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 3px;
+    border: 2px solid #696969;
+}
+
+div.img a:hover img {
+    border:2px solid #8b0000;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 200px;
+    margin: 3px;
+}
+.div1{
+  float: left:;
+  margin-left: 50px;
+}
+.div2{
+  float: right;
+  margin-right: 40px;
+  padding: 35px;
+}
+
+#footer{
+  clear: both;
+  padding: 4px;
+  background-color: #101010;
+  color: #DEB887;
+  text-align: center;
+  
+}

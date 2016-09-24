@@ -1,0 +1,137 @@
+body {
+	background-image: url('../Dimabuyo, John Kim Kenneth D. Website/Image/BackgroundImage/582212.png');
+	background-size: cover;
+}
+
+ ul {
+	background-color: #333;
+	border: 1px solid #000;
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	position: fixed;
+ 	top: 0;
+ 	width: 98%;
+}
+
+li {
+	border-right: 1px solid #000;
+	float: left;
+}
+
+li a.active {
+	color: black;
+	background-color: white;
+}
+
+li a:hover:not(.active) {
+	color: black;
+	background-color: white;	
+}
+
+li a {
+	color: white;
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.front {
+	background-color: #d7c8ab;
+	margin: 100px 180px;
+	padding: 10px 15px 5px 15px;
+	text-align: justify;
+}
+
+ul img {
+	padding: 5px 10px 5px 10px;
+}
+
+.logo {
+	background-color: gray;
+	border: 1px solid #ccc;
+	float: right;
+	margin: 10px 10px 0 20px;
+	padding: 10px;
+}
+
+.h2tag{
+	border-bottom: 1px solid #756d5d;
+}
+
+.table{
+	font-size: 12px;
+}
+
+div .image img{
+	width: 100%;
+	height: 250px;
+}
+
+div .image{
+	margin: 5px 5px 15px 5px;
+	width: 220px;
+	display: inline-block;
+}
+
+.description{
+	padding: 15px;
+	text-align: center;
+	width: 150px;
+}
+
+div .galery{
+	display: inline-block;
+	width: 150px;
+	padding: 10px;
+}
+
+.char{
+	display: inline-table;
+	margin: 8px 8px 5px 8px;
+}
+
+div .charweb{
+	display: inline-table;
+	margin-left: 60px;
+}
+
+.dstg{
+	top: 53px;
+	display: inline-table;
+	margin-left: 0; 
+	position: relative;
+	width: 99.3%;
+	height: 800px;	
+}
+
+.video{
+	position: absolute;	
+	top: 580px;
+	left: 530px;
+}
+
+.last{
+	background-color: tan;
+	margin: 49px 9px 0 1px;
+	padding: 10px;
+}
+
+.p{
+	padding-left: 20px; 
+}
+
+.h2r{
+	border-bottom: 1px solid #756d5d;
+}
+
+a{
+	color: #8f3000;
+	text-decoration: none;
+}
+
+.a:hover{
+	text-decoration: underline;
+}

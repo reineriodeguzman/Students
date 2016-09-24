@@ -1,0 +1,143 @@
+body{
+	background-image: url("pictures/HD-Music-Desktop-Wallpapers.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.style2{
+	margin-left: 13em;
+	margin-right: 20em;
+	margin-top: 1em;
+	background-color: white;
+	font-family: verdana;
+	border-top-right-radius: 10pt;
+	border-top-left-radius: 40px;
+	border: groove;
+	width: 57em;
+}
+.style1{
+	margin-left: 1em;
+	margin-right: 20em;
+	margin-top: 20px;
+	font-family: verdana;
+	border: groove;
+	background-image: url("pictures/sample1.png");
+	background-position: center;
+	background-repeat: no-repeat; 
+	width: 80em;
+	height: 11em;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
+
+}
+.style3{
+	margin-left: 13em;
+	margin-right: 20em;
+	margin-top: 5px;
+	background-color: white;
+	font-family: verdana;
+	border: groove;
+	width: 57em;
+	height: 8em;
+}
+.download{
+	width: 8em;
+	height: 2em;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	font-size: 20px;
+	background-color: #7FFF00;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.download:hover{
+	opacity: 0.5;
+}
+.Lyrics{
+	width: 12em;
+	height: 2em;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	font-size: 20px;
+	background-color: #7FFF00;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.Lyrics:hover{
+	opacity: 0.5;
+}
+.inner{
+	width: 20em;
+	height: 8em;
+	border: groove;
+	border-color: yellow;
+	background-color: black;
+	float: right;
+	border-top: none;
+}
+a:link{
+	text-decoration: none;
+	text-transform: none;
+}
+a:visited{
+	color: black;
+}
+.nav{
+	background-image: url("pictures/images-4.jpeg");
+	color: white;
+}
+nav{
+	font-size: 24px;
+	font-family: georgia;
+	text-align: center;
+	margin-left: 16em;
+}
+div{
+	width: 119px;
+	border:solid 1px;
+	float: left;
+	padding: 10px;
+	background-color: white;
+}
+a:first-child div{
+	border-bottom-left-radius: 40px;
+}
+a:last-child div{
+	border-bottom-right-radius: 40px;
+}
+.nav:hover{
+	opacity: 0.5;
+}
+#style4{
+	height: 9em;
+	width: 64.5em;
+	margin-left: 9.5em;
+	margin-right: 12em;
+	background-image: url(pictures/sample4.png);
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 5em;
+	border-bottom-right-radius: 5em;
+	border-top-left-radius: 5em;
+	border-top-right-radius: 5em;
+}
+#Mp4{
+	height: 5em;
+	width: 10em;
+	font-size: 20pt;
+	border-top-right-radius: 15em;
+	border-bottom-left-radius: 15em;
+	margin-top: 0.5em;
+	margin-left: 14em;
+	background-image: url(pictures/sample5.png);
+	cursor: wait;
+	background-color: #7FFF00;
+	opacity: 0.4;
+	font-family: forte;
+}
+#Mp4:hover{
+	opacity: 1;
+}
+#hold{
+	width: 82em;
+	height: 115em;
+	background-color: transparent;
+}

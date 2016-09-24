@@ -1,0 +1,95 @@
+/* PAGE BODE STYLE AND BACKGROUND COLOR */
+	body {
+		background-color: #E9E9E9;
+		color: #efefef;
+		
+		/* BACKGROUND IMAGE */
+		background: url(../images/background.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 
+		
+		/* DECLARATION OF FONT STYLE IN THE PAGE AND THUMBNAILS */
+		font-family:"Lucida handwriting", "Snell Roundhand", "Helvetica Neue",Arial,Helvetica,sans-serif;
+		font-size: 16px;
+	}
+
+	.album_container {
+		margin: 0 auto; /* SET TO CENTER */
+		width: 1000px;
+	}
+
+	.footer {
+		margin: 0 auto; /* SET TO CENTER */
+		width: 100%;
+		background: #eeggee;
+		text-align: center;
+	}
+
+	/* DESIGN AND STYLE OF THUMBNAILS */
+	a.album_effect {
+		display: block;
+		margin: 2em auto 0 auto;
+		text-decoration: none;
+		color: #333;
+		padding: 13px 13px 26px 13px;
+		width: 200px;
+		border: 1px solid #BFBFBF;
+		background-color: white;
+		z-index: 2;
+		font-size: 0.8em;
+		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		transform: rotate(10deg);
+		-webkit-transition: all 0.5s ease-in;
+	}
+	
+	/* ON MOUSE OVER/HOVER EFFECT */
+	a.album_effect:hover,
+	a.album_effect:focus,
+	a.album_effect:active {
+		z-index: 999;
+		border-color: #6A6A6A;
+		-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		-webkit-transform: rotate(0deg) scale(1.05);
+		-moz-transform: rotate(0deg) scale(1.05);
+		transform: rotate(0deg) scale(1.05);
+	}
+	
+	.album_effect img {
+		margin: 0 0 15px;
+	}
+
+	/* THUMBNAIL STYLE AND BORDER SETTINGS */
+	a img {
+		border: none;
+		display: block;
+		
+		/* SPECIFY THE WIDTH AND HEIGHT OF THE THUMBNAIL IN PIXELS*/
+		max-height: 120px; /* SPECIFY MAXIMUM HEIGHT OF THE THUMBNAIL*/
+		min-height: 120px; /* SPECIFY MINIMUM HEIGHT OF THE THUMBNAIL*/
+		min-width: 200px; /* SPECIFY MINIMUM WIDTH OF THE THUMBNAIL*/
+		max-width: 200px; /* SPECIFY MAXIMUM WIDTH OF THE THUMBNAIL*/
+	}
+
+	.my_album {
+		float: left;
+		width: 240px;
+		background-color: #112233;
+	}
+
+	.link_album_container {
+		margin: 0 auto;
+		width: 480px;
+	}
+
+	.link_album {
+		float: left;
+		width: 240px;
+	}

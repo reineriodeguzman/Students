@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" style="zoom: reset;">
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Song Title</title>
+
+	<script src="../js/script.js" type="text/javascript"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logogray.ico" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="nowplaying">
+
+	<a href="home.html"><img link="home.html" id="nowplayingback" src="../img/back1.png" onmouseover="back();" onmouseout="back2();" width="50px" height="50px"></a>
+
+	<div id="songinfo">
+
+
+		<h1 id="songname">Please Select Song in the Collection</h1>
+		<br/>
+		<p id="authorinfo"><strong></strong></p>
+		<p id="playingduration"></p>
+
+	</div>
+
+	<script type="text/javascript">
+			var backbtn = document.getElementById('nowplayingback');
+		function back(){
+			backbtn.src = "../img/back2.png";
+		}
+
+		function back2(){
+			backbtn.src = "../img/back1.png";
+		}
+
+	</script>
+
+</body>
+</html>

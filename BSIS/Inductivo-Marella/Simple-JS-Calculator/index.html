@@ -1,0 +1,44 @@
+<!-- saved from url=(0055)http://www.anaesthetist.com/mnm/javascript/calc.htm#all -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Calculator</title>
+		<link rel="stylesheet" type="text/css" href="cal.css">
+		<script type="text/javascript" src="cal.js"></script>
+	</head>
+	<body bgcolor="#F0F0FF">
+		<div ID = "calculator"> <!-- OUTER MARGIN -->
+			<form name="Calculator">
+				
+				<input CLASS ="RESULT" type="text" name="Display" onchange="FixCurrent()">
+				<DIV CLASS ="SYMBOL" onclick="Operate(&#39;/&#39;)">/</DIV>
+				<DIV CLASS ="SYMBOL" onclick="PlusMinus()">+/-</DIV>
+				<DIV CLASS ="CLEAR" onclick="Clear()">C</DIV>
+				<DIV CLASS ="CLEAR-ALL" onclick="AllClear()">AC</DIV>
+				<DIV CLASS ="SYMBOL" onclick="Operate(&#39;*&#39;)">*</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;9&#39;)">9</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;8&#39;)">8</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;7&#39;)">7</DIV>
+				<br>
+				<DIV CLASS ="SYMBOL" onclick="Operate(&#39;-&#39;)">-</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;6&#39;)">6</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;5&#39;)">5</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;4&#39;)">4</DIV>
+				<br>
+				<DIV CLASS ="SYMBOL" onclick="Operate(&#39;+&#39;)">+</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;3&#39;)">3</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;2&#39;)">2</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;1&#39;)">1</DIV>
+				<br>
+				<DIV CLASS ="SYMBOL" onclick="Calculate()">=</DIV>
+				<DIV CLASS ="SYMBOL" onclick="DoExponent()">Exp</DIV>	
+				<DIV CLASS ="ZERO" onclick="Dot()">.</DIV>
+				<DIV CLASS ="KEYS" onclick="AddDigit(&#39;0&#39;)">0</DIV>
+				<br>
+				
+				
+
+			</form>
+		</div>
+	</body>
+</html>

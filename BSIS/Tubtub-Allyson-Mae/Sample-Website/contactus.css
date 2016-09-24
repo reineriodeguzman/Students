@@ -1,0 +1,66 @@
+
+#header{
+	background-image: url(img/ban.jpg);
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+	background-position: top;
+	white-space: pre-wrap;
+}
+h3{
+	font-family: tolkien;
+	font-size: 38px;
+}
+
+body{
+	background-image: url(img/body.jpg);
+	background-attachment: scroll;
+}
+
+#menu{
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.button{
+	background-color: royalblue;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#first{
+	font-family: comic sans ms;
+	font-size: 22px;
+	color: orchid;
+}
+
+td {
+	color: lightblue;
+	font-family: sans-serif;
+	background-color: darkorchid;
+}
+
+.submit:hover{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: green;
+}
+.reset:hover{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: red;
+}
+
+footer{
+	font-family: sans-serif;
+	color: lightblue;
+	font-size: 10px;
+}

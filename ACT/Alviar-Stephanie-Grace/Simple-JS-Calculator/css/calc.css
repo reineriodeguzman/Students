@@ -1,0 +1,82 @@
+
+body
+{
+	width: 500px;
+}
+form 
+{
+	background-color: #655e57;
+	text-align: center;
+    width: 450px;
+    height: 100px;
+    margin: 50px 500px;
+    padding: 10px 10px 260px 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+}
+
+#display 
+{
+	width: 90%;
+	height: 35px;
+	text-align: right;
+	font-size: 1.5rem;
+	border-radius: 25px;
+	background-color: #6f8ca2;
+}
+
+.digit 
+{
+	font-size: 2rem;
+	background-color: #ecf0f1;
+	height: 55px;
+	width: 110px;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 15px;
+	border-bottom: 3px solid grey;
+    color: #2c3e50;
+}
+
+.oper 
+{
+	font-size: 2rem;
+	height: 55px;
+	width: 85px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+	border-bottom: 3px solid grey;
+  	background-color: #a9a5a1;
+  	color: #2c3e50;
+  	margin: 8px;
+}
+
+#clearMem 
+{
+	font-size: 2rem;
+	height: 55px;
+	width: 110px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+	border-bottom: 3px solid grey;
+  	background-color: #e03d3d;
+  	color: #2c3e50;
+  	margin: 5px;
+}
+
+#equal 
+{
+	font-size: 2rem;
+    height: 55px;
+    width: 85px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 3px solid grey;
+    background-color: #a9a5a1;
+    color: #2c3e50;
+    margin: 8px;
+}

@@ -1,0 +1,56 @@
+div.head{
+	background-color: red;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	margin-top: 5px;
+}
+.official{
+	color: white;
+	font-size: verdana;
+	font-size: 20px;
+	margin-left: 90px;
+	font-style: bold;
+
+}
+.po{
+	margin-left: 600px;
+	position: absolute;
+	margin-top:-42px;
+	background-color: yellow;
+}
+.po1{
+position: absolute;
+	margin-top:-42px;
+	margin-left: 675px;
+	background-color: yellow;
+}
+.po2{
+position: absolute;
+	margin-top:-42px;
+	margin-left: 750px;
+	background-color: yellow;
+}
+.po3{
+	position: absolute;
+	margin-top:-42px;
+	margin-left: 825px;
+	background-color: yellow;
+}
+.po4{
+	position: absolute;
+	margin-top:-42px;
+	margin-left: 900px;
+	background-color: yellow;
+}
+.headImg{
+	position: absolute;
+	width: 70px;
+	height: 40px;
+	margin-top: -60px;
+	margin-left: 10px;
+}
+.videoDistance{
+	margin-top: 100px;
+	position: absolute;
+}

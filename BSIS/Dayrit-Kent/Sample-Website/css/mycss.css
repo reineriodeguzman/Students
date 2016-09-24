@@ -1,0 +1,295 @@
+	body {
+		background-color: gray;
+	}
+	.menFont {
+		font-family: "Bodoni MT Poster Compressed";
+		font-size: 30px;
+		font-weight: bold;
+	}	
+
+	.AboutFont{
+		font-family: "Bodoni MT Poster Compressed";
+		font-size: 20px;
+		margin-left: 20%;
+		margin-right: 10%;
+	}
+	.BuyFont{
+		margin-left: 43%;
+	}
+
+	.nav{
+	 
+	 background-color: #000;
+	color: white;
+	}
+	#nav1 > a > button{
+		
+		width: 26%;
+		height: 50px;
+		border-radius: 5px;
+		border-width: 5px;
+		border-color:white;	
+		float: left;	
+	}
+
+	.ApparelList {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+  font-family: Bell MT;
+}
+.ListItem {
+
+  width: 90%;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: green;
+}
+
+a.ListItem {
+  color: #555;
+}
+a.ListItem:hover,
+a.ListItem:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.ListItem.active,
+.ListItem.active:hover,
+.ListItem.active:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.homePic{	
+	width: 189px;
+	margin-left: 20%;
+	
+}
+
+.homePic2{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -978px;
+
+}
+
+.homePic3{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -650px;
+
+}
+
+.homePic4{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -330px;
+
+}
+
+.homePic5{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -978px;
+
+}
+
+
+.homePic6{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -650px;
+
+}
+
+
+.homePic7{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -330px;
+
+}
+
+.MensPic{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -945px;
+
+}
+.MensPic2{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -945px;
+
+}
+
+.MensPic3{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -625px;
+
+}
+
+.MensPic4{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -302px;
+
+}
+
+.MensPic5{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -965px;
+}
+.MensPic6{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -643px;
+}
+.MensPic7{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -320px;
+}
+
+.MensPicP1{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -947px;
+}
+.MensPicP2{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -620px;
+}
+.MensPicP3{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 45%; 
+	margin-top: -300px;
+}
+.MensPicP4{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -947px;
+}
+.MensPicP5{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -620px;
+}
+.MensPicP6{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 70%; 
+	margin-top: -300px;
+}
+
+.MensPicS{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left:20%; 
+	margin-top: 0px;
+}
+.MensPicS2{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: -17%; 
+	margin-top: +325px;
+}
+.MensPicS3{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left:-17%; 
+	margin-top: +650px;
+}
+.MensPicS4{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: +8%; 
+	margin-top: 0px;
+}
+.MensPicS5{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: -17%; 
+	margin-top: +325px;
+}
+.MensPicS6{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left:-17%; 
+	margin-top: +650px;
+}
+.MensPicS7{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left:8%; 
+	margin-top: 0px;
+}
+.MensPicS8{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left: 8%; 
+	margin-top: 25px;
+}
+.MensPicS9{
+	width: 189px;
+	float: left;
+	position:top;
+	margin-left:-17%; 
+	margin-top: 350px;

@@ -1,0 +1,83 @@
+
+#header{
+	background-image: url(img/ban.jpg);
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+	background-position: top;
+	white-space: pre-wrap;
+}
+
+h3{
+	font-family: tolkien;
+	font-size: 38px;
+
+}
+
+body{
+	background-image: url(img/body.jpg);
+	background-attachment: scroll;
+
+}
+
+#menu{
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.button{
+	background-color: royalblue;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#video1{
+	position: center;
+	font-family: arial;
+	color: lightblue;
+}
+
+#choose{
+	color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: ravie;
+	color: red;
+	text-decoration: none;
+}
+
+.par1{
+	margin-left: 140px;
+	margin-right: 140px;
+	font-family: comic sans ms;
+	background-color: darkgreen;
+	color: white;
+	padding: 8px;
+	border: 10px black;
+	border-radius: 8px;
+	background-repeat: no-repeat;
+	background-size: 850px 1600px;
+}
+
+#text1{
+	text-indent: 40px;
+	text-align: justify;
+}
+
+#video2{
+	position: center;
+	font-family: arial;
+	color: blue;
+}
+
+footer{
+	font-family: sans-serif;
+	color: lightblue;
+	font-size: 10px;
+}
