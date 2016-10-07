@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foods</title>
+	<link rel="stylesheet" type="text/css" href="food.css">
+</head>
+<body>
+
+	<div id="Maindiv">
+		<div id="navdiv">
+
+			<ul>
+				<h1>Steph's Website</h1>
+ 				<li><a href="hobbies.html">Hobbies</a></li>
+    			<li><a href="place.html">Place</a></li>
+    			<li><a class="active" href="food.html">Food</a></li>
+    			<li><a href="home.html">Home</a></li>
+  			</ul>
+  		</div>
+	</div>
+
+<h2 class="heading">
+Here you can see what are my favorite foods. I can also cook one of those. My especialty is Chicken Adobo because its easy to cook. I learned it from my Grandmother because I always see her in the kitchen cooking different foods.
+</h2>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="adobo.jpg" style="width:100%">
+    <div class="text">Adobo</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="tinola2.jpg" style="width:100%">
+    <div class="text">Tinola</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="chopsuey.jpg" style="width:100%">
+    <div class="text">Chopsuey</div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="munggo.jpg" style="width:100%">
+    <div class="text">Munggo</div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="shanghai2.jpg" style="width:100%">
+    <div class="text">Lumpia Shanghai</div>
+  </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<div id="footer">
+All rights reserved.
+</div>
+
+</body>
+</html>
