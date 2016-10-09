@@ -1,2 +1,10 @@
 
 ![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page1.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page2.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page3.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page4.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page5.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page6.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page7.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page8.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Rigo-Cristine-Amie/Sample-Website/page9.png)
