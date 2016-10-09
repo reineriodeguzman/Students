@@ -19,7 +19,8 @@
 		var eight = document.getElementById("p8");
 		var nine = document.getElementById("p9");
 		var zero = document.getElementById("p0");
-		var n = document.getElementById("0")
+		var n = document.getElementById("0");
+		var del = document.getElementById("s");
 
 		one.onclick = function()
 		{
@@ -86,6 +87,11 @@
  		n.onclick =function(){
  			answer.innerHTML += "*";
  		};
+
+ 		del.onclick = function(){
+ 			answer.innerHTML = "";
+ 		}
+ 	
 
 
 
