@@ -1,0 +1,96 @@
+body{
+	background-image: url("smile5.jpg");
+	background-repeat: repeat-y;
+	background-color: #000;
+}
+#calcu{
+	width: 259px;
+	height: 330px;
+	margin: 50px auto;
+	margin-top: 15%;
+	background-color: #333366;
+	padding: 10px;
+	padding-left: 15px;
+	border-radius: .4em;
+	border: black solid 3px;	
+}
+input[type=text]{
+	width: 248px;
+	height: 50px;
+	margin-top: 10px;
+	background-color: white;
+	border-radius: .3em;
+	border: #330000 solid 3px;
+	margin-bottom: 20px;
+	box-shadow: 1px 3px black;
+	text-decoration: bold; 	
+}
+.clear , .keys, .key
+{
+	width: 58px;
+	height: 45px;
+	margin: 2px;
+	float: left;
+	background-color: #3399cc;
+	border: solid black 1px;
+	border-radius: .4em;
+	text-align: center;
+	line-height: 35px;
+	box-shadow: 1px 3px black;
+}
+.clear{
+	background-color: red;
+		width: 121px;
+}
+.key{
+	background-color: #ccffcc;
+}
+.clear:hover{
+	background-color: black;
+	color: red;
+}
+.key:hover{
+	background-color: black;
+	color: red;
+}
+.keys:hover{
+	background-color: black;
+	color: red;
+}
+.keys1{
+	width: 55px;
+	height: 90px;
+	margin-top: 3px;
+	margin-right: 15px;
+	float: right;
+	padding: 23px;
+	background-color: #ccffcc;
+	border: solid black 1px;
+	border-radius: .4em;
+	text-align: center;
+	line-height: 40px;
+	box-shadow: 1px 3px black;
+}
+.keys1:hover{
+	background-color: black;
+	color: red;
+}
+
+.keys2{
+width: 89px;
+height: 40px;
+margin: 2px;
+float: left;
+background-color: #3399cc;
+border: solid black 1px;
+border-radius: .4em;
+box-shadow: 3px black;
+text-align: center;
+line-height: 35px;
+box-shadow: 1px 3px black;
+}
+
+.keys2:hover{
+	background-color: black;
+	color: red;
+}
