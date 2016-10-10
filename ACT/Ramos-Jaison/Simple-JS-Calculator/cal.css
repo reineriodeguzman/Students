@@ -1,0 +1,116 @@
+.box{
+	margin-top: 40px;
+	width: 500px;
+	height: 450px;
+	background-color: rgb(0,128,128);
+	border-radius: 10px;
+	box-shadow: 0 4px rgb(0,0,0,0,2) ;
+	
+	margin-left: auto;
+	margin-right:auto;
+}
+#result{
+	border:1px dotted white;
+	color: white;
+	margin-left: 20px;
+	float: left;
+	margin-top:20px;
+	width: 420px;
+	height: 60px;
+	background-color: rgb(0,32,47);
+	box-shadow: inset 0px 4px black;
+	border-radius: 4px;
+	font-size: 40px;
+	text-align: right;
+
+}
+.key{
+	width: 100px;
+	height: 50px;
+	
+	background-color: rgb(70,70,70);
+	text-align: center;
+	font-size:25pt;
+	font-family: Eras Demi ITC;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left:14px;
+	border-radius:10px;
+	box-shadow:0 4px black;
+	color: white;
+	
+
+}
+.sign{
+	width: 66px;
+	height: 50px;
+	font-family: Eras Demi ITC;
+	text-align:center;
+	font-size:30pt;
+	background-color:rgb(215,107,0);
+	margin-top: 10px;
+	box-shadow:0 4px rgb(0,0,0,0,2);
+	margin-left: 20px;
+	border-radius:20px;
+	
+
+}
+.clear{
+	margin-left: 140px;
+	text-align: center;
+	font-size:30pt;
+	margin-top: 330px;
+	
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	background-color:rgb(185,0,0);
+	box-shadow:0 4px black;
+	border-radius:10px;
+	color: white;
+	
+
+}
+.number{
+	width: 70%;
+	float: left;
+}
+.operator{
+	width: 30%;
+	float: left;
+}
+
+.key:hover{
+	background-color: rgb(85,85,85);
+}
+.sign:hover{
+	background-color: rgb(85,85,85);
+}
+.on{
+	width: 50px;
+	height: 30px;
+	background-color: rgb(0,198,0);
+	border-radius: 4px;
+	margin-top: 400px;
+	position: absolute;
+	margin-left: 190px;
+	box-shadow: 0 4px black;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+}
+.off{
+	width: 50px;
+	height: 30px;
+	background-color: rgb(0,198,0);
+	border-radius: 4px;
+	margin-top: 400px;
+	position: absolute;
+	margin-left: 250px;
+	box-shadow: 0 4px black;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+}
