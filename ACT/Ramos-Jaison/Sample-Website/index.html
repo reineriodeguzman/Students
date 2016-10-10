@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>calculator</title>
+	<link rel="stylesheet"type="text/css"href="cal.css">
+	
 </head>
 <body>
+
+	
+	
+
+			<div class="box">
+			<div id="result"></div>
+			
+				<div class="number">
+					<div class="key" onclick="seven()">7</div>
+					<div class="key" onclick="eight()">8</div>
+					<div class="key" onclick="nine()">9</div>
+					<div class="key" onclick="four()">4</div>
+					<div class="key" onclick="five()">5</div>
+					<div class="key" onclick="six()">6</div>
+					<div class="key" onclick="one()">1</div>
+					<div class="key" onclick="two()">2</div>
+					<div class="key" onclick="three()">3</div>
+					<div class="key" onclick="del()">del</div>
+					<div class="key" onclick="zero()">0</div>
+					<div class="key" onclick=" equals()">ans</div>
+					<div class="key"onclick="decimal()">.</div>
+				</div>
+					<div class="operator">
+					<div class="sign" onclick="plus()">+</div>
+					<div class="sign" onclick="()">%</div>
+					<div class="sign" onclick="divide()">/</div>
+					<div class="sign" onclick="minust()">-</div>
+					<div class="sign" onclick="multiply()">*</div>
+					<div class="sign" onclick="equals()">=</div>
+					</div>
+					<div class="clear" onclick="del()">C</div>
+					<div class="on">on</div>
+					<div class="off">off</div>
+					
+			</div>
+			<script src="fuction.js"></script>
 
 </body>
 </html>
