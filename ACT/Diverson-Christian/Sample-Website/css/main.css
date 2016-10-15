@@ -1,0 +1,164 @@
+html { 
+	background: url(../img/background2.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+@font-face {
+    font-family: 'Bank Gothic';
+    src: url(../font/BankGothicBold.ttf);
+}
+
+body {
+	text-align: center;
+}
+
+
+/* MAIN HEADER */
+#header {
+    margin-top: 10em;
+}
+
+#picholder {
+    position: absolute; 
+    top: 30px;
+    left: 680px;
+    filter: drop-shadow(1px 3px 6px #000000);
+}
+
+.headtitle {
+    font-family: "Bank Gothic";
+    color: #ffffff;
+    position: absolute;
+    font-size: 14px;
+    top: 29.6em;
+    left: 44.3em;
+    letter-spacing: 1.5px;
+    text-shadow: 3px 1px 2px #000000;
+}
+
+
+/* LINK HOLDER */
+
+.photography {
+    font-family: "Bank Gothic";
+    color: #cacaca;
+    position: absolute;
+    top: 39.5em;
+    left: 24em;
+}
+
+.photography:hover {
+    color: #666666;
+}
+
+.designs {
+    font-family: "Bank Gothic";
+    color: #cacaca;
+    position: absolute;
+    top: 39.5em;
+    left: 39.2em;
+}
+
+.designs:hover {
+    color: #666666;
+}
+
+.about {
+    font-family: "Bank Gothic";
+    color: #cacaca;
+    position: absolute;
+    top: 39.5em;
+    left: 55.5em;
+}
+
+.about:hover {
+    color: #666666;
+}
+
+.contact {
+    font-family: "Bank Gothic";
+    color: #cacaca;
+    position: absolute;
+    top: 39.5em;
+    left: 68.9em;
+}
+
+.contact:hover {
+    color: #666666;
+}
+
+/* CONTENT */
+
+#content {
+    font-family: 'Bank Gothic';
+    color: #373737;
+    position: absolute;
+    top: 43.65em;
+    left: 44.7em;
+} 
+
+#line1 {
+    position: absolute;
+    top: 17.963cm;
+    left: 19.15cm;
+    font-size: 8px;
+    line-height: 400%
+}
+
+#line2 {
+    position: absolute;
+    top: 18.3cm;
+    left: 18.95cm;
+    font-size: 8px;
+    line-height: 240%
+}
+
+
+/* ABOUT ME */
+
+.aboutme {
+    position: absolute;
+    font-family: 'Bank Gothic';
+    margin-top: -770px;
+    margin-left: 737px;
+}
+
+.info {
+    position: relative;
+    top: -700px;
+    text-indent: 1em;
+}
+
+#skills {
+    color: #ffffff;
+    position: absolute;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Bank Gothic';
+    margin-top: -593px;
+    margin-left: 739px;
+    letter-spacing: 3.5px;
+    text-shadow: 3px 1px 2px #000000;
+}
+
+#aboutme {
+    position: absolute;
+    margin-top: -805px;
+    margin-left: 779px;
+}
+
+
+/* FOOTER */
+
+#footer {
+    font-family: "Bank Gothic";
+    color: #b3b3b3;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px #000000;
+    line-height: 20%;
+    margin-top: -80px;
+}
+
+p.ex1 {
+    letter-spacing: 10px;
+}
