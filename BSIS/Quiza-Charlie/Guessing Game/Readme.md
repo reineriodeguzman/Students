@@ -1,4 +1,4 @@
-#Simple 
+# Angular Guessing Game
 
 ##Screenshots
 
