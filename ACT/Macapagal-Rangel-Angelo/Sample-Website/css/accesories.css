@@ -1,0 +1,10 @@
+div.container{
+	 background-color: white;
+	width: 900px;
+	height: 2400px;
+	margin-left: 230px;
+}
+.font{
+	font-size: 30px;
+	font-family: arial;
+}

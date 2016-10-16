@@ -1,0 +1,28 @@
+div.container{
+	 background-color:white;
+	width: 900px;
+	height: 1000px;
+	margin-left: 230px;
+}
+.font{
+	font-family: arial;
+	font-size: 76px;
+	color: blue;
+
+}
+.font1{
+	font-family:italic;
+	font-size: 30px;
+}
+.font2{
+	font-family:italic;
+	font-size: 30px;
+}
+.font3{
+	font-family:italic;
+	font-size: 30px;
+}
+.font4{
+	font-size: 30px;
+	font-family: arial;
+}

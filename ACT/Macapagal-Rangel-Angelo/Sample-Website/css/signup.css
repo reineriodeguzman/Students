@@ -1,0 +1,22 @@
+.sign{
+	font-size: 40px;
+}
+input[type="txt"]{
+	width: 250px;
+	height: 30px;
+}
+.birthday{
+	font-size: 20px;
+}
+div.container{
+	background-color: white;
+	width: 400px;
+	height: 500px;
+}
+.font{
+	color: yellow;
+	background-color: yellow;
+}
+a{
+	text-decoration: none;
+}
