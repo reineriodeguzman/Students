@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facts</title>
+	<style>
+		
+		ul {
+  		  list-style-type: none;
+   		   margin: 0;
+ 		   padding: 0;
+ 		   overflow: hidden;
+ 		   background-color: #333;
+		   }
+		li {
+  		  float: left;
+		   }
+		li a {
+   		  display: block;
+    		  color: white;
+  		  text-align: center;
+ 	          padding: 14px 16px;
+  		  text-decoration: none;
+		     }
+		li a:hover {
+    		background-color: #111;
+		}
+		p {
+   		  text-indent: 50px;
+		}
+		body {
+  		  color: black;
+		}
+		h2 {
+  		  color: green;
+		}
+		h1 {
+		  text-align: center;
+		  color: skyblue;
+		}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+	</style>
+</head>
+
+<body>
+
+	<ul>
+ 	 <li><a class="active" href="home.html">Home</a></li>
+	  <li><a href="facts.html">Facts</a></li>
+ 	 <li><a href="gallery.html">Gallery</a></li>
+	</ul>
+
+<h1> Psychological Facts </h1>
+
+<h2>1. Speech </h2>
+<p>Your mind "rewrites" monotonous speech of boring people to make it sound more interesting.</p>
+<h2>2. Crying at night</h2>
+<p>People tend to cry at night because lack of sleep makes emotions hard to control.</p>
+
+<h2>3. Replaying Memories</h2>
+<p>The human mind spends most of its time replaying memories over and over again with the desire to relive them.</p>
+
+<h2>4.Cellphone Lost </h2>
+<p> Human behavioral studies states that a person wh lost their cellphone experiences a panic similar to a near death experience.</p>
+
+<h2>5. 7 Years of Friendship</h2>
+<p>Any friendship that exceeds the 7-year mark is more than likely to last an entire lifetime.</p>
+
+<h2>6. Multiple Pillows</h2>
+<p> Study shows that people who sleep with multiple pillows are often lonely and despressed.</p>
+
+<h2>7. Missing</h2>
+<p> Sometimes you don't miss the actual people, you miss the moments. Memories are often placed at higher value.</p>
+
+<h2>8. Acknowledgement</h2>
+<p>Psychology says, It's a lot easier to admit being mad than being hurt.</p>
+
+<h2>9. Initiation</h2>
+<p>According to study, If you're always the one to text a person first, there's a 90% chance that this person isn't interested in you.</p>
+
+<h2>10. Gametophobia</h2>
+<p>Fear of marriage or getting married.</p>
+
+<a href="more.html" class="button">Next</a>
+</body>
+
+
+</html>
