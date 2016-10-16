@@ -1,9 +1,9 @@
 ##screenshots
 
-<img src = "E:\ \BSIS 2 Chyrine Cortez\WAD_Cortez\GuessTheNumber\1.jpg" alt = ""/>
+<img src = "1.jpg" alt = ""/>
 
-<img src = "E:\ \BSIS 2 Chyrine Cortez\WAD_Cortez\GuessTheNumber\2.jpg" alt = ""/>
+<img src = "2.jpg" alt = ""/>
 
-<img src = "E:\ \BSIS 2 Chyrine Cortez\WAD_Cortez\GuessTheNumber\3.jpg" alt = ""/>
+<img src = "3.jpg" alt = ""/>
 
-<img src = "E:\ \BSIS 2 Chyrine Cortez\WAD_Cortez\GuessTheNumber\4.jpg" alt = ""/>
+<img src = "4.jpg" alt = ""/>
