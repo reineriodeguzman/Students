@@ -4,7 +4,7 @@
 
 *Website URL*
 
-![](https://ldrin01.github.io/WAD/The-Life-Work/)
+!(https://ldrin01.github.io/WAD/The-Life-Work/)
 
 ## Screenshots:
 
