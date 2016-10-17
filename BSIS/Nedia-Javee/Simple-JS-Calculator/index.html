@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta name="viewport" content="width=device-width" intitial-scale="1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div id="calculator">
+		<form>
+			<input type="text" id="display" disabled><br>
+			<input type="text" id="third_display" disabled>
+			<input type="text" id="second_display" disabled><br>
+
+			<input type="button" value="MC" id="M" onclick="m('MC')">
+			<input type="button" value="MR" id="M" onclick="m('MR')">
+			<input type="button" value="M+" id="M" onclick="m('Mplus')">
+			<input type="button" value="M-" id="M" onclick="m('Mminus')">
+			<input type="button" value="MS" id="M" onclick="m('MS')"><br>
+
+			<input type="button" value="C" id="keys" onclick="show('C')">
+			<input type="button" value="Del" id="keys" onclick="del()">
+			<input type="button" value="^" id="keys" onclick="show('^')">
+			<input type="button" value="+" id="keys" onclick="show('+')"><br>
+
+			<input type="button" value="9" id="keys" onclick="show('9')">
+			<input type="button" value="8" id="keys" onclick="show('8')">
+			<input type="button" value="7" id="keys" onclick="show('7')">
+			<input type="button" value="-" id="keys" onclick="show('-')"><br>
+
+			<input type="button" value="6" id="keys" onclick="show('6')">
+			<input type="button" value="5" id="keys" onclick="show('5')">
+			<input type="button" value="4" id="keys" onclick="show('4')">
+			<input type="button" value="*" id="keys" onclick="show('*')"><br>
+
+			<input type="button" value="3" id="keys" onclick="show('3')">
+			<input type="button" value="2" id="keys" onclick="show('2')">
+			<input type="button" value="1" id="keys" onclick="show('1')">
+			<input type="button" value="/" id="keys" onclick="show('/')"><br>
+
+			<input type="button" value="0" id="keys" onclick="show('0')">
+			<input type="button" value="." id="keys" onclick="show('.')">
+			<input type="button" value="=" id="equal" onclick="answer()">
+
+			</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
