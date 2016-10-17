@@ -1,0 +1,188 @@
+body{
+    background: #f9f9f9;
+    overflow-x: hidden;
+}
+
+
+#home {
+    height: 800px;
+    width: 102%;
+   background: transparent url('../img/owl2.jpg') 50%  no-repeat ;
+    box-shadow: 2px 3px 4px;
+    background-size: cover;
+    background-attachment:scroll;
+   margin-left: -9px;
+    margin-top: -30px;
+    padding-left: 10px;
+    text-align: center;
+
+    
+    
+}
+
+.image {
+    height: 590px;
+    width: 1210px;
+    position:inherit;
+    box-shadow: 5px 5px 8px 1px black;
+    margin: 0 0 0 0;
+}
+
+#content1 {
+    
+    margin-top: 3px;
+    height: 500px;
+    width: 102%;
+    background: beige;
+   overflow: hidden;
+     margin-left: -3px;
+    margin-right: 10px;
+
+   
+}
+
+h2{
+     text-align: center;
+     font-family: "Segoe UI";
+     color: #3c3c3c;
+    font-size: 30px;
+}
+
+#home h1 {
+    color: #adadad;
+    font-family: "Segoe UI Light";
+    font-size: 40px;
+    vertical-align: middle;
+    position:relative;
+    top: 30%;
+}
+
+#nav {
+    background: #030303;
+    box-shadow: 2px 2px 2px 2px;
+    text-align:left;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.6;
+    margin-left: -10px;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    
+}
+
+#nav ul{
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.9;
+    
+    
+}
+
+li {
+    float: left;
+    color: white;
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    color: white;
+    opacity: 1.0;
+    transition: 2s;
+  }
+
+
+
+#nav-items a {
+    color: white;
+
+} 
+
+#content2 {
+    margin-top: 2px;
+    background: url(../img/owl1.jpg);
+    height: 400px;
+    width: 102%;
+    margin-left: -10px;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: 0px 15px 0px;
+    box-shadow: 2px 2px 10px ;
+}
+
+#content2 p{
+    color: #adadad;
+    vertical-align:middle;
+    text-align: justify;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin: 30px 200px ;
+    line-height: 1.8;
+
+        
+    
+    
+    
+}
+
+#content2 h2{
+    color: #adadad;
+    font-size: 30px;
+    font-family: "Segoe UI";
+    
+    
+}
+
+.cont {
+  
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+margin-right: 20px;
+}
+
+#content3 {
+    margin-top: 3px;
+    height: 500px;
+    width: 102%;
+    background: #f5e0dc;
+   overflow: hidden;
+     margin-left: -9px;
+   
+}
+
+#content3 img{
+    height: 90%;
+    width: 22%;
+    margin-left:2%;
+    margin-top: 2%;
+}
+
+#content4 {
+     margin-top: 2px;
+    background: url(../img/owl3.jpg);
+    height: 300px;
+    width: 102%;
+    margin-left: -10px;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: 0px 180px;
+    overflow: hidden;
+   position: absolute;
+    
+}
+
+
+
+#nav-items li:hover {
+    background-color: lightblue;
+}
