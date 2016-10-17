@@ -1,1 +1,13 @@
 # Sample Website
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/web1.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/web2.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/sign1.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/sign2.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/pic1.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/pic1.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/pic2.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/pic3.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/pic4.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/about1.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/about2.PNG)
+![](https://github.com/lvcc-wad/Students/blob/master/ACT/Ramos-Jaison/Sample-Website/sample%2520program_ramos/img/wd%20screen%20cap/login.PNG)
