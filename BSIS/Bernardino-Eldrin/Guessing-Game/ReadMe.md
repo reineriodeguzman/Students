@@ -1,20 +1,23 @@
-# [Simple JS Calculator](https://lvcc-wad.github.io/Simple-JS-Calculator/)
-A very simple JavaScript calculator with color theme switch using CSS.
+# Guessing Game
 
 ## Screenshots:
-*Theme Settings*
-![theme settings](https://github.com/lvcc-wad/Simple-JS-Calculator/blob/master/img/ss/theme-settings.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/1.PNG)
 ----------
-*Blue Theme*
-![blue-theme](https://github.com/lvcc-wad/Simple-JS-Calculator/blob/master/img/ss/blue-calc.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/2.PNG)
 ----------
-*Black Theme*
-![black-theme](https://github.com/lvcc-wad/Simple-JS-Calculator/blob/master/img/ss/black-calc.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/3.PNG)
 ----------
-*Gray Theme*
-![gray-theme](https://github.com/lvcc-wad/Simple-JS-Calculator/blob/master/img/ss/gray-calc.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/4.PNG)
 ----------
-*White Theme*
-![white-theme](https://github.com/lvcc-wad/Simple-JS-Calculator/blob/master/img/ss/white-calc.png)
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/5.PNG)
 ----------
-
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/6.PNG)
+----------
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/7.PNG)
+----------
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/8.PNG)
+----------
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/9.PNG)
+----------
+![](https://github.com/lvcc-wad/Students/blob/master/BSIS/Bernardino-Eldrin/Guessing-Game/Screenshots/10.PNG)
+----------
