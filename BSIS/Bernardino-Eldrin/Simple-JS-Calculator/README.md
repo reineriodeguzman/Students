@@ -1,4 +1,4 @@
-# [Simple JS Calculator](https://lvcc-wad.github.io/Simple-JS-Calculator/)
+# [Simple JS Calculator](https://ldrin01.github.io/WAD/MyCalculat0.r/)
 
   ## Screenshots:
   
