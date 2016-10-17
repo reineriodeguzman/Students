@@ -1,9 +1,9 @@
 # WISDOM
 
-[img1]
-[img2]
-[img3]
-[img4]
+![img1]
+![img2]
+![img3]
+![img4]
 
 
 [img1]:https://github.com/lvcc-wad/Students/blob/master/BSIS/Calingasan-Ronmar/Sample-Website/scr/1.PNG
