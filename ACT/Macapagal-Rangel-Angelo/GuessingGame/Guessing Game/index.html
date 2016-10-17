@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="GuessTheNumber">
+<head>
+	<title>Guessing Game</title>
+	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  c>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  >
+	
+
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+	<script src="app.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="Container" ng-controller="GuessTheNumberCtrl">
+		<h1>Guess the Number!</h1>
+		<p class="well lead">Guess the computer generated random number between 1 and 1000.</p>
+		<label>Your Guess</label>
+		<input type="number" ng-modeL="guess" />
+		<button class="btn btn-primary btn-sm " ng-click="verifyGuess()" >Verify</button>
+		<button class="btn btn-warning btn-sm" ng-click="initializeGame()">Retry</button>
+		<p>
+			<p ng-show="deviation<0" class=" alert-warning">Your quess is higher</p>
+
+			<p ng-show="deviation>0" class=" alert-warning">Your guess is lower</p>
+
+			<p ng-show="deviation===0" class="alert-success">Yes! That's it</p>
+		</p>
+		
+		<p class="text-info">No of guesses :<span class="badge">{{ noOfTries }}</span></p>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
