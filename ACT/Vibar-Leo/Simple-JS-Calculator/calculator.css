@@ -1,0 +1,51 @@
+body{
+	background-color:tan;
+}
+.box{
+    background-color:#3d4543;
+    height:390px;
+    width:320px;
+    border-radius:10px;
+    position:relative;
+    top:80px;
+    left:40%;
+}
+.display{
+	background-color:#222;
+	width:225px;
+	position:relative;
+	left:20px;
+	top:20px;
+	height:30px;
+}
+.display input{
+	position:relative;
+	left:2px;
+	top:2px;
+	height:40px;
+	color:black;
+	background-color:#68B8E5;
+	font-size:23px;
+	text-align:left;
+
+}
+.keys{
+	position:fixed;
+	top:170px;
+
+}
+.button{
+	width:50px;
+	height:30px;
+	border:none;
+	border-radius:15px;
+	margin-left:10px;
+	cursor:pointer;
+	border-top:2px solid transparent;
+
+
+}
+p
+{
+	line-height:10px;
+}
